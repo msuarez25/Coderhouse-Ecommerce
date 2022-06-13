@@ -1,2 +1,4 @@
 {"level":"warn","metodo":"GET","ruta":"/pagina-que-no-existe","timestamp":"2022-06-12T03:39:09.611Z"}
 {"level":"warn","metodo":"GET","ruta":"/pagina-que-no-existe","timestamp":"2022-06-12T03:39:58.520Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-13T09:54:27.267Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-13T09:54:28.906Z"}

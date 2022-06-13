@@ -62,13 +62,13 @@ app.use((req, res) => {
 });
 
 // set port
-const PORT = process.argv[2] || 3000;
+const PORT = process.env.PORT || 8080;
 
 app.listen(PORT, (err) => {
   if (err) {
     return console.log('ERROR', err);
   }
   console.log(
-    `Listening on port ${PORT}, http://localhost:${PORT}-PID ${process.pid}`
+    `Listening on port ${PORT}, http://localhost:${PORT} - PID ${process.pid}`
   );
 });
