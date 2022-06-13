@@ -57,8 +57,8 @@ app.use('/info-gzip', compression(), new InfoRoute());
 
 // 404
 app.use((req, res) => {
-  logger.log('warn', { ruta: req.url, metodo: req.method });
   res.status(400).json({ error: 'Pagina no encontrada' });
+  logger.log('warn', { ruta: req.url, metodo: req.method });
 });
 
 // set port
