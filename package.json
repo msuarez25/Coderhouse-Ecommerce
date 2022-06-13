@@ -4,6 +4,10 @@
   "description": "Segunda Entrega Final",
   "main": "app.js",
   "type": "module",
+  "engines" : { 
+    "npm" : ">=7.0.0",
+    "node" : ">=16.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "node ./node_modules/nodemon/bin/nodemon.js -e js --exec \" npm run start || exit 1\"",
