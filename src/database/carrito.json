@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "timestamp": 1649331507940,
+    "productos": [
+      {
+        "nombre": "Globo Terráqueo",
+        "code": "prod-1234567890",
+        "precio": 345.67,
+        "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png",
+        "id": 3,
+        "timestamp": 1648912093437,
+        "stock": 10
+      },
+      {
+        "nombre": "Escuadra",
+        "precio": "3450",
+        "stock": "19",
+        "id": 5,
+        "timestamp": 1649245397917,
+        "code": "prod-3a63646b-76b3-45bc-a3be-e1a1b3b26671",
+        "foto": "/uploads/ruler-triangle-stationary-school-256 (1).webp"
+      }
+    ]
+  }
+]

@@ -1,0 +1,250 @@
+Statistical profiling result from isolate-0x7fe10d400000-28178-v8.log, (128 ticks, 0 unaccounted, 0 excluded).
+
+ [Shared libraries]:
+   ticks  total  nonlib   name
+     19   14.8%          /usr/lib/system/libsystem_pthread.dylib
+      4    3.1%          /usr/lib/system/libsystem_platform.dylib
+
+ [JavaScript]:
+   ticks  total  nonlib   name
+
+ [C++]:
+   ticks  total  nonlib   name
+     40   31.3%   38.1%  T node::native_module::NativeModuleEnv::CompileFunction(v8::FunctionCallbackInfo<v8::Value> const&)
+     29   22.7%   27.6%  t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+     14   10.9%   13.3%  T _vm_copy
+      2    1.6%    1.9%  t std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> > std::__1::__pad_and_output<char, std::__1::char_traits<char> >(std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> >, char const*, char const*, char const*, std::__1::ios_base&, char)
+      2    1.6%    1.9%  t std::__1::basic_istream<wchar_t, std::__1::char_traits<wchar_t> >& std::__1::__input_arithmetic<long long, wchar_t, std::__1::char_traits<wchar_t> >(std::__1::basic_istream<wchar_t, std::__1::char_traits<wchar_t> >&, long long&)
+      2    1.6%    1.9%  T _kdebug_typefilter
+      2    1.6%    1.9%  T _inet_net_pton
+      2    1.6%    1.9%  T ___sfp
+      2    1.6%    1.9%  T ___sflags
+      1    0.8%    1.0%  t std::__1::messages_byname<char>::~messages_byname()
+      1    0.8%    1.0%  t std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::__put_character_sequence<char, std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, char const*, unsigned long)
+      1    0.8%    1.0%  t node::fs::LStat(v8::FunctionCallbackInfo<v8::Value> const&)
+      1    0.8%    1.0%  t dyld3::closure::PathOverrides::forEachFrameworkFallback(dyld3::Platform, void (char const*, bool&) block_pointer) const
+      1    0.8%    1.0%  t _tiny_try_realloc_in_place
+      1    0.8%    1.0%  T node::binding::GetInternalBinding(v8::FunctionCallbackInfo<v8::Value> const&)
+      1    0.8%    1.0%  T _read$NOCANCEL
+      1    0.8%    1.0%  T _link_ntoa
+      1    0.8%    1.0%  T _fgetws
+      1    0.8%    1.0%  T __kernelrpc_thread_policy_set
+
+ [Summary]:
+   ticks  total  nonlib   name
+      0    0.0%    0.0%  JavaScript
+    105   82.0%  100.0%  C++
+      1    0.8%    1.0%  GC
+     23   18.0%          Shared libraries
+
+ [C++ entry points]:
+   ticks    cpp   total   name
+     96  100.0%   75.0%  TOTAL
+
+ [Bottom up (heavy) profile]:
+  Note: percentage shows a share of a particular caller in the total
+  amount of its parent calls.
+  Callers occupying less than 1.0% are not shown.
+
+   ticks parent  name
+     40   31.3%  T node::native_module::NativeModuleEnv::CompileFunction(v8::FunctionCallbackInfo<v8::Value> const&)
+     40  100.0%    t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+     22   55.0%      Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+     22  100.0%        Function: ^nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      5   22.7%          LazyCompile: ~initializeCJSLoader node:internal/bootstrap/pre_execution:422:29
+      5  100.0%            LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:23:36
+      4   18.2%          Function: ~<anonymous> node:internal/modules/esm/loader:1:1
+      4  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      3   13.6%          Function: ~<anonymous> node:internal/process/esm_loader:1:1
+      3  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      3   13.6%          Function: ~<anonymous> node:internal/modules/esm/get_source:1:1
+      3  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1    4.5%          LazyCompile: ~initializeSourceMapsHandlers node:internal/bootstrap/pre_execution:461:38
+      1  100.0%            LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:23:36
+      1    4.5%          Function: ~<anonymous> node:internal/source_map/source_map_cache:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1    4.5%          Function: ~<anonymous> node:internal/modules/esm/module_map:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1    4.5%          Function: ~<anonymous> node:internal/modules/esm/load:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1    4.5%          Function: ~<anonymous> node:internal/modules/cjs/loader:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1    4.5%          Function: ~<anonymous> node:internal/fs/promises:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1    4.5%          Function: ~<anonymous> node:internal/child_process:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+     18   45.0%      LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+     18  100.0%        LazyCompile: ~nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      8   44.4%          Function: ~<anonymous> node:internal/child_process:1:1
+      8  100.0%            LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      3   16.7%          Function: ~<anonymous> node:child_process:1:1
+      3  100.0%            LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      2   11.1%          LazyCompile: ~setupChildProcessIpcChannel node:internal/bootstrap/pre_execution:338:37
+      2  100.0%            LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:23:36
+      2   11.1%          Function: ~<anonymous> node:net:1:1
+      2  100.0%            LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      2   11.1%          Function: ~<anonymous> node:internal/main/run_main_module:1:1
+      1    5.6%          Function: ~<anonymous> node:dgram:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+
+     29   22.7%  t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+     16   55.2%    t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+      3   18.8%      t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+      1   33.3%        LazyCompile: ~getOptionValue node:internal/options:32:24
+      1  100.0%          LazyCompile: ~addReadOnlyProcessAlias node:internal/bootstrap/pre_execution:130:33
+      1  100.0%            LazyCompile: ~patchProcessObject node:internal/bootstrap/pre_execution:82:28
+      1   33.3%        LazyCompile: ~Module._findPath node:internal/modules/cjs/loader:494:28
+      1  100.0%          LazyCompile: ~resolveMainPath node:internal/modules/run_main:11:25
+      1  100.0%            LazyCompile: ~executeUserEntryPoint node:internal/modules/run_main:74:31
+      1   33.3%        Function: ^normalizeString node:path:66:25
+      1  100.0%          Function: ^resolve node:path:1091:10
+      1  100.0%            LazyCompile: ~readPackage node:internal/modules/cjs/loader:290:21
+      2   12.5%      LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:23:36
+      2  100.0%        Function: ~<anonymous> node:internal/main/run_main_module:1:1
+      2   12.5%      LazyCompile: ~emit node:events:340:44
+      2  100.0%        LazyCompile: ~_addListener node:events:418:22
+      2  100.0%          LazyCompile: ~addListener node:events:486:58
+      1   50.0%            LazyCompile: ~setupWarningHandler node:internal/bootstrap/pre_execution:142:29
+      1   50.0%            LazyCompile: ~_forkChild node:child_process:170:20
+      1    6.3%      LazyCompile: ~setupChannel node:internal/child_process:569:22
+      1  100.0%        LazyCompile: ~_forkChild node:child_process:170:20
+      1  100.0%          LazyCompile: ~setupChildProcessIpcChannel node:internal/bootstrap/pre_execution:338:37
+      1  100.0%            LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:23:36
+      1    6.3%      LazyCompile: ~readFile node:internal/fs/promises:786:24
+      1  100.0%        t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+      1    6.3%      LazyCompile: ~promisify node:internal/util:324:19
+      1  100.0%        Function: ~<anonymous> node:internal/fs/promises:1:1
+      1  100.0%          Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1  100.0%            Function: ^nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      1    6.3%      LazyCompile: ~patchProcessObject node:internal/bootstrap/pre_execution:82:28
+      1  100.0%        LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:23:36
+      1  100.0%          Function: ~<anonymous> node:internal/main/run_main_module:1:1
+      1    6.3%      LazyCompile: ~onParseComplete node:internal/url:532:25
+      1  100.0%        t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+      1  100.0%          LazyCompile: ~URL node:internal/url:620:14
+      1  100.0%            LazyCompile: ~pathToFileURL node:internal/url:1455:23
+      1    6.3%      LazyCompile: ~moduleStrategy node:internal/modules/esm/translators:134:56
+      1  100.0%        LazyCompile: ~moduleProvider node:internal/modules/esm/loader:229:28
+      1  100.0%          t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+      1    6.3%      LazyCompile: ~defaultGetSource node:internal/modules/esm/get_source:25:32
+      1  100.0%        LazyCompile: ~defaultLoad node:internal/modules/esm/load:7:27
+      1  100.0%          LazyCompile: ~load node:internal/modules/esm/loader:297:13
+      1  100.0%            LazyCompile: ~moduleProvider node:internal/modules/esm/loader:229:28
+      1    6.3%      Function: ~<anonymous> node:internal/main/run_main_module:1:1
+      1    6.3%      Function: ~<anonymous> node:internal/inspector_async_hook:1:1
+      1  100.0%        LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1  100.0%          LazyCompile: ~nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      1  100.0%            LazyCompile: ~setupInspectorHooks node:internal/bootstrap/pre_execution:233:29
+      1    3.4%    LazyCompile: ~validateString node:internal/validators:117:24
+      1  100.0%      LazyCompile: ~resolve node:path:1091:10
+      1  100.0%        LazyCompile: ~Module._initPaths node:internal/modules/cjs/loader:1227:29
+      1  100.0%          LazyCompile: ~initializeCJSLoader node:internal/bootstrap/pre_execution:422:29
+      1  100.0%            LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:23:36
+
+     19   14.8%  /usr/lib/system/libsystem_pthread.dylib
+     16   84.2%    t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+      5   31.3%      LazyCompile: ~realpathSync node:fs:2408:22
+      5  100.0%        LazyCompile: ~toRealPath node:internal/modules/cjs/loader:393:20
+      5  100.0%          LazyCompile: ~Module._findPath node:internal/modules/cjs/loader:494:28
+      5  100.0%            LazyCompile: ~resolveMainPath node:internal/modules/run_main:11:25
+      4   25.0%      LazyCompile: ~toRealPath node:internal/modules/cjs/loader:393:20
+      4  100.0%        LazyCompile: ~Module._findPath node:internal/modules/cjs/loader:494:28
+      4  100.0%          LazyCompile: ~resolveMainPath node:internal/modules/run_main:11:25
+      4  100.0%            LazyCompile: ~executeUserEntryPoint node:internal/modules/run_main:74:31
+      3   18.8%      LazyCompile: ~patchProcessObject node:internal/bootstrap/pre_execution:82:28
+      3  100.0%        LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:23:36
+      3  100.0%          Function: ~<anonymous> node:internal/main/run_main_module:1:1
+      1    6.3%      LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:23:36
+      1  100.0%        Function: ~<anonymous> node:internal/main/run_main_module:1:1
+      1    6.3%      LazyCompile: ~defaultLoad node:internal/modules/esm/load:7:27
+      1  100.0%        LazyCompile: ~load node:internal/modules/esm/loader:297:13
+      1  100.0%          LazyCompile: ~moduleProvider node:internal/modules/esm/loader:229:28
+      1  100.0%            LazyCompile: ~ModuleJob node:internal/modules/esm/module_job:55:14
+      1    6.3%      Function: ~<anonymous> node:internal/fs/rimraf:1:1
+      1  100.0%        Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1  100.0%          Function: ^nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      1  100.0%            Function: ~<anonymous> node:internal/fs/promises:1:1
+      1    6.3%      Function: ~<anonymous> node:dgram:1:1
+      1  100.0%        LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1  100.0%          LazyCompile: ~nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      1  100.0%            Function: ~<anonymous> node:internal/child_process:1:1
+
+     14   10.9%  T _vm_copy
+      6   42.9%    t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+      1   16.7%      LazyCompile: ~setupWarningHandler node:internal/bootstrap/pre_execution:142:29
+      1  100.0%        LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:23:36
+      1  100.0%          Function: ~<anonymous> node:internal/main/run_main_module:1:1
+      1   16.7%      LazyCompile: ~nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      1  100.0%        Function: ~<anonymous> node:internal/main/run_main_module:1:1
+      1   16.7%      LazyCompile: ~logger node:internal/util/debuglog:96:18
+      1  100.0%        LazyCompile: ~set node:internal/modules/esm/module_map:20:6
+      1  100.0%          LazyCompile: ~getModuleJob node:internal/modules/esm/loader:221:21
+      1  100.0%            t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+      1   16.7%      LazyCompile: ~<anonymous> node:path:1082:10
+      1  100.0%        LazyCompile: ~resolve node:path:1091:10
+      1  100.0%          LazyCompile: ~patchProcessObject node:internal/bootstrap/pre_execution:82:28
+      1  100.0%            LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:23:36
+      1   16.7%      Function: ~<anonymous> node:internal/main/run_main_module:1:1
+      1   16.7%      Function: ~<anonymous> node:internal/fs/promises:1:1
+      1  100.0%        Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1  100.0%          Function: ^nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      1  100.0%            Function: ~<anonymous> node:internal/modules/esm/get_source:1:1
+
+      4    3.1%  /usr/lib/system/libsystem_platform.dylib
+      2   50.0%    t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+      1   50.0%      LazyCompile: ~toRealPath node:internal/modules/cjs/loader:393:20
+      1  100.0%        LazyCompile: ~Module._findPath node:internal/modules/cjs/loader:494:28
+      1  100.0%          LazyCompile: ~resolveMainPath node:internal/modules/run_main:11:25
+      1  100.0%            LazyCompile: ~executeUserEntryPoint node:internal/modules/run_main:74:31
+      1   50.0%      LazyCompile: ~realpathSync node:fs:2408:22
+      1  100.0%        LazyCompile: ~toRealPath node:internal/modules/cjs/loader:393:20
+      1  100.0%          LazyCompile: ~Module._findPath node:internal/modules/cjs/loader:494:28
+      1  100.0%            LazyCompile: ~resolveMainPath node:internal/modules/run_main:11:25
+
+      2    1.6%  t std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> > std::__1::__pad_and_output<char, std::__1::char_traits<char> >(std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> >, char const*, char const*, char const*, std::__1::ios_base&, char)
+      2  100.0%    t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+      2  100.0%      Function: ~<anonymous> node:internal/fs/rimraf:1:1
+      2  100.0%        Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      2  100.0%          Function: ^nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      2  100.0%            Function: ~<anonymous> node:internal/fs/promises:1:1
+
+      2    1.6%  t std::__1::basic_istream<wchar_t, std::__1::char_traits<wchar_t> >& std::__1::__input_arithmetic<long long, wchar_t, std::__1::char_traits<wchar_t> >(std::__1::basic_istream<wchar_t, std::__1::char_traits<wchar_t> >&, long long&)
+      2  100.0%    t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+      2  100.0%      LazyCompile: ~stringify node:internal/modules/esm/translators:95:19
+      2  100.0%        LazyCompile: ~moduleStrategy node:internal/modules/esm/translators:134:56
+      2  100.0%          LazyCompile: ~moduleProvider node:internal/modules/esm/loader:229:28
+      2  100.0%            t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+
+      2    1.6%  T _kdebug_typefilter
+      2  100.0%    t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+      1   50.0%      LazyCompile: ~getModuleJob node:internal/modules/esm/loader:221:21
+      1  100.0%        LazyCompile: ~import node:internal/modules/esm/loader:268:15
+      1  100.0%          LazyCompile: ~<anonymous> node:internal/modules/run_main:47:29
+      1  100.0%            LazyCompile: ~loadESM node:internal/process/esm_loader:85:41
+      1   50.0%      LazyCompile: ~finalizeResolution node:internal/modules/esm/resolve:389:28
+      1  100.0%        LazyCompile: ~moduleResolve node:internal/modules/esm/resolve:917:23
+      1  100.0%          LazyCompile: ~defaultResolve node:internal/modules/esm/resolve:981:24
+      1  100.0%            LazyCompile: ~resolve node:internal/modules/esm/loader:402:16
+
+      2    1.6%  T _inet_net_pton
+
+      2    1.6%  T ___sfp
+      2  100.0%    t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+      1   50.0%      LazyCompile: ~realpathSync node:fs:2408:22
+      1  100.0%        LazyCompile: ~toRealPath node:internal/modules/cjs/loader:393:20
+      1  100.0%          LazyCompile: ~Module._findPath node:internal/modules/cjs/loader:494:28
+      1  100.0%            LazyCompile: ~resolveMainPath node:internal/modules/run_main:11:25
+      1   50.0%      LazyCompile: ~patchProcessObject node:internal/bootstrap/pre_execution:82:28
+      1  100.0%        LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:23:36
+      1  100.0%          Function: ~<anonymous> node:internal/main/run_main_module:1:1
+
+      2    1.6%  T ___sflags
+      2  100.0%    t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+      1   50.0%      LazyCompile: ~toRealPath node:internal/modules/cjs/loader:393:20
+      1  100.0%        LazyCompile: ~Module._findPath node:internal/modules/cjs/loader:494:28
+      1  100.0%          LazyCompile: ~resolveMainPath node:internal/modules/run_main:11:25
+      1  100.0%            LazyCompile: ~executeUserEntryPoint node:internal/modules/run_main:74:31
+      1   50.0%      LazyCompile: ~setupWarningHandler node:internal/bootstrap/pre_execution:142:29
+      1  100.0%        LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:23:36
+      1  100.0%          Function: ~<anonymous> node:internal/main/run_main_module:1:1
+

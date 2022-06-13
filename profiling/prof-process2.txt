@@ -1,0 +1,1071 @@
+Statistical profiling result from isolate-0x7ff9bf800000-28175-v8.log, (2240 ticks, 6 unaccounted, 0 excluded).
+
+ [Shared libraries]:
+   ticks  total  nonlib   name
+     73    3.3%          /usr/lib/system/libsystem_pthread.dylib
+     23    1.0%          /usr/lib/system/libsystem_platform.dylib
+      7    0.3%          /usr/lib/system/libsystem_kernel.dylib
+      3    0.1%          /usr/lib/system/libsystem_malloc.dylib
+
+ [JavaScript]:
+   ticks  total  nonlib   name
+      4    0.2%    0.2%  LazyCompile: *resolve node:path:1091:10
+      3    0.1%    0.1%  LazyCompile: *Module._nodeModulePaths node:internal/modules/cjs/loader:629:37
+      1    0.0%    0.0%  Function: ^readPackageScope node:internal/modules/cjs/loader:321:26
+      1    0.0%    0.0%  Function: ^isPosixPathSeparator node:path:56:30
+      1    0.0%    0.0%  Function: ^Module._resolveLookupPaths node:internal/modules/cjs/loader:667:38
+      1    0.0%    0.0%  Function: ^<anonymous> node:internal/validators:153:3
+
+ [C++]:
+   ticks  total  nonlib   name
+    576   25.7%   27.0%  t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+    549   24.5%   25.7%  T node::contextify::ContextifyContext::CompileFunction(v8::FunctionCallbackInfo<v8::Value> const&)
+    311   13.9%   14.6%  T node::loader::ModuleWrap::New(v8::FunctionCallbackInfo<v8::Value> const&)
+    199    8.9%    9.3%  t node::fs::Read(v8::FunctionCallbackInfo<v8::Value> const&)
+    101    4.5%    4.7%  T node::native_module::NativeModuleEnv::CompileFunction(v8::FunctionCallbackInfo<v8::Value> const&)
+     63    2.8%    3.0%  T _vm_copy
+     50    2.2%    2.3%  t node::fs::InternalModuleReadJSON(v8::FunctionCallbackInfo<v8::Value> const&)
+     49    2.2%    2.3%  T __kernelrpc_thread_policy_set
+     33    1.5%    1.5%  t node::fs::InternalModuleStat(v8::FunctionCallbackInfo<v8::Value> const&)
+     19    0.8%    0.9%  t node::fs::Open(v8::FunctionCallbackInfo<v8::Value> const&)
+     14    0.6%    0.7%  T ___sfp
+      9    0.4%    0.4%  t std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::__put_character_sequence<char, std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, char const*, unsigned long)
+      8    0.4%    0.4%  t ___vfprintf
+      7    0.3%    0.3%  t void node::Buffer::(anonymous namespace)::StringSlice<(node::encoding)1>(v8::FunctionCallbackInfo<v8::Value> const&)
+      7    0.3%    0.3%  t std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> > std::__1::__pad_and_output<char, std::__1::char_traits<char> >(std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> >, char const*, char const*, char const*, std::__1::ios_base&, char)
+      7    0.3%    0.3%  t std::__1::basic_istream<wchar_t, std::__1::char_traits<wchar_t> >& std::__1::__input_arithmetic<long long, wchar_t, std::__1::char_traits<wchar_t> >(std::__1::basic_istream<wchar_t, std::__1::char_traits<wchar_t> >&, long long&)
+      7    0.3%    0.3%  T _mach_msg_server
+      6    0.3%    0.3%  T _kdebug_typefilter
+      5    0.2%    0.2%  T node::i18n::ConverterObject::Decode(v8::FunctionCallbackInfo<v8::Value> const&)
+      5    0.2%    0.2%  T _task_policy_set
+      4    0.2%    0.2%  t std::__1::messages_byname<char>::~messages_byname()
+      4    0.2%    0.2%  T _inet_net_pton
+      4    0.2%    0.2%  T __kernelrpc_mach_vm_purgable_control_trap
+      4    0.2%    0.2%  T ___sflags
+      3    0.1%    0.1%  t void node::Buffer::(anonymous namespace)::StringSlice<(node::encoding)3>(v8::FunctionCallbackInfo<v8::Value> const&)
+      3    0.1%    0.1%  t std::__1::istreambuf_iterator<wchar_t, std::__1::char_traits<wchar_t> > std::__1::num_get<wchar_t, std::__1::istreambuf_iterator<wchar_t, std::__1::char_traits<wchar_t> > >::__do_get_unsigned<unsigned long long>(std::__1::istreambuf_iterator<wchar_t, std::__1::char_traits<wchar_t> >, std::__1::istreambuf_iterator<wchar_t, std::__1::char_traits<wchar_t> >, std::__1::ios_base&, unsigned int&, unsigned long long&) const
+      3    0.1%    0.1%  t node::fs::FStat(v8::FunctionCallbackInfo<v8::Value> const&)
+      3    0.1%    0.1%  t _small_malloc_should_clear
+      3    0.1%    0.1%  T node::binding::GetInternalBinding(v8::FunctionCallbackInfo<v8::Value> const&)
+      3    0.1%    0.1%  T _read$NOCANCEL
+      2    0.1%    0.1%  t std::__1::istreambuf_iterator<wchar_t, std::__1::char_traits<wchar_t> > std::__1::num_get<wchar_t, std::__1::istreambuf_iterator<wchar_t, std::__1::char_traits<wchar_t> > >::__do_get_floating_point<float>(std::__1::istreambuf_iterator<wchar_t, std::__1::char_traits<wchar_t> >, std::__1::istreambuf_iterator<wchar_t, std::__1::char_traits<wchar_t> >, std::__1::ios_base&, unsigned int&, float&) const
+      2    0.1%    0.1%  t node::fs::OpenFileHandle(v8::FunctionCallbackInfo<v8::Value> const&)
+      2    0.1%    0.1%  t node::EnvEnumerator(v8::PropertyCallbackInfo<v8::Array> const&)
+      2    0.1%    0.1%  t _tiny_malloc_from_free_list
+      2    0.1%    0.1%  t _tiny_free_no_lock
+      2    0.1%    0.1%  t _rack_region_insert
+      2    0.1%    0.1%  t _nanov2_malloc
+      2    0.1%    0.1%  t _moreglue
+      2    0.1%    0.1%  t __cxxabiv1::__shim_type_info::~__shim_type_info()
+      2    0.1%    0.1%  T _malloc_zone_malloc
+      2    0.1%    0.1%  T _malloc_zone_from_ptr
+      2    0.1%    0.1%  T __platform_strncmp
+      1    0.0%    0.0%  t std::__1::istreambuf_iterator<wchar_t, std::__1::char_traits<wchar_t> > std::__1::num_get<wchar_t, std::__1::istreambuf_iterator<wchar_t, std::__1::char_traits<wchar_t> > >::__do_get_floating_point<double>(std::__1::istreambuf_iterator<wchar_t, std::__1::char_traits<wchar_t> >, std::__1::istreambuf_iterator<wchar_t, std::__1::char_traits<wchar_t> >, std::__1::ios_base&, unsigned int&, double&) const
+      1    0.0%    0.0%  t node::cares_wrap::(anonymous namespace)::GetAddrInfo(v8::FunctionCallbackInfo<v8::Value> const&)
+      1    0.0%    0.0%  t node::EnvQuery(v8::Local<v8::Name>, v8::PropertyCallbackInfo<v8::Integer> const&)
+      1    0.0%    0.0%  t node::Buffer::(anonymous namespace)::CreateFromString(v8::FunctionCallbackInfo<v8::Value> const&)
+      1    0.0%    0.0%  t _tiny_free_list_remove_ptr
+      1    0.0%    0.0%  t _tiny_free_list_add_ptr
+      1    0.0%    0.0%  t _szone_realloc
+      1    0.0%    0.0%  t _small_malloc_from_free_list
+      1    0.0%    0.0%  t _nanov2_free_definite_size
+      1    0.0%    0.0%  t _lflush
+      1    0.0%    0.0%  t _free_small
+      1    0.0%    0.0%  t __platform_memmove$VARIANT$Haswell
+      1    0.0%    0.0%  t ___vfwscanf
+      1    0.0%    0.0%  t ___srefill0
+      1    0.0%    0.0%  t ___printf_render_quote
+      1    0.0%    0.0%  t ___printf_is_memory_read_only
+      1    0.0%    0.0%  T std::__1::collate_byname<wchar_t>::collate_byname(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, unsigned long)
+      1    0.0%    0.0%  T std::__1::basic_istream<wchar_t, std::__1::char_traits<wchar_t> >::get()
+      1    0.0%    0.0%  T std::__1::bad_weak_ptr::what() const
+      1    0.0%    0.0%  T std::__1::__shared_weak_count::__release_shared()
+      1    0.0%    0.0%  T std::__1::__next_prime(unsigned long)
+      1    0.0%    0.0%  T node::fs::Close(v8::FunctionCallbackInfo<v8::Value> const&)
+      1    0.0%    0.0%  T node::contextify::ContextifyContext::MakeContext(v8::FunctionCallbackInfo<v8::Value> const&)
+      1    0.0%    0.0%  T node::cares_wrap::ChannelWrap::New(v8::FunctionCallbackInfo<v8::Value> const&)
+      1    0.0%    0.0%  T _vdprintf
+      1    0.0%    0.0%  T _tmpnam
+      1    0.0%    0.0%  T _task_self_trap
+      1    0.0%    0.0%  T _semaphore_create
+      1    0.0%    0.0%  T _os_packet_set_transport_retransmit
+      1    0.0%    0.0%  T _malloc
+      1    0.0%    0.0%  T _free
+      1    0.0%    0.0%  T _fopen
+      1    0.0%    0.0%  T _fileno
+      1    0.0%    0.0%  T ___ulock_wait
+
+ [Summary]:
+   ticks  total  nonlib   name
+     11    0.5%    0.5%  JavaScript
+   2117   94.5%   99.2%  C++
+    108    4.8%    5.1%  GC
+    106    4.7%          Shared libraries
+      6    0.3%          Unaccounted
+
+ [C++ entry points]:
+   ticks    cpp   total   name
+   2012   99.6%   89.8%  t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+      7    0.3%    0.3%  T _mach_msg_server
+      1    0.0%    0.0%  T node::loader::ModuleWrap::Evaluate(v8::FunctionCallbackInfo<v8::Value> const&)
+      1    0.0%    0.0%  T _kdebug_typefilter
+
+ [Bottom up (heavy) profile]:
+  Note: percentage shows a share of a particular caller in the total
+  amount of its parent calls.
+  Callers occupying less than 1.0% are not shown.
+
+   ticks parent  name
+    576   25.7%  t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+    367   63.7%    t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+     74   20.2%      LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      6    8.1%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-57LSIU4O.mjs:1:195611
+      6  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      6  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-57LSIU4O.mjs:1:195930
+      4    5.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-O5N5ESGA.mjs:14:427477
+      4  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      4  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-O5N5ESGA.mjs:14:575960
+      3    4.1%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-O5N5ESGA.mjs:14:575807
+      3  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      3  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-O5N5ESGA.mjs:14:575960
+      2    2.7%        Script: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/index.mjs:1:1
+      2  100.0%          t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+      2  100.0%            T node::loader::ModuleWrap::Evaluate(v8::FunctionCallbackInfo<v8::Value> const&)
+      2    2.7%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-QGYYA34B.mjs:1:69306
+      2  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      2  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-QGYYA34B.mjs:1:70769
+      2    2.7%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-O5N5ESGA.mjs:14:4632
+      2  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      2  100.0%            Script: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/index.mjs:1:1
+      2    2.7%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-O5N5ESGA.mjs:14:31228
+      2  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      2  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-O5N5ESGA.mjs:14:575960
+      2    2.7%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-EAXTCEWT.mjs:1:168635
+      2  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      2  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-EAXTCEWT.mjs:1:228190
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-ZDNF77PG.mjs:1:23186
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-ZDNF77PG.mjs:1:61129
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-YU7BQJUY.mjs:1:3687
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-YU7BQJUY.mjs:1:3995
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-WEGWX2ZA.mjs:1:45501
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-WEGWX2ZA.mjs:1:45816
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-WEGWX2ZA.mjs:1:28395
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-WEGWX2ZA.mjs:1:45816
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-UZ7IJ6VM.mjs:1:10772
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-UZ7IJ6VM.mjs:1:44069
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-TQ5UN22R.mjs:1:5765
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-TQ5UN22R.mjs:1:6044
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-TOZYGDOS.mjs:1:63153
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-TOZYGDOS.mjs:1:63479
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-SSMJDIU2.mjs:1:86606
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-SSMJDIU2.mjs:1:87259
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-SSMJDIU2.mjs:1:41438
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-SSMJDIU2.mjs:1:87259
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-QGYYA34B.mjs:1:7499
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-QGYYA34B.mjs:1:70769
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-QBUKFXY5.mjs:1:37409
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-QBUKFXY5.mjs:1:37713
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-Q462DJEP.mjs:1:21567
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-Q462DJEP.mjs:1:78557
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-PDNPWKSY.mjs:1:84846
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-PDNPWKSY.mjs:1:85376
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-PDNPWKSY.mjs:1:51426
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-PDNPWKSY.mjs:1:85376
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-OXQWBBQW.mjs:1:53351
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-OXQWBBQW.mjs:1:53677
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-OXQWBBQW.mjs:1:37230
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-OXQWBBQW.mjs:1:53677
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-OXQWBBQW.mjs:1:30495
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-OXQWBBQW.mjs:1:53677
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-OVYY3YMM.mjs:1:116188
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-OVYY3YMM.mjs:1:116518
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-OEJ22UFT.mjs:1:9495
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-OEJ22UFT.mjs:1:37682
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-OEJ22UFT.mjs:1:36810
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-OEJ22UFT.mjs:1:37682
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-O5N5ESGA.mjs:1:26943
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-O5N5ESGA.mjs:14:4632
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-O5N5ESGA.mjs:14:575960
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            Script: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/index.mjs:1:1
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-O5N5ESGA.mjs:14:289346
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-O5N5ESGA.mjs:14:575960
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-O5N5ESGA.mjs:14:232671
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-O5N5ESGA.mjs:14:575960
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-MUU5EDL5.mjs:1:15805
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-MUU5EDL5.mjs:1:18234
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-MUU5EDL5.mjs:1:11956
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-MUU5EDL5.mjs:1:18234
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-K4VQXV5J.mjs:1:52019
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-K4VQXV5J.mjs:1:52207
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-HRCVE76A.mjs:1:4152
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-HRCVE76A.mjs:1:15015
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-HRCVE76A.mjs:1:14688
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-HRCVE76A.mjs:1:15015
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-H4N3WF6I.mjs:1:54435
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-H4N3WF6I.mjs:1:54923
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-H4N3WF6I.mjs:1:4346
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-H4N3WF6I.mjs:1:55143
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-H2CDZUEX.mjs:1:33532
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-H2CDZUEX.mjs:1:34649
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-GX47GLIL.mjs:1:77984
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-GX47GLIL.mjs:1:78542
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-EAXTCEWT.mjs:1:228141
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-EAXTCEWT.mjs:1:228190
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-EAXTCEWT.mjs:1:227805
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-EAXTCEWT.mjs:1:228190
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-BAVTBMF7.mjs:1:1505
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-BAVTBMF7.mjs:1:3084
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-AOUMAZ2H.mjs:1:14799
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-AOUMAZ2H.mjs:1:24153
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-7SZNGBPO.mjs:1:2109
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-7SZNGBPO.mjs:1:5609
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-7N2ENSVY.mjs:1:1213
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-7N2ENSVY.mjs:1:4445
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-5YXFMCCS.mjs:1:2571
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-5YXFMCCS.mjs:1:3115
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-5UJD3ASE.mjs:1:565
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-5UJD3ASE.mjs:1:15443
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-4LNLONSZ.mjs:1:41064
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-4LNLONSZ.mjs:1:42030
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-4LNLONSZ.mjs:1:23996
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-4LNLONSZ.mjs:1:42030
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-4LNLONSZ.mjs:1:17019
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-4LNLONSZ.mjs:1:42030
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-3SA7ECAQ.mjs:1:74670
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-3SA7ECAQ.mjs:1:149457
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-3SA7ECAQ.mjs:1:71576
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-3SA7ECAQ.mjs:1:149457
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-3SA7ECAQ.mjs:1:148973
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-3SA7ECAQ.mjs:1:149457
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-3KV4LYA6.mjs:1:82190
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-3KV4LYA6.mjs:1:85673
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-2KZ4SYVZ.mjs:1:6339
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-2KZ4SYVZ.mjs:1:14169
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-2IRNXXOJ.mjs:1:27990
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-2IRNXXOJ.mjs:1:28424
+      1    1.4%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-2DKRLKRB.mjs:1:2060
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-2DKRLKRB.mjs:1:2228
+     27    7.4%      t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+      5   18.5%        Function: ^readPackage node:internal/modules/cjs/loader:290:21
+      4   80.0%          Function: ^readPackageScope node:internal/modules/cjs/loader:321:26
+      2   50.0%            Function: ^trySelf node:internal/modules/cjs/loader:441:17
+      2   50.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1110:37
+      1   20.0%          LazyCompile: ~tryPackage node:internal/modules/cjs/loader:338:20
+      1  100.0%            Function: ^Module._findPath node:internal/modules/cjs/loader:494:28
+      3   11.1%        Function: ^stat node:internal/modules/cjs/loader:151:14
+      2   66.7%          Function: ^Module._findPath node:internal/modules/cjs/loader:494:28
+      2  100.0%            Function: ^Module._resolveFilename node:internal/modules/cjs/loader:848:35
+      1   33.3%          Function: ^tryFile node:internal/modules/cjs/loader:384:17
+      1  100.0%            Function: ^tryExtensions node:internal/modules/cjs/loader:400:23
+      2    7.4%        Function: ^getOwn node:internal/bootstrap/loaders:180:16
+      2  100.0%          Function: ^syncExports node:internal/bootstrap/loaders:287:14
+      2  100.0%            LazyCompile: ~<anonymous> node:internal/bootstrap/loaders:273:15
+      2    7.4%        Function: ^compileFunction node:vm:308:25
+      2  100.0%          Function: ^wrapSafe node:internal/modules/cjs/loader:1017:18
+      2  100.0%            Function: ^Module._compile node:internal/modules/cjs/loader:1055:37
+      1    3.7%        LazyCompile: ~use /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/express/lib/application.js:187:23
+      1  100.0%          Script: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/src/app.js:1:1
+      1  100.0%            t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+      1    3.7%        LazyCompile: ~updateRsFromPrimary /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/sdam/topology_description.js:274:29
+      1  100.0%          LazyCompile: ~update /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/sdam/topology_description.js:139:11
+      1  100.0%            LazyCompile: ~serverUpdateHandler /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/sdam/topology.js:372:24
+      1    3.7%        LazyCompile: ~populateMaps /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mime-types/index.js:154:23
+      1  100.0%          Function: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mime-types/index.js:1:1
+      1  100.0%            Function: ^Module._compile node:internal/modules/cjs/loader:1055:37
+      1    3.7%        LazyCompile: ~parse /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/dotenv/lib/main.js:8:16
+      1  100.0%          LazyCompile: ~config /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/dotenv/lib/main.js:55:17
+      1  100.0%            Script: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/src/database/config/db.js:1:1
+      1    3.7%        LazyCompile: ~match /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/express/lib/router/layer.js:110:39
+      1  100.0%          LazyCompile: ~matchLayer /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/express/lib/router/index.js:578:20
+      1  100.0%            LazyCompile: ~next /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/express/lib/router/index.js:176:16
+      1    3.7%        LazyCompile: ~isNumber /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/minimist/index.js:240:19
+      1  100.0%          LazyCompile: ~module.exports /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/minimist/index.js:1:27
+      1  100.0%            LazyCompile: ~getInfo file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/src/services/info.service.js:7:16
+      1    3.7%        LazyCompile: ~isIPv6 node:internal/net:35:16
+      1  100.0%          LazyCompile: ~isIP node:internal/net:39:14
+      1  100.0%            LazyCompile: ~parseSslOptions /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/cmap/connect.js:222:25
+      1    3.7%        LazyCompile: ~connectHandler /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/cmap/connect.js:298:28
+      1  100.0%          Function: ^onceWrapper node:events:504:21
+      1  100.0%            Function: ^emit node:events:340:44
+      1    3.7%        LazyCompile: ~URL node:internal/url:620:14
+      1  100.0%          LazyCompile: ~pathToFileURL node:internal/url:1455:23
+      1  100.0%            LazyCompile: ~<anonymous> node:internal/modules/run_main:47:29
+      1    3.7%        LazyCompile: ~ConnectionString /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb-connection-string-url/lib/index.js:82:16
+      1  100.0%          LazyCompile: ~parseOptions /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/connection_string.js:208:22
+      1  100.0%            LazyCompile: ~MongoClient /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/mongo_client.js:60:16
+      1    3.7%        LazyCompile: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/color/node_modules/color-convert/index.js:61:25
+      1  100.0%          t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+      1  100.0%            Function: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/color/node_modules/color-convert/index.js:1:1
+      1    3.7%        Function: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:1:1
+      1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1055:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1110:37
+      1    3.7%        Function: ^Module.load node:internal/modules/cjs/loader:969:33
+      1  100.0%          Function: ^Module._load node:internal/modules/cjs/loader:757:24
+      1  100.0%            Function: ^Module.require node:internal/modules/cjs/loader:997:36
+      1    3.7%        Function: ^Module._findPath node:internal/modules/cjs/loader:494:28
+      1  100.0%          Function: ^Module._resolveFilename node:internal/modules/cjs/loader:848:35
+      1  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:757:24
+      1    3.7%        Function: ^FastBuffer node:internal/buffer:958:14
+      1  100.0%          Function: ^createUnsafeBuffer node:internal/buffer:1059:28
+      1  100.0%            Function: ^allocate node:buffer:397:18
+      7    1.9%      LazyCompile: ~configSecureContext node:internal/tls/secure-context:120:29
+      7  100.0%        LazyCompile: ~createSecureContext node:_tls_common:98:29
+      7  100.0%          LazyCompile: ~connect node:_tls_wrap:1597:35
+      7  100.0%            LazyCompile: ~makeConnection /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/cmap/connect.js:241:24
+      7    1.9%      LazyCompile: ~Module._extensions..json node:internal/modules/cjs/loader:1158:39
+      7  100.0%        Function: ^Module.load node:internal/modules/cjs/loader:969:33
+      7  100.0%          Function: ^Module._load node:internal/modules/cjs/loader:757:24
+      7  100.0%            Function: ^Module.require node:internal/modules/cjs/loader:997:36
+      7    1.9%      LazyCompile: *resolve node:path:1091:10
+      4   57.1%        Function: ^readPackage node:internal/modules/cjs/loader:290:21
+      4  100.0%          Function: ^readPackageScope node:internal/modules/cjs/loader:321:26
+      4  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1110:37
+      2   28.6%        Function: ^Module._findPath node:internal/modules/cjs/loader:494:28
+      2  100.0%          Function: ^Module._resolveFilename node:internal/modules/cjs/loader:848:35
+      2  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:757:24
+      1   14.3%        LazyCompile: *readPackageScope node:internal/modules/cjs/loader:321:26
+      1  100.0%          Function: ^trySelf node:internal/modules/cjs/loader:441:17
+      1  100.0%            Function: ^Module._resolveFilename node:internal/modules/cjs/loader:848:35
+      6    1.6%      LazyCompile: ~cache node:internal/http:26:15
+      6  100.0%        LazyCompile: ~utcDate node:internal/http:21:17
+      6  100.0%          LazyCompile: ~_storeHeader node:_http_outgoing:374:22
+      6  100.0%            LazyCompile: ~writeHead node:_http_server:269:19
+      5    1.4%      LazyCompile: *realpathSync node:fs:2408:22
+      5  100.0%        Function: ^toRealPath node:internal/modules/cjs/loader:393:20
+      5  100.0%          Function: ^tryFile node:internal/modules/cjs/loader:384:17
+      5  100.0%            Function: ^tryExtensions node:internal/modules/cjs/loader:400:23
+      5    1.4%      Function: ^Module._load node:internal/modules/cjs/loader:757:24
+      5  100.0%        Function: ^Module.require node:internal/modules/cjs/loader:997:36
+      5  100.0%          Function: ^require node:internal/modules/cjs/helpers:101:31
+      1   20.0%            Function: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/express/lib/request.js:1:1
+      1   20.0%            Function: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/concat-stream/node_modules/readable-stream/lib/_stream_writable.js:1:1
+      1   20.0%            Function: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/bson/lib/bson.js:1:1
+      1   20.0%            Function: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/basic-auth/index.js:1:1
+      1   20.0%            Function: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/async/eachOf.js:1:1
+      4    1.1%      LazyCompile: ~pbkdf2Sync node:internal/crypto/pbkdf2:68:20
+      4  100.0%        LazyCompile: ~HI /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/cmap/auth/scram.js:227:12
+      4  100.0%          LazyCompile: ~continueScramConversation /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/cmap/auth/scram.js:93:35
+      4  100.0%            LazyCompile: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/cmap/auth/scram.js:85:80
+      4    1.1%      Function: ^toRealPath node:internal/modules/cjs/loader:393:20
+      4  100.0%        Function: ^tryFile node:internal/modules/cjs/loader:384:17
+      4  100.0%          Function: ^tryExtensions node:internal/modules/cjs/loader:400:23
+      4  100.0%            Function: ^Module._findPath node:internal/modules/cjs/loader:494:28
+      4    1.1%      Function: ^realpathSync node:fs:2408:22
+      2   50.0%        Function: ^toRealPath node:internal/modules/cjs/loader:393:20
+      2  100.0%          Function: ^tryFile node:internal/modules/cjs/loader:384:17
+      2  100.0%            Function: ^tryExtensions node:internal/modules/cjs/loader:400:23
+      2   50.0%        Function: ^defaultResolve node:internal/modules/esm/resolve:981:24
+      2  100.0%          Function: ^resolve node:internal/modules/esm/loader:402:16
+      2  100.0%            Function: ^getModuleJob node:internal/modules/esm/loader:221:21
+      4    1.1%      Function: ^getOptions node:internal/fs/utils:314:20
+      4  100.0%        Function: ^readFileSync node:fs:450:22
+      4  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1110:37
+      4  100.0%            Function: ^Module.load node:internal/modules/cjs/loader:969:33
+      4    1.1%      Function: ^URL node:internal/url:620:14
+      2   50.0%        Function: ^moduleResolve node:internal/modules/esm/resolve:917:23
+      2  100.0%          Function: ^defaultResolve node:internal/modules/esm/resolve:981:24
+      2  100.0%            Function: ^resolve node:internal/modules/esm/loader:402:16
+      1   25.0%        Function: ^defaultResolve node:internal/modules/esm/resolve:981:24
+      1  100.0%          Function: ^resolve node:internal/modules/esm/loader:402:16
+      1  100.0%            Function: ^getModuleJob node:internal/modules/esm/loader:221:21
+      1   25.0%        Function: ^URL node:internal/url:620:14
+      1  100.0%          Function: ^moduleResolve node:internal/modules/esm/resolve:917:23
+      1  100.0%            Function: ^defaultResolve node:internal/modules/esm/resolve:981:24
+      6    1.0%    Function: ^readPackage node:internal/modules/cjs/loader:290:21
+      6  100.0%      Function: ^readPackageScope node:internal/modules/cjs/loader:321:26
+      5   83.3%        Function: ^trySelf node:internal/modules/cjs/loader:441:17
+      5  100.0%          Function: ^Module._resolveFilename node:internal/modules/cjs/loader:848:35
+      5  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:757:24
+      1   16.7%        Function: ^Module._extensions..js node:internal/modules/cjs/loader:1110:37
+      1  100.0%          Function: ^Module.load node:internal/modules/cjs/loader:969:33
+      1  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:757:24
+      6    1.0%    Function: ^Module.load node:internal/modules/cjs/loader:969:33
+      6  100.0%      Function: ^Module._load node:internal/modules/cjs/loader:757:24
+      5   83.3%        Function: ^Module.require node:internal/modules/cjs/loader:997:36
+      5  100.0%          Function: ^require node:internal/modules/cjs/helpers:101:31
+      1   20.0%            Function: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/tr46/index.js:1:1
+      1   20.0%            Function: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/socks/build/client/socksclient.js:1:1
+      1   20.0%            Function: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongoose/lib/schema/index.js:1:1
+      1   20.0%            Function: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongoose/lib/error/index.js:1:1
+      1   20.0%            Function: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/debug/src/index.js:1:1
+      1   16.7%        LazyCompile: ~<anonymous> node:internal/modules/esm/translators:181:67
+      1  100.0%          T node::loader::ModuleWrap::Evaluate(v8::FunctionCallbackInfo<v8::Value> const&)
+      1  100.0%            LazyCompile: ~run node:internal/modules/esm/module_job:180:12
+
+    549   24.5%  T node::contextify::ContextifyContext::CompileFunction(v8::FunctionCallbackInfo<v8::Value> const&)
+    549  100.0%    t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+    543   98.9%      Function: ^compileFunction node:vm:308:25
+    538   99.1%        Function: ^wrapSafe node:internal/modules/cjs/loader:1017:18
+    537   99.8%          Function: ^Module._compile node:internal/modules/cjs/loader:1055:37
+    524   97.6%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1110:37
+     13    2.4%            LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1110:37
+      6    1.1%      LazyCompile: ~compileFunction node:vm:308:25
+      6  100.0%        LazyCompile: ~wrapSafe node:internal/modules/cjs/loader:1017:18
+      6  100.0%          LazyCompile: ~Module._compile node:internal/modules/cjs/loader:1055:37
+      6  100.0%            LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1110:37
+
+    311   13.9%  T node::loader::ModuleWrap::New(v8::FunctionCallbackInfo<v8::Value> const&)
+    311  100.0%    t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+    310   99.7%      Function: ^moduleStrategy node:internal/modules/esm/translators:134:56
+    310  100.0%        Function: ^moduleProvider node:internal/modules/esm/loader:229:28
+    310  100.0%          t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+
+    199    8.9%  t node::fs::Read(v8::FunctionCallbackInfo<v8::Value> const&)
+    199  100.0%    t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+    194   97.5%      Function: ^readSync node:fs:684:18
+    194  100.0%        Function: ^tryReadSync node:fs:429:21
+    194  100.0%          Function: ^readFileSync node:fs:450:22
+    173   89.2%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1110:37
+     19    9.8%            LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1110:37
+      5    2.5%      LazyCompile: ~readSync node:fs:684:18
+      5  100.0%        LazyCompile: ~tryReadSync node:fs:429:21
+      5  100.0%          LazyCompile: ~readFileSync node:fs:450:22
+      5  100.0%            LazyCompile: ~cjsPreparseModuleExports node:internal/modules/esm/translators:212:34
+
+    101    4.5%  T node::native_module::NativeModuleEnv::CompileFunction(v8::FunctionCallbackInfo<v8::Value> const&)
+    101  100.0%    t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+     79   78.2%      Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+     65   82.3%        Function: ^nativeModuleRequire node:internal/bootstrap/loaders:332:29
+     11   16.9%          Function: ~<anonymous> node:crypto:1:1
+     11  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      9   13.8%          Function: ~<anonymous> node:internal/child_process:1:1
+      9  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      8   12.3%          Function: ~<anonymous> node:http:1:1
+      8  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      4    6.2%          Function: ~<anonymous> node:tls:1:1
+      4  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      3    4.6%          Function: ~<anonymous> node:internal/cluster/primary:1:1
+      3  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      3    4.6%          Function: ~<anonymous> node:child_process:1:1
+      3  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      3    4.6%          Function: ~<anonymous> node:_http_client:1:1
+      3  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      2    3.1%          LazyCompile: ~lazyRequire node:internal/crypto/util:67:21
+      2  100.0%            LazyCompile: ~get node:crypto:287:8
+      2    3.1%          LazyCompile: ~initCJSParse node:internal/modules/esm/translators:63:28
+      2  100.0%            LazyCompile: ~commonjsStrategy node:internal/modules/esm/translators:168:60
+      2    3.1%          Function: ~<anonymous> node:internal/crypto/pbkdf2:1:1
+      2  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      2    3.1%          Function: ~<anonymous> node:internal/crypto/hkdf:1:1
+      2  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      2    3.1%          Function: ~<anonymous> node:cluster:1:1
+      2  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      2    3.1%          Function: ~<anonymous> node:assert:1:1
+      2  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      2    3.1%          Function: ~<anonymous> node:_tls_common:1:1
+      2  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      2    3.1%          Function: ~<anonymous> node:_http_common:1:1
+      2  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1    1.5%          LazyCompile: ~setupChannel node:internal/child_process:569:22
+      1  100.0%            LazyCompile: ~ChildProcess.spawn node:internal/child_process:346:40
+      1    1.5%          LazyCompile: ~lazyLoadStreams node:fs:2841:25
+      1  100.0%            LazyCompile: ~get ReadStream node:fs:2984:17
+      1    1.5%          LazyCompile: ~initializeCJSLoader node:internal/bootstrap/pre_execution:422:29
+      1  100.0%            LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:23:36
+      1    1.5%          LazyCompile: ~get node:dns:334:8
+      1  100.0%            t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+      1    1.5%          Function: ~<anonymous> node:tty:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1    1.5%          Function: ~<anonymous> node:net:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1    1.5%          Function: ~<anonymous> node:internal/blocklist:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1    1.5%          Function: ~<anonymous> node:_tls_wrap:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+     12   15.2%        Function: ^compileForPublicLoader node:internal/bootstrap/loaders:246:25
+     12  100.0%          Function: ^loadNativeModule node:internal/modules/cjs/helpers:44:26
+     12  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:757:24
+      2    2.5%        LazyCompile: ~compileForPublicLoader node:internal/bootstrap/loaders:246:25
+      1   50.0%          LazyCompile: ~loadNativeModule node:internal/modules/cjs/helpers:44:26
+      1  100.0%            LazyCompile: ~builtinStrategy node:internal/modules/esm/translators:270:58
+      1   50.0%          Function: ^loadNativeModule node:internal/modules/cjs/helpers:44:26
+      1  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:757:24
+     22   21.8%      LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+     22  100.0%        LazyCompile: ~nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      4   18.2%          LazyCompile: ~initializeCJSLoader node:internal/bootstrap/pre_execution:422:29
+      4  100.0%            LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:23:36
+      4   18.2%          Function: ~<anonymous> node:internal/process/esm_loader:1:1
+      4  100.0%            LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      3   13.6%          Function: ~<anonymous> node:internal/modules/esm/loader:1:1
+      3  100.0%            LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      3   13.6%          Function: ~<anonymous> node:internal/modules/esm/get_source:1:1
+      3  100.0%            LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      2    9.1%          Function: ~<anonymous> node:internal/main/run_main_module:1:1
+      1    4.5%          LazyCompile: ~initializeSourceMapsHandlers node:internal/bootstrap/pre_execution:461:38
+      1  100.0%            LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:23:36
+      1    4.5%          Function: ~<anonymous> node:internal/source_map/source_map_cache:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1    4.5%          Function: ~<anonymous> node:internal/modules/esm/resolve:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1    4.5%          Function: ~<anonymous> node:internal/modules/esm/module_map:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1    4.5%          Function: ~<anonymous> node:internal/modules/esm/load:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1    4.5%          Function: ~<anonymous> node:internal/fs/promises:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+
+     73    3.3%  /usr/lib/system/libsystem_pthread.dylib
+     69   94.5%    t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+     20   29.0%      LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      2   10.0%        Script: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/index.mjs:1:1
+      2  100.0%          t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+      2  100.0%            T node::loader::ModuleWrap::Evaluate(v8::FunctionCallbackInfo<v8::Value> const&)
+      1    5.0%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-UZ7IJ6VM.mjs:1:44069
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            Script: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/index.mjs:1:1
+      1    5.0%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-QGYYA34B.mjs:1:70720
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-QGYYA34B.mjs:1:70769
+      1    5.0%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-QBUKFXY5.mjs:1:9316
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-QBUKFXY5.mjs:1:37713
+      1    5.0%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-Q462DJEP.mjs:1:78124
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-Q462DJEP.mjs:1:78557
+      1    5.0%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-O5N5ESGA.mjs:7:9722
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-O5N5ESGA.mjs:14:4632
+      1    5.0%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-K4VQXV5J.mjs:1:1781
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-K4VQXV5J.mjs:1:52207
+      1    5.0%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-K3AD7J4Q.mjs:1:6986
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-K3AD7J4Q.mjs:1:29601
+      1    5.0%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-HRJSU7OV.mjs:1:12391
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            Script: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/index.mjs:1:1
+      1    5.0%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-H2CDZUEX.mjs:1:34649
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            Script: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/index.mjs:1:1
+      1    5.0%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-GX47GLIL.mjs:1:18418
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-GX47GLIL.mjs:1:78542
+      1    5.0%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-GQXG3X42.mjs:1:6303
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-GQXG3X42.mjs:1:6611
+      1    5.0%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-EQH3X4RM.mjs:1:1852
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-EQH3X4RM.mjs:1:8168
+      1    5.0%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-EIMA2UX4.mjs:1:25349
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            Script: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/index.mjs:1:1
+      1    5.0%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-AM3RORXI.mjs:1:9400
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-AM3RORXI.mjs:1:9444
+      1    5.0%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-AM3RORXI.mjs:1:4493
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-AM3RORXI.mjs:1:9444
+      1    5.0%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-626573RJ.mjs:1:21931
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            Script: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/index.mjs:1:1
+      1    5.0%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-57LSIU4O.mjs:1:14646
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-57LSIU4O.mjs:1:195930
+      1    5.0%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-3KV4LYA6.mjs:1:17366
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-3KV4LYA6.mjs:1:85673
+      4    5.8%      LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:23:36
+      4  100.0%        Function: ~<anonymous> node:internal/main/run_main_module:1:1
+      3    4.3%      t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+      1   33.3%        LazyCompile: ~addColors /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/logform/colorize.js:36:19
+      1  100.0%          LazyCompile: ~module.exports /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/logform/levels.js:9:18
+      1  100.0%            Function: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/winston/lib/winston/config/index.js:1:1
+      1   33.3%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/src/app.js:67:18
+      1  100.0%          LazyCompile: ~onceWrapper node:events:504:21
+      1  100.0%            Function: ^emit node:events:340:44
+      1   33.3%        Function: ^getOwn node:internal/bootstrap/loaders:180:16
+      1  100.0%          Function: ^syncExports node:internal/bootstrap/loaders:287:14
+      1  100.0%            Function: ^<anonymous> node:internal/bootstrap/loaders:273:15
+      3    4.3%      LazyCompile: ~patchProcessObject node:internal/bootstrap/pre_execution:82:28
+      3  100.0%        LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:23:36
+      3  100.0%          Function: ~<anonymous> node:internal/main/run_main_module:1:1
+      3    4.3%      LazyCompile: ~onParseError node:internal/url:551:22
+      3  100.0%        t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+      3  100.0%          LazyCompile: ~URL node:internal/url:620:14
+      3  100.0%            LazyCompile: ~defaultResolve node:internal/modules/esm/resolve:981:24
+      2    2.9%      LazyCompile: ~value node:internal/console/constructor:320:20
+      2  100.0%        LazyCompile: ~log node:internal/console/constructor:358:6
+      2  100.0%          t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+      2  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/src/app.js:67:18
+      2    2.9%      LazyCompile: ~realpathSync node:fs:2408:22
+      2  100.0%        LazyCompile: ~toRealPath node:internal/modules/cjs/loader:393:20
+      2  100.0%          LazyCompile: ~Module._findPath node:internal/modules/cjs/loader:494:28
+      2  100.0%            LazyCompile: ~resolveMainPath node:internal/modules/run_main:11:25
+      2    2.9%      LazyCompile: ~createWritableStdioStream node:internal/bootstrap/switches/is_main_thread:41:35
+      2  100.0%        LazyCompile: ~getStderr node:internal/bootstrap/switches/is_main_thread:133:19
+      2  100.0%          Function: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/finalhandler/node_modules/debug/src/node.js:1:1
+      2  100.0%            LazyCompile: ~Module._compile node:internal/modules/cjs/loader:1055:37
+      1    1.4%      LazyCompile: ~wrapper node:fs:799:19
+      1    1.4%      LazyCompile: ~wrapSafe node:internal/modules/cjs/loader:1017:18
+      1  100.0%        LazyCompile: ~Module._compile node:internal/modules/cjs/loader:1055:37
+      1  100.0%          LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1110:37
+      1  100.0%            LazyCompile: ~Module.load node:internal/modules/cjs/loader:969:33
+      1    1.4%      LazyCompile: ~updateSessionFromResponse /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/sessions.js:715:35
+      1  100.0%        LazyCompile: ~onMessage /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/cmap/connection.js:152:14
+      1  100.0%          LazyCompile: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/cmap/connection.js:63:44
+      1  100.0%            Function: ^emit node:events:340:44
+      1    1.4%      LazyCompile: ~toRealPath node:internal/modules/cjs/loader:393:20
+      1  100.0%        LazyCompile: ~Module._findPath node:internal/modules/cjs/loader:494:28
+      1  100.0%          LazyCompile: ~resolveMainPath node:internal/modules/run_main:11:25
+      1  100.0%            LazyCompile: ~executeUserEntryPoint node:internal/modules/run_main:74:31
+      1    1.4%      LazyCompile: ~stringify node:internal/modules/esm/translators:95:19
+      1  100.0%        LazyCompile: ~moduleStrategy node:internal/modules/esm/translators:134:56
+      1  100.0%          LazyCompile: ~moduleProvider node:internal/modules/esm/loader:229:28
+      1  100.0%            t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+      1    1.4%      LazyCompile: ~startSession /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/sdam/topology.js:342:17
+      1  100.0%        LazyCompile: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/operations/execute_operation.js:16:48
+      1  100.0%          LazyCompile: ~maybePromise /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/utils.js:397:22
+      1  100.0%            LazyCompile: ~executeOperation /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/operations/execute_operation.js:11:26
+      1    1.4%      LazyCompile: ~setupWarningHandler node:internal/bootstrap/pre_execution:142:29
+      1  100.0%        LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:23:36
+      1  100.0%          Function: ~<anonymous> node:internal/main/run_main_module:1:1
+      1    1.4%      LazyCompile: ~setupPerfHooks node:internal/bootstrap/pre_execution:228:24
+      1  100.0%        LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:23:36
+      1  100.0%          Function: ~<anonymous> node:internal/main/run_main_module:1:1
+      1    1.4%      LazyCompile: ~setStreamTimeout node:internal/stream_base_commons:254:26
+      1  100.0%        LazyCompile: ~makeConnection /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/cmap/connect.js:241:24
+      1  100.0%          LazyCompile: ~connect /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/cmap/connect.js:30:17
+      1  100.0%            LazyCompile: ~checkServer /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/sdam/monitor.js:139:21
+      1    1.4%      LazyCompile: ~serializeInto /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/bson/lib/parser/serializer.js:550:23
+      1  100.0%        LazyCompile: ~serialize /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/bson/lib/bson.js:111:19
+      1  100.0%          LazyCompile: ~toBin /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/cmap/commands.js:82:10
+      1  100.0%            LazyCompile: ~writeCommand /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/cmap/message_stream.js:35:17
+      1    1.4%      LazyCompile: ~resolve node:path:1091:10
+      1  100.0%        LazyCompile: ~patchProcessObject node:internal/bootstrap/pre_execution:82:28
+      1  100.0%          LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:23:36
+      1  100.0%            Function: ~<anonymous> node:internal/main/run_main_module:1:1
+      1    1.4%      LazyCompile: ~parsePath /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/whatwg-url/lib/url-state-machine.js:991:61
+      1  100.0%        Function: ^URLStateMachine /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/whatwg-url/lib/url-state-machine.js:481:25
+      1  100.0%          LazyCompile: ~module.exports.basicURLParse /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/whatwg-url/lib/url-state-machine.js:1206:41
+      1  100.0%            LazyCompile: ~URLImpl /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/whatwg-url/lib/URL-impl.js:7:14
+      1    1.4%      LazyCompile: ~nextTick node:internal/process/task_queues:104:18
+      1  100.0%        LazyCompile: ~immediate /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongoose/lib/helpers/immediate.js:12:36
+      1  100.0%          LazyCompile: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongoose/lib/connection.js:571:34
+      1  100.0%            LazyCompile: ~promiseOrCallback /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongoose/lib/helpers/promiseOrCallback.js:8:44
+      1    1.4%      LazyCompile: ~makeFirstMessage /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/cmap/auth/scram.js:61:26
+      1  100.0%        LazyCompile: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/cmap/auth/scram.js:25:32
+      1  100.0%          LazyCompile: ~<anonymous> node:internal/crypto/random:104:43
+      1  100.0%            LazyCompile: ~onJobDone node:internal/crypto/random:299:19
+      1    1.4%      LazyCompile: ~getSupportLevel /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@colors/colors/lib/system/supports-colors.js:142:25
+      1  100.0%        Function: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@colors/colors/lib/system/supports-colors.js:1:1
+      1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1055:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1110:37
+      1    1.4%      LazyCompile: ~fromString /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/utils.js:985:22
+      1  100.0%        LazyCompile: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/connection_string.js:66:45
+      1  100.0%          t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+      1  100.0%            LazyCompile: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/connection_string.js:55:72
+      1    1.4%      LazyCompile: ~fromString /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/utils.js:369:22
+      1  100.0%        LazyCompile: ~ns /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/utils.js:347:12
+      1  100.0%          LazyCompile: ~MongoClient /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/mongo_client.js:60:16
+      1  100.0%            LazyCompile: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongoose/lib/connection.js:781:31
+      1    1.4%      LazyCompile: ~fastparse /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/parseurl/index.js:95:20
+      1  100.0%        LazyCompile: ~parseurl /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/parseurl/index.js:35:19
+      1  100.0%          LazyCompile: ~getPathname /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/express/lib/router/index.js:532:21
+      1  100.0%            LazyCompile: ~next /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/express/lib/router/index.js:176:16
+      1    1.4%      LazyCompile: ~depd /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/depd/index.js:105:15
+      1  100.0%        Function: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/body-parser/index.js:1:1
+      1  100.0%          LazyCompile: ~Module._compile node:internal/modules/cjs/loader:1055:37
+      1  100.0%            LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1110:37
+      1    1.4%      LazyCompile: ~createDebug /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/compression/node_modules/debug/src/debug.js:63:21
+      1  100.0%        Function: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/compression/index.js:1:1
+      1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1055:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1110:37
+      1    1.4%      LazyCompile: ~appendToBuffer /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:42:42
+      1  100.0%        LazyCompile: ~pushSource /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:881:34
+      1  100.0%          LazyCompile: ~appendEscaped /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:416:40
+      1  100.0%            LazyCompile: ~compile /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1    1.4%      LazyCompile: ~ServerResponse node:_http_server:178:24
+      1  100.0%        LazyCompile: ~parserOnIncoming node:_http_server:852:26
+      1  100.0%          LazyCompile: ~parserOnHeadersComplete node:_http_common:77:33
+      1    1.4%      LazyCompile: ~ServerDescription /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/sdam/server_description.js:34:16
+      1  100.0%        LazyCompile: ~Topology /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/sdam/topology.js:40:16
+      1  100.0%          LazyCompile: ~createTopology /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/operations/connect.js:44:24
+      1  100.0%            LazyCompile: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/operations/connect.js:32:67
+      1    1.4%      LazyCompile: ~MongoClient /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/mongo_client.js:60:16
+      1  100.0%        LazyCompile: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongoose/lib/connection.js:781:31
+      1  100.0%          t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+      1  100.0%            LazyCompile: ~Connection.openUri /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongoose/lib/connection.js:675:40
+      1    1.4%      LazyCompile: ~Document.$__setSchema /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongoose/lib/document.js:3312:43
+      1  100.0%        LazyCompile: ~compile /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongoose/lib/model.js:4810:33
+      1  100.0%          LazyCompile: ~Mongoose._model /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongoose/lib/index.js:535:37
+      1  100.0%            LazyCompile: ~Mongoose.model /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongoose/lib/index.js:471:36
+      1    1.4%      LazyCompile: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      1  100.0%        LazyCompile: ~step /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1  100.0%          LazyCompile: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+      1  100.0%            LazyCompile: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/express-handlebars/dist/express-handlebars.js:20:46
+      1    1.4%      LazyCompile: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@colors/colors/lib/colors.js:176:39
+      1  100.0%        t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+      1  100.0%          LazyCompile: ~init /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@colors/colors/lib/colors.js:174:14
+      1  100.0%            Function: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@colors/colors/lib/colors.js:1:1
+      1    1.4%      Function: ~<anonymous> node:internal/main/run_main_module:1:1
+      1    1.4%      Function: ~<anonymous> node:internal/fs/promises:1:1
+      1  100.0%        LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1  100.0%          LazyCompile: ~nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      1  100.0%            Function: ~<anonymous> node:internal/modules/esm/get_source:1:1
+      1    1.4%      Function: ^<anonymous> node:internal/validators:235:42
+      1  100.0%        Function: ^compileFunction node:vm:308:25
+      1  100.0%          Function: ^wrapSafe node:internal/modules/cjs/loader:1017:18
+      1  100.0%            Function: ^Module._compile node:internal/modules/cjs/loader:1055:37
+
+     63    2.8%  T _vm_copy
+     57   90.5%    t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+     14   24.6%      LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      2   14.3%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-UZ7IJ6VM.mjs:1:44069
+      2  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      2  100.0%            Script: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/index.mjs:1:1
+      1    7.1%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-ZDL4FDSE.mjs:1:16227
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-ZDL4FDSE.mjs:1:39065
+      1    7.1%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-WEGWX2ZA.mjs:1:29980
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-WEGWX2ZA.mjs:1:45816
+      1    7.1%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-TOZYGDOS.mjs:1:63479
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            Script: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/index.mjs:1:1
+      1    7.1%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-SF7VOOWP.mjs:1:45532
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            Script: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/index.mjs:1:1
+      1    7.1%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-Q462DJEP.mjs:1:16767
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-Q462DJEP.mjs:1:78557
+      1    7.1%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-O5N5ESGA.mjs:1:16316
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-O5N5ESGA.mjs:1:16623
+      1    7.1%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-O5N5ESGA.mjs:14:575960
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            Script: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/index.mjs:1:1
+      1    7.1%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-HRJSU7OV.mjs:1:4210
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-HRJSU7OV.mjs:1:12391
+      1    7.1%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-HRJSU7OV.mjs:1:12330
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-HRJSU7OV.mjs:1:12391
+      1    7.1%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-EIMA2UX4.mjs:1:14286
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-EIMA2UX4.mjs:1:25349
+      1    7.1%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-EAXTCEWT.mjs:1:175334
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-EAXTCEWT.mjs:1:228190
+      1    7.1%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-3BYHJQ4B.mjs:1:27995
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-3BYHJQ4B.mjs:1:54998
+      4    7.0%      t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+      1   25.0%        LazyCompile: ~format /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/content-type/index.js:65:17
+      1  100.0%          LazyCompile: ~setCharset /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/express/lib/utils.js:247:41
+      1  100.0%            LazyCompile: ~send /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/express/lib/response.js:107:25
+      1   25.0%        LazyCompile: ~Connection.openUri /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongoose/lib/connection.js:675:40
+      1  100.0%          LazyCompile: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongoose/lib/index.js:341:49
+      1  100.0%            LazyCompile: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:22
+      1   25.0%        LazyCompile: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/express-handlebars/node_modules/minimatch/minimatch.js:217:19
+      1  100.0%          t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+      1  100.0%            LazyCompile: ~make /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/express-handlebars/node_modules/minimatch/minimatch.js:183:8
+      1   25.0%        Function: ^<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongoose/lib/helpers/pluralize.js:86:34
+      1  100.0%          t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+      1  100.0%            LazyCompile: ~pluralize /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongoose/lib/helpers/pluralize.js:82:19
+      2    3.5%      LazyCompile: ~value node:internal/console/constructor:320:20
+      2  100.0%        LazyCompile: ~log node:internal/console/constructor:358:6
+      2  100.0%          t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+      2  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/src/app.js:67:18
+      1    1.8%      Script: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/src/app.js:1:1
+      1  100.0%        t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+      1  100.0%          T node::loader::ModuleWrap::Evaluate(v8::FunctionCallbackInfo<v8::Value> const&)
+      1  100.0%            LazyCompile: ~run node:internal/modules/esm/module_job:180:12
+      1    1.8%      LazyCompile: ~writeGeneric node:internal/stream_base_commons:151:22
+      1  100.0%        LazyCompile: ~Socket._writeGeneric node:net:769:42
+      1  100.0%          LazyCompile: ~Socket._write node:net:806:35
+      1  100.0%            LazyCompile: ~writeOrBuffer node:internal/streams/writable:365:23
+      1    1.8%      LazyCompile: ~toRealPath node:internal/modules/cjs/loader:393:20
+      1  100.0%        LazyCompile: ~Module._findPath node:internal/modules/cjs/loader:494:28
+      1  100.0%          LazyCompile: ~resolveMainPath node:internal/modules/run_main:11:25
+      1  100.0%            LazyCompile: ~executeUserEntryPoint node:internal/modules/run_main:74:31
+      1    1.8%      LazyCompile: ~stringifyFnReplacer /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/safe-stable-stringify/index.js:203:32
+      1  100.0%        LazyCompile: ~stringify /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/safe-stable-stringify/index.js:594:22
+      1  100.0%          LazyCompile: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/logform/json.js:26:25
+      1  100.0%            LazyCompile: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/logform/combine.js:17:10
+      1    1.8%      LazyCompile: ~setup /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/debug/src/common.js:7:15
+      1  100.0%        Function: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/debug/src/node.js:1:1
+      1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1055:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1110:37
+      1    1.8%      LazyCompile: ~setOption /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/connection_string.js:396:19
+      1  100.0%        LazyCompile: ~parseOptions /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/connection_string.js:208:22
+      1  100.0%          LazyCompile: ~MongoClient /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/mongo_client.js:60:16
+      1  100.0%            LazyCompile: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongoose/lib/connection.js:781:31
+      1    1.8%      LazyCompile: ~setHeader node:_http_outgoing:574:57
+      1  100.0%        LazyCompile: ~expressInit /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/express/lib/middleware/init.js:29:30
+      1  100.0%          LazyCompile: ~handle /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%            LazyCompile: ~trim_prefix /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/express/lib/router/index.js:288:23
+      1    1.8%      LazyCompile: ~serializeInto /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/bson/lib/parser/serializer.js:550:23
+      1  100.0%        Function: ^serializeObject /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/bson/lib/parser/serializer.js:258:25
+      1  100.0%          LazyCompile: ~serializeInto /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/bson/lib/parser/serializer.js:550:23
+      1  100.0%            Function: ^serializeObject /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/bson/lib/parser/serializer.js:258:25
+      1    1.8%      LazyCompile: ~serialize /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/bson/lib/bson.js:111:19
+      1  100.0%        LazyCompile: ~serializeBson /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/cmap/commands.js:530:18
+      1  100.0%          LazyCompile: ~makeDocumentSegment /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/cmap/commands.js:522:24
+      1  100.0%            LazyCompile: ~toBin /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/cmap/commands.js:496:10
+      1    1.8%      LazyCompile: ~remoteAddress node:net:730:52
+      1  100.0%        LazyCompile: ~streamIdentifier /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/cmap/connection.js:502:26
+      1  100.0%          LazyCompile: ~Connection /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/cmap/connection.js:40:16
+      1  100.0%            LazyCompile: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/cmap/connect.js:31:63
+      1    1.8%      LazyCompile: ~readSync node:fs:684:18
+      1  100.0%        LazyCompile: ~tryReadSync node:fs:429:21
+      1  100.0%          LazyCompile: ~readFileSync node:fs:450:22
+      1  100.0%            LazyCompile: ~cjsPreparseModuleExports node:internal/modules/esm/translators:212:34
+      1    1.8%      LazyCompile: ~readFileSync node:fs:450:22
+      1  100.0%        LazyCompile: ~cjsPreparseModuleExports node:internal/modules/esm/translators:212:34
+      1  100.0%          LazyCompile: ~commonjsStrategy node:internal/modules/esm/translators:168:60
+      1  100.0%            t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+      1    1.8%      LazyCompile: ~patch /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/graceful-fs/graceful-fs.js:102:16
+      1  100.0%        Function: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/graceful-fs/graceful-fs.js:1:1
+      1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1055:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1110:37
+      1    1.8%      LazyCompile: ~parseOptions /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/connection_string.js:208:22
+      1  100.0%        LazyCompile: ~MongoClient /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/mongo_client.js:60:16
+      1  100.0%          LazyCompile: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongoose/lib/connection.js:781:31
+      1  100.0%            t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+      1    1.8%      LazyCompile: ~onwrite node:internal/streams/writable:425:17
+      1  100.0%        LazyCompile: ~onWriteComplete node:internal/stream_base_commons:80:25
+      1    1.8%      LazyCompile: ~onParserExecute node:_http_server:633:25
+      1    1.8%      LazyCompile: ~onMessage /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/cmap/connection.js:152:14
+      1  100.0%        LazyCompile: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/cmap/connection.js:63:44
+      1  100.0%          Function: ^emit node:events:340:44
+      1  100.0%            LazyCompile: ~processIncomingData /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/cmap/message_stream.js:79:29
+      1    1.8%      LazyCompile: ~multiplication32 file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:992
+      1  100.0%        LazyCompile: ~initGenrand file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:1101
+      1  100.0%          LazyCompile: ~f file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:3183
+      1  100.0%            LazyCompile: ~ja file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-O5N5ESGA.mjs:14:4791
+      1    1.8%      LazyCompile: ~ja file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-O5N5ESGA.mjs:14:4791
+      1  100.0%        Script: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/index.mjs:1:1
+      1  100.0%          t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+      1  100.0%            T node::loader::ModuleWrap::Evaluate(v8::FunctionCallbackInfo<v8::Value> const&)
+      1    1.8%      LazyCompile: ~handle /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%        LazyCompile: ~trim_prefix /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/express/lib/router/index.js:288:23
+      1  100.0%          LazyCompile: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/express/lib/router/index.js:275:64
+      1  100.0%            LazyCompile: ~process_params /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/express/lib/router/index.js:333:47
+      1    1.8%      LazyCompile: ~defaultResolve node:internal/modules/esm/resolve:981:24
+      1  100.0%        Function: ^resolve node:internal/modules/esm/loader:402:16
+      1  100.0%          Function: ^getModuleJob node:internal/modules/esm/loader:221:21
+      1  100.0%            Function: ^<anonymous> node:internal/modules/esm/module_job:75:41
+      1    1.8%      LazyCompile: ~createDebug /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/morgan/node_modules/debug/src/debug.js:63:21
+      1  100.0%        Function: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/morgan/index.js:1:1
+      1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1055:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1110:37
+      1    1.8%      LazyCompile: ~captureLargerStackTrace node:internal/errors:458:35
+      1  100.0%        LazyCompile: ~NodeError node:internal/errors:342:28
+      1  100.0%          LazyCompile: ~onParseError node:internal/url:551:22
+      1  100.0%            t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+      1    1.8%      LazyCompile: ~appendContent /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:375:40
+      1  100.0%        LazyCompile: ~compile /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1  100.0%          LazyCompile: ~compileInput /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      1  100.0%            LazyCompile: ~ret /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:515:15
+      1    1.8%      LazyCompile: ~afterWrite node:internal/streams/writable:487:20
+      1  100.0%        LazyCompile: ~afterWriteTick node:internal/streams/writable:482:24
+      1  100.0%          LazyCompile: ~processTicksAndRejections node:internal/process/task_queues:68:35
+      1    1.8%      LazyCompile: ~afterWrite /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:466:20
+      1  100.0%        LazyCompile: ~onwrite /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:444:17
+      1  100.0%          LazyCompile: ~WritableState.onwrite /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:159:27
+      1  100.0%            LazyCompile: ~_write /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/winston-transport/index.js:69:51
+      1    1.8%      LazyCompile: ~Socket.read node:net:639:33
+      1  100.0%        LazyCompile: ~afterConnect node:net:1119:22
+      1    1.8%      LazyCompile: ~Schema.interpretAsType /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongoose/lib/schema.js:1036:44
+      1  100.0%        LazyCompile: ~Schema.path /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongoose/lib/schema.js:772:33
+      1  100.0%          LazyCompile: ~add /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongoose/lib/schema.js:500:36
+      1  100.0%            LazyCompile: ~addAutoId /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongoose/lib/helpers/schema/addAutoId.js:3:36
+      1    1.8%      LazyCompile: ~Msg /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/cmap/commands.js:468:16
+      1  100.0%        LazyCompile: ~command /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/cmap/connection.js:247:12
+      1  100.0%          LazyCompile: ~executeScram /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/cmap/auth/scram.js:74:22
+      1  100.0%            LazyCompile: ~auth /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/cmap/auth/scram.js:39:9
+      1    1.8%      LazyCompile: ~Long.sub /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/bson/lib/long.js:726:35
+      1  100.0%        LazyCompile: ~Long.compare /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/bson/lib/long.js:292:39
+      1  100.0%          Function: ^Long.comp /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/bson/lib/long.js:312:36
+      1  100.0%            LazyCompile: ~Long.lessThanOrEqual /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/bson/lib/long.js:517:47
+      1    1.8%      LazyCompile: ~CommandOperation /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/operations/command.js:14:16
+      1  100.0%        LazyCompile: ~CreateCollectionOperation /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/operations/create_collection.js:31:16
+      1  100.0%          LazyCompile: ~createCollection /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/db.js:153:21
+      1  100.0%            LazyCompile: ~createCollection /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongoose/lib/connection.js:399:82
+      1    1.8%      LazyCompile: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/cmap/connect.js:88:85
+      1  100.0%        LazyCompile: ~onMessage /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/cmap/connection.js:152:14
+      1  100.0%          LazyCompile: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/cmap/connection.js:63:44
+      1  100.0%            Function: ^emit node:events:340:44
+      1    1.8%      Function: ~<anonymous> node:internal/fs/rimraf:1:1
+      1  100.0%        LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1  100.0%          LazyCompile: ~nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      1  100.0%            Function: ~<anonymous> node:internal/fs/promises:1:1
+      1    1.8%      Function: ~<anonymous> node:internal/fs/promises:1:1
+      1  100.0%        LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1  100.0%          LazyCompile: ~nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      1  100.0%            Function: ~<anonymous> node:internal/modules/esm/get_source:1:1
+      1    1.8%      Function: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/morgan/index.js:1:1
+      1  100.0%        Function: ^Module._compile node:internal/modules/cjs/loader:1055:37
+      1  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1110:37
+      1  100.0%            Function: ^Module.load node:internal/modules/cjs/loader:969:33
+      1    1.8%      Function: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/handlebars/dist/cjs/handlebars/internal/proto-access.js:1:1
+      1  100.0%        Function: ^Module._compile node:internal/modules/cjs/loader:1055:37
+      1  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1110:37
+      1  100.0%            Function: ^Module.load node:internal/modules/cjs/loader:969:33
+      1    1.8%      Function: ^Readable.read node:internal/streams/readable:394:35
+      1  100.0%        Function: ^resume_ node:internal/streams/readable:985:17
+      1  100.0%          Function: ^processTicksAndRejections node:internal/process/task_queues:68:35
+
+     50    2.2%  t node::fs::InternalModuleReadJSON(v8::FunctionCallbackInfo<v8::Value> const&)
+     50  100.0%    t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+     47   94.0%      Function: ^read node:internal/modules/package_json_reader:16:14
+     42   89.4%        Function: ^readPackage node:internal/modules/cjs/loader:290:21
+     37   88.1%          Function: ^resolveExports node:internal/modules/cjs/loader:472:24
+     37  100.0%            Function: ^Module._findPath node:internal/modules/cjs/loader:494:28
+      5   11.9%          LazyCompile: ~resolveExports node:internal/modules/cjs/loader:472:24
+      3   60.0%            Function: ^Module._findPath node:internal/modules/cjs/loader:494:28
+      2   40.0%            LazyCompile: ~Module._findPath node:internal/modules/cjs/loader:494:28
+      4    8.5%        Function: ^getPackageConfig node:internal/modules/esm/resolve:191:26
+      4  100.0%          Function: ^packageResolve node:internal/modules/esm/resolve:838:24
+      4  100.0%            Function: ^moduleResolve node:internal/modules/esm/resolve:917:23
+      1    2.1%        LazyCompile: *readPackageScope node:internal/modules/cjs/loader:321:26
+      1  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1110:37
+      1  100.0%            Function: ^Module.load node:internal/modules/cjs/loader:969:33
+      3    6.0%      LazyCompile: ~read node:internal/modules/package_json_reader:16:14
+      2   66.7%        LazyCompile: ~getPackageConfig node:internal/modules/esm/resolve:191:26
+      1   50.0%          LazyCompile: ~packageResolve node:internal/modules/esm/resolve:838:24
+      1  100.0%            LazyCompile: ~moduleResolve node:internal/modules/esm/resolve:917:23
+      1   50.0%          LazyCompile: ~getPackageScopeConfig node:internal/modules/esm/resolve:247:31
+      1  100.0%            LazyCompile: ~getPackageType node:internal/modules/esm/resolve:785:24
+      1   33.3%        Function: ^getPackageConfig node:internal/modules/esm/resolve:191:26
+      1  100.0%          LazyCompile: ~packageResolve node:internal/modules/esm/resolve:838:24
+      1  100.0%            Function: ^moduleResolve node:internal/modules/esm/resolve:917:23
+
+     49    2.2%  T __kernelrpc_thread_policy_set
+
+     33    1.5%  t node::fs::InternalModuleStat(v8::FunctionCallbackInfo<v8::Value> const&)
+     33  100.0%    t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+     33  100.0%      Function: ^stat node:internal/modules/cjs/loader:151:14
+     21   63.6%        Function: ^Module._findPath node:internal/modules/cjs/loader:494:28
+     18   85.7%          Function: ^Module._resolveFilename node:internal/modules/cjs/loader:848:35
+     18  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:757:24
+      3   14.3%          LazyCompile: ~Module._resolveFilename node:internal/modules/cjs/loader:848:35
+      3  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:757:24
+     11   33.3%        Function: ^tryFile node:internal/modules/cjs/loader:384:17
+      9   81.8%          Function: ^tryExtensions node:internal/modules/cjs/loader:400:23
+      7   77.8%            Function: ^Module._findPath node:internal/modules/cjs/loader:494:28
+      2   22.2%            Function: ^tryPackage node:internal/modules/cjs/loader:338:20
+      1    9.1%          LazyCompile: ~finalizeEsmResolution node:internal/modules/cjs/loader:939:31
+      1  100.0%            Function: ^resolveExports node:internal/modules/cjs/loader:472:24
+      1    9.1%          Function: ^tryPackage node:internal/modules/cjs/loader:338:20
+      1  100.0%            Function: ^Module._findPath node:internal/modules/cjs/loader:494:28
+      1    3.0%        LazyCompile: ~Module._findPath node:internal/modules/cjs/loader:494:28
+      1  100.0%          LazyCompile: ~Module._resolveFilename node:internal/modules/cjs/loader:848:35
+      1  100.0%            LazyCompile: ~Module._load node:internal/modules/cjs/loader:757:24
+
+     23    1.0%  /usr/lib/system/libsystem_platform.dylib
+     16   69.6%    t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+      2   12.5%      LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1   50.0%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-EAXTCEWT.mjs:1:168635
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-EAXTCEWT.mjs:1:228190
+      1   50.0%        LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-2IRNXXOJ.mjs:1:12399
+      1  100.0%          LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-DDHXTT42.mjs:1:443
+      1  100.0%            LazyCompile: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/@faker-js/faker/dist/esm/chunk-2IRNXXOJ.mjs:1:28424
+      1    6.3%      LazyCompile: ~setupChannel node:internal/child_process:569:22
+      1  100.0%        LazyCompile: ~ChildProcess.spawn node:internal/child_process:346:40
+      1  100.0%          LazyCompile: ~spawn node:child_process:690:15
+      1  100.0%            LazyCompile: ~fork node:child_process:114:14
+      1    6.3%      LazyCompile: ~setStreamTimeout node:internal/stream_base_commons:254:26
+      1  100.0%        LazyCompile: ~makeConnection /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/cmap/connect.js:241:24
+      1  100.0%          LazyCompile: ~connect /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/cmap/connect.js:30:17
+      1  100.0%            LazyCompile: ~checkServer /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/sdam/monitor.js:139:21
+      1    6.3%      LazyCompile: ~processTicksAndRejections node:internal/process/task_queues:68:35
+      1    6.3%      LazyCompile: ~onParseError node:internal/url:551:22
+      1  100.0%        t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+      1  100.0%          LazyCompile: ~URL node:internal/url:620:14
+      1  100.0%            LazyCompile: ~defaultResolve node:internal/modules/esm/resolve:981:24
+      1    6.3%      LazyCompile: ~callback /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/cmap/connect.js:63:31
+      1  100.0%        LazyCompile: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/cmap/connect.js:128:44
+      1  100.0%          LazyCompile: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/cmap/auth/scram.js:152:83
+      1  100.0%            LazyCompile: ~onMessage /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/cmap/connection.js:152:14
+      1    6.3%      LazyCompile: ~TLSSocket node:_tls_wrap:462:19
+      1  100.0%        LazyCompile: ~connect node:_tls_wrap:1597:35
+      1  100.0%          LazyCompile: ~makeConnection /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/cmap/connect.js:241:24
+      1  100.0%            LazyCompile: ~connect /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/mongodb/lib/cmap/connect.js:30:17
+      1    6.3%      LazyCompile: ~File /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/winston/lib/winston/transports/file.js:33:14
+      1  100.0%        Script: ~<anonymous> file:///Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/src/utils/loggers.js:1:1
+      1  100.0%          t std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::push_back(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+      1  100.0%            T node::loader::ModuleWrap::Evaluate(v8::FunctionCallbackInfo<v8::Value> const&)
+      1    6.3%      LazyCompile: *realpathSync node:fs:2408:22
+      1  100.0%        Function: ^toRealPath node:internal/modules/cjs/loader:393:20
+      1  100.0%          Function: ^Module._findPath node:internal/modules/cjs/loader:494:28
+      1  100.0%            Function: ^Module._resolveFilename node:internal/modules/cjs/loader:848:35
+      1    6.3%      LazyCompile: *getPathFromURLPosix node:internal/url:1395:29
+      1  100.0%        Function: ^fileURLToPath node:internal/url:1413:23
+      1  100.0%          LazyCompile: ~defaultResolve node:internal/modules/esm/resolve:981:24
+      1  100.0%            Function: ^resolve node:internal/modules/esm/loader:402:16
+      1    6.3%      Function: ~<anonymous> node:internal/crypto/hashnames:1:1
+      1  100.0%        Function: ^compileForInternalLoader node:internal/bootstrap/loaders:299:27
+      1  100.0%          Function: ^nativeModuleRequire node:internal/bootstrap/loaders:332:29
+      1  100.0%            Function: ~<anonymous> node:internal/crypto/util:1:1
+      1    6.3%      Function: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/body-parser/node_modules/debug/src/node.js:1:1
+      1  100.0%        Function: ^Module._compile node:internal/modules/cjs/loader:1055:37
+      1  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1110:37
+      1  100.0%            Function: ^Module.load node:internal/modules/cjs/loader:969:33
+      1    6.3%      Function: ^processTicksAndRejections node:internal/process/task_queues:68:35
+      1    6.3%      Function: ^Module._load node:internal/modules/cjs/loader:757:24
+      1  100.0%        Function: ^Module.require node:internal/modules/cjs/loader:997:36
+      1  100.0%          Function: ^require node:internal/modules/cjs/helpers:101:31
+      1  100.0%            Function: ~<anonymous> /Users/mauriciosuarez/Desktop/FULLSTACK_CoderHouse/nodeJS/entregables/coderhouse/proyecto-final/ecommerce/node_modules/concat-stream/node_modules/readable-stream/lib/_stream_duplex.js:1:1
+      1    6.3%      Function: ^Module._findPath node:internal/modules/cjs/loader:494:28
+      1  100.0%        Function: ^Module._resolveFilename node:internal/modules/cjs/loader:848:35
+      1  100.0%          Function: ^Module._load node:internal/modules/cjs/loader:757:24
+      1  100.0%            Function: ^Module.require node:internal/modules/cjs/loader:997:36
+      1    4.3%    LazyCompile: *realpathSync node:fs:2408:22
+      1  100.0%      Function: ^toRealPath node:internal/modules/cjs/loader:393:20
+      1  100.0%        Function: ^tryFile node:internal/modules/cjs/loader:384:17
+      1  100.0%          Function: ^tryExtensions node:internal/modules/cjs/loader:400:23
+      1  100.0%            Function: ^tryPackage node:internal/modules/cjs/loader:338:20
+

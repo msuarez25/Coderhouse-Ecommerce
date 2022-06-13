@@ -1,0 +1,24 @@
+<h1>Info</h1>
+
+<ul>
+  <li>PROCESADORES PRESENTES EN EL SERVIDOR: <strong>{{info.nprocessors}}</strong></li>
+  <li>Argumentos de Entrada:  
+    <ul>
+      {{#each info.args}}
+        <li><strong>{{this}}</strong></li>
+      {{/each}}
+    </ul>
+  </li>
+  <li>Path de Ejecución: <strong>{{info.path}}</strong></li>
+  <li>Nombre de la Plataforma: <strong>{{info.os}}</strong></li>
+  <li>Process ID: <strong>{{info.pid}}</strong></li>
+  <li>Versión de Node: <strong>{{info.nodev}}</strong></li>
+  <li>Carpeta el Proyecto: <strong>{{info.projectFolder}}</strong></li>
+  <li>Memoria Total Reservada: 
+     <ul>
+      {{#each info.rss}}
+        <li><strong>{{this}}</strong></li>
+      {{/each}}
+    </ul>
+  </li>
+</ul>

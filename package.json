@@ -1,0 +1,65 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.1",
+  "description": "Segunda Entrega Final",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "node ./node_modules/nodemon/bin/nodemon.js -e js --exec \" npm run start || exit 1\"",
+    "fork": "node ./node_modules/nodemon/bin/nodemon.js -e js --exec \" npm run startFork || exit 1\"",
+    "cluster": "node ./node_modules/nodemon/bin/nodemon.js -e js --exec \" npm run startCluster || exit 1\"",
+    "start": "node src/app.js",
+    "prof": "node --prof src/app.js",
+    "prof-process1": "node --prof-process isolate-0x7fe10d400000-28178-v8.log > prof-process1.txt",
+    "prof-process2": "node --prof-process isolate-0x7ff9bf800000-28175-v8.log > prof-process2.txt",
+    "startFork": "node src/app2.js --prof -p 8080 -m FORK",
+    "startCluster": "node src/app2.js -p 8080 -m CLUSTER",
+    "forever": "forever start --minUptime 2000 --spinSleepTime 2000 -w src/app.js",
+    "foreverStopAll": "forever stopall",
+    "pm2Fork": "pm2 start src/app.js --name='Server 1' --watch -- 8080",
+    "pm2Cluster": "pm2 start src/app.js --name='Server 3' --watch -i max -- 8081",
+    "pm2Fork-1": "pm2 start src/app.js --name='Server 1' --watch -- 8082",
+    "pm2Fork-2": "pm2 start src/app.js --name='Server 2' --watch -- 8083",
+    "pm2Cluster-1": "pm2 start src/app.js --name='Server 3' --watch -i max -- 8084",
+    "pm2Cluster-2": "pm2 start src/app.js --name='Server 4' --watch -i max -- 8085",
+    "testArtillery": "artillery quick --count 50 -n 40 'http://localhost:3000/info' > forkSinConsoleLog.txt",
+    "startTest": "node benchmark.js",
+    "test0x": "0x src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msuarez25/coderhouse.git#main"
+  },
+  "keywords": [
+    "api",
+    "rest",
+    "restful"
+  ],
+  "author": "Mauricio Suarez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msuarez25/coderhouse/issues"
+  },
+  "homepage": "https://github.com/msuarez25/coderhouse/tree/main#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^6.2.0",
+    "dotenv": "^16.0.0",
+    "eslint": "^8.14.0",
+    "express-handlebars": "^6.0.6",
+    "minimist": "^1.2.6",
+    "mongoose": "^6.3.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.15",
+    "uuid": "^8.3.2",
+    "winston": "^3.7.2"
+  },
+  "dependencies": {
+    "autocannon": "^7.9.0",
+    "compression": "^1.7.4",
+    "express": "^4.17.2",
+    "forever": "^4.0.3",
+    "pm2": "^5.2.0"
+  }
+}
