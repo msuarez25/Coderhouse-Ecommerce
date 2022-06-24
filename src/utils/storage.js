@@ -1,3 +1,4 @@
+import path from 'path';
 import multer from 'multer';
 
 const FILE_TYPE_MAP = {
@@ -13,7 +14,8 @@ const storage = multer.diskStorage({
     cb(null, './src/public/uploads');
   },
   filename: (req, file, cb) => {
-    const filename = file.originalname;
+    const filename =
+      file.fieldname + '-' + Date.now() + path.extname(file.originalname);
     console.log(filename);
     const extension = FILE_TYPE_MAP[file.mimetype];
     cb(null, filename);

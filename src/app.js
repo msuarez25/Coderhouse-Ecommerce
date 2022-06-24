@@ -7,7 +7,16 @@ import apiRouter from './routes/index.route.js';
 import InfoRoute from './routes/info.route.js';
 import { dirname } from 'path';
 import { fileURLToPath } from 'url';
+import session from 'express-session';
 import logger from './utils/loggers.js';
+import cookieParser from 'cookie-parser';
+// import upload from './middlewares/uploadFiles.js';
+
+import passport from './utils/passport.util.js';
+import * as AuthController from './controllers/auth.controller.js';
+// import * as AuthMiddleware from './middlewares/auth.middleware.js';
+
+// import ProductoController from './controllers/producto.controller.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -30,6 +39,22 @@ app.engine(
   })
 );
 
+app.use(
+  session({
+    secret: process.env.SECRET,
+    cookie: {
+      maxAge: Number(process.env.EXPIRE),
+    },
+    rolling: true,
+    resave: true,
+    saveUninitialized: false,
+  })
+);
+app.use(cookieParser(process.env.SECRET));
+
+app.use(passport.initialize());
+app.use(passport.session());
+
 //usa el archivo index.js para manejar todo
 //lo que este en el endpoint /api
 app.use('/api', apiRouter);
@@ -50,6 +75,37 @@ app.get('/editar/:id', (req, res) => {
 app.get('/agregar', (req, res) => {
   res.sendFile(__dirname + '/public/views/agregar-producto.html');
 });
+
+/* -------------------------------------------------------------------------- */
+/*                                   signup                                   */
+/* -------------------------------------------------------------------------- */
+
+app.get('/signup', AuthController.getSignup);
+app.post(
+  '/signup',
+  // upload.single('foto'),
+  passport.authenticate('signup', { failureRedirect: '/failSignup' }),
+  AuthController.postSignup
+);
+app.get('/failSignup', AuthController.failSignup);
+
+/* -------------------------------------------------------------------------- */
+/*                                    login                                   */
+/* -------------------------------------------------------------------------- */
+
+app.get('/login', AuthController.getLogin);
+app.post(
+  '/login',
+  passport.authenticate('login', { failureRedirect: '/failLogin' }),
+  AuthController.postLogin
+);
+app.get('/failLogin', AuthController.failLogin);
+
+/* -------------------------------------------------------------------------- */
+/*                                   logout                                   */
+/* -------------------------------------------------------------------------- */
+
+app.get('/logout', AuthController.logout);
 
 // info
 app.use('/info', new InfoRoute());

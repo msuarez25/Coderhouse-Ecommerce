@@ -29,6 +29,10 @@ const productoSchema = new Schema({
     type: Number,
     required: true,
   },
+  amount: {
+    type: Number,
+    required: false,
+  },
 });
 
 export const ProductoModule = new mongoose.model('Producto', productoSchema);

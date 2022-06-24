@@ -1,0 +1,20 @@
+<div class="container text-center my-3">
+    <div class="jumbotron p-5" style="background-color: salmon;color: white;">
+        <h1>USER ERROR SIGNUP</h1>
+
+        <p class="px-5">Parece que ya el usuario o email que ingrasaste ya ha sido utilizado. Por favor intenta con otro usuario e email. Si el error persiste comunicate con el administrador del sitio.</p>
+
+        <button class="btn btn-warning mt-5" onclick="volver()">VOLVER</button>
+    </div>
+</div>
+
+<script>
+    function redireccionar(pagina) {
+        location.href = pagina;
+    } 
+
+    function volver() {
+        console.log('volver');
+        redireccionar('/')
+    }
+</script>

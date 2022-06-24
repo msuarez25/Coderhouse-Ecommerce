@@ -1,6 +1,23 @@
 // Envia valor en el header de autorizacion.
 // const isAdmin = ''; // no admin
-const isAdmin = '1'; //admin;
+// const isAdmin = '1'; //admin;
+
+function getCookie(cname) {
+  let name = cname + '=';
+  let decodedCookie = decodeURIComponent(document.cookie);
+  let ca = decodedCookie.split(';');
+  for (let i = 0; i < ca.length; i++) {
+    let c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return false;
+}
+const isLoggedIn = getCookie('logged');
 
 //revisar si el usuario tiene un carrito asignado, sino lo crea y lo guarda en el localStorage
 var formatter = new Intl.NumberFormat('en-US', {
@@ -16,7 +33,7 @@ const checkCarId = async () => {
       headers: {
         Accept: 'application/json',
         'Content-Type': 'application/json',
-        myauthorization: isAdmin,
+        myauthorization: isLoggedIn,
       },
     };
     try {
@@ -44,15 +61,17 @@ const displayProducts = async (container) => {
       if (response.status === 200) {
         const products = await response.json();
         products.map((product) => {
-          const card = `<div class="col-6 col-md-4 col-xl-3 mb-4"><div class="card">
+          let card = `<div class="col-6 col-md-4 col-xl-3 mb-4"><div class="card">
             <img src="${product.foto}" class="card-img-top" alt="foto de ${product.nombre}">
             <div class="card-body">
               <h5 class="card-title">${product.nombre}</h5>
               <p class="card-text">Código del producto: ${product.code}</p>
-              <button data-prod-id="${product._id}" class="btn btn-primary add-to-cart mb-3" >Agregar al carrito</button>
-              <a href="/editar/${product._id}" class="btn btn-warning edit-product mb-3">Editar producto</a>
-              <button data-prod-id="${product._id}" class="btn btn-danger delete-product mb-3" >Eliminar producto</button>
-            </div>
+              <button data-prod-id="${product._id}" class="btn btn-primary add-to-cart mb-3" >Agregar al carrito</button>`;
+          if (isLoggedIn) {
+            card += `<a href="/editar/${product._id}" class="btn btn-warning edit-product mb-3">Editar producto</a>
+            <button data-prod-id="${product._id}" class="btn btn-danger delete-product mb-3" >Eliminar producto</button>`;
+          }
+          card += `</div>
             <div class="card-footer text-muted">
                 Precio: ${product.precio}
             </div>
@@ -77,7 +96,7 @@ const postCarData = async (url = false, method = 'POST') => {
         headers: {
           Accept: 'application/json',
           'Content-Type': 'application/json',
-          myauthorization: isAdmin,
+          myauthorization: isLoggedIn,
         },
       };
       try {
@@ -100,13 +119,13 @@ const getCarData = async (url = false) => {
         headers: {
           Accept: 'application/json',
           'Content-Type': 'application/json',
-          myauthorization: isAdmin,
+          myauthorization: isLoggedIn,
         },
       };
       try {
         const response = await fetch(url, settings);
         const data = await response.json();
-        return data[0].productos;
+        return data;
       } catch (e) {
         return e;
       }
@@ -166,20 +185,23 @@ const displayCarritoHTML = (products, pContainer) => {
   pContainer.innerHTML = '';
   let total = 0;
   products.map((product) => {
-    total = total + parseInt(product.precio);
+    total = total + parseInt(product.precio) * parseInt(product.amount);
     let card = `<div class="col-12 mt-5">
               <div class="row align-items-center">
-                <div class="col-md-2">
+                <div class="col-md-2 d-flex justify-content-center align-items-center">
                   <img src="${product.foto}" class="card-img-top" alt="foto de ${product.nombre}">
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-4 d-flex flex-wrap align-items-center">
                 <p class="h5 card-title">${product.nombre}</p>
                 <p class="card-text">Código del producto: ${product.code}</p>
                 </div>
-                <div class="col-md-3">                
-                  Precio: ${product.precio}
+                <div class="col-md-2 d-flex justify-content-center align-items-center">
+               ${product.amount}
+              </div>
+                <div class="col-md-3 d-flex justify-content-center align-items-center">                
+                  $${product.precio}
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-1 d-flex justify-content-center align-items-center">
                 <button data-prod-id="${product._id}" class="btn btn-danger remove-from-cart">X</a>
                 </div>
               </div>
@@ -212,9 +234,14 @@ const removeFromCarListeners = (pContainer) => {
 };
 
 const removeFromCar = async (url, prodId, pContainer) => {
-  await postCarData(`${url}/${prodId}`, 'DELETE');
-  const carData = await getCarData(url);
-  displayCarritoHTML(carData, pContainer);
+  try {
+    await postCarData(`${url}/${prodId}`, 'DELETE');
+    const carData = await getCarData(url);
+    // console.log(carData);
+    displayCarritoHTML(carData, pContainer);
+  } catch (error) {
+    console.log(error);
+  }
 };
 
 const fillForm = async (prodId, formSelector) => {

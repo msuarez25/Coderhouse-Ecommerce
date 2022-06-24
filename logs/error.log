@@ -1,0 +1,6 @@
+{"level":"error","message":"Cannot read properties of undefined (reading 'status')","timestamp":"2022-06-20T10:38:20.755Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'status')","timestamp":"2022-06-20T10:40:18.131Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'status')","timestamp":"2022-06-20T10:40:42.099Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'status')","timestamp":"2022-06-20T10:40:42.482Z"}
+{"level":"error","message":"CarModule.insertOne is not a function","timestamp":"2022-06-22T10:45:15.451Z"}
+{"level":"error","message":"CarModule.insertOne is not a function","timestamp":"2022-06-22T10:48:58.689Z"}
