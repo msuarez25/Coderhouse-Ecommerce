@@ -106,3 +106,164 @@
 {"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:51:37.512Z"}
 {"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T01:52:17.417Z"}
 {"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T01:52:17.852Z"}
+{"level":"error","message":"response.json is not a function","timestamp":"2022-06-26T02:19:52.741Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T02:21:16.254Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T02:21:18.729Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T02:21:19.143Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T02:21:21.032Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T02:21:22.691Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T02:21:24.531Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T02:21:43.788Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T02:21:44.542Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T02:23:50.437Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T02:23:51.231Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T02:23:52.000Z"}
+{"level":"error","message":"phone is not defined","timestamp":"2022-06-26T02:24:54.099Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T02:49:13.993Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T02:49:14.398Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:21:58.916Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:21:58.989Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:21:59.041Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:21:59.098Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:21:59.152Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:21:59.199Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:21:59.335Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:21:59.504Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:21:59.618Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:21:59.746Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:21:59.795Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:21:59.881Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:21:59.936Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:00.068Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:00.116Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:00.165Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:00.212Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:00.256Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:00.304Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:00.416Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:00.597Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:00.681Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:00.841Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:00.949Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:01.133Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:01.231Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:01.280Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:01.335Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:01.387Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:01.504Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:01.782Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:01.984Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:02.060Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:02.202Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:02.285Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:02.421Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:02.523Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:02.631Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:02.800Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:03.098Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:03.183Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:03.248Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:03.303Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:03.379Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:03.475Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:03.597Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:03.650Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:03.701Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:03.748Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:03.814Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:03.933Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:03.980Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:04.029Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:04.072Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:04.126Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:04.349Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:04.400Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:04.446Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:04.493Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:46.448Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:49.433Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:51.719Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:22:53.960Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T03:23:01.444Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T03:23:14.756Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:23:14.790Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T03:23:18.728Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:23:18.781Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T03:23:26.810Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T03:23:26.989Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:23:27.038Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T03:23:32.722Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T03:23:33.313Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T03:23:33.920Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T03:23:44.590Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:23:44.626Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T03:23:46.535Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:23:46.562Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T03:23:48.560Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:23:48.601Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T03:25:03.187Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:25:03.279Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T03:25:07.109Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T03:25:07.259Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:25:07.299Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T03:25:07.808Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:25:07.833Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T03:25:16.893Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:25:16.921Z"}
+{"level":"error","message":"The 'To' number +11234567890 is not a valid phone number.","timestamp":"2022-06-26T03:25:22.980Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T03:25:23.261Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:25:23.282Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T03:25:23.699Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:25:23.730Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T03:25:24.769Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:25:24.806Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T03:25:31.012Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T03:25:31.176Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:25:31.204Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T03:25:31.591Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:25:31.619Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T03:25:40.379Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:25:40.400Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T03:25:47.294Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:25:47.310Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T03:25:49.153Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:25:49.181Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:34:10.332Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:34:17.553Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:34:41.520Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:35:03.594Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:35:04.752Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:35:06.115Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:35:06.171Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:35:06.229Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:35:06.307Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:35:06.624Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:35:06.700Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:35:06.800Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:35:06.914Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:35:06.964Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:35:07.112Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:35:07.165Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:35:07.264Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:35:07.365Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:35:07.426Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:35:07.497Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:35:07.590Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:35:07.661Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:35:07.762Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:35:07.821Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:35:07.873Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:35:07.921Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:35:07.979Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:35:08.034Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:35:08.178Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:35:08.227Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:35:08.273Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:35:08.325Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:35:08.376Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:35:08.425Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:35:08.472Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:35:08.547Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:35:08.599Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:35:08.952Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T03:35:27.679Z"}

@@ -1,5 +1,6 @@
 import twilio from 'twilio';
 import dotenv from 'dotenv';
+import logger from '../utils/loggers.js';
 
 dotenv.config();
 
@@ -13,12 +14,11 @@ const sendWA = async (body) => {
       body: body,
       from: `whatsapp:${process.env.WANUMBER}`,
       to: `whatsapp:${process.env.ADMINNUMBER}`,
-      mediaUrl: ['https://media.giphy.com/media/h4TdHo3RExSbHd9bOe/giphy.gif'],
+      //   mediaUrl: [''],
     };
     const response = await client.messages.create(message);
-    console.log(response);
   } catch (error) {
-    console.log(error);
+    logger.log('error', error.message);
   }
 };
 

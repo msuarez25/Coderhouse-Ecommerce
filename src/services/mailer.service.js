@@ -1,5 +1,6 @@
 import { createTransport } from 'nodemailer';
 import dotenv from 'dotenv';
+import logger from '../utils/loggers.js';
 
 dotenv.config();
 
@@ -23,12 +24,15 @@ const sendMailGmail = async (subject, htmlBody) => {
 
     try {
       const response = await transporterGmail.sendMail(mailOptions);
-      console.log(response);
     } catch (error) {
-      console.log(error);
+      logger.log('error', { ruta: req.url, metodo: req.method, error: error });
     }
   } else {
-    console.log('subject y/o htmlBody no fue incluido');
+    logger.log('error', {
+      ruta: req.url,
+      metodo: req.method,
+      error: 'subject y/o htmlBody no fue incluido',
+    });
     return false;
   }
 };

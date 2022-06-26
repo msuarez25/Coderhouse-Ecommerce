@@ -34,7 +34,6 @@ export default class CarService {
   async getProductsFromCar(id) {
     try {
       const car = await CarModule.findOne({ _id: id });
-      // console.log(car.productos);
       return car.productos;
     } catch (error) {
       logger.log('error', error.message);

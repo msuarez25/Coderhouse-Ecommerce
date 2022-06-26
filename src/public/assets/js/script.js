@@ -27,7 +27,7 @@ var formatter = new Intl.NumberFormat('en-US', {
 });
 const checkCarId = async () => {
   const userCarId = getCookie('userCarId');
-  console.log(userCarId);
+
   if (!userCarId) {
     const settings = {
       method: 'POST',
@@ -39,7 +39,9 @@ const checkCarId = async () => {
     };
     try {
       const response = await fetch('/api/carrito', settings);
-      console.log(response);
+      if (isLoggedIn) {
+        window.location.reload();
+      }
     } catch (e) {
       console.error(e);
     }
@@ -164,7 +166,6 @@ const displayCarrito = async (container) => {
     try {
       const response = await fetch(`/api/carrito/${userCarId}/productos`);
       const carProducts = await response.json();
-      console.log('CAR: ', carProducts.length > 0);
       if (response.status === 200) {
         const products = carProducts;
         if (products.length > 0) {

@@ -27,7 +27,8 @@
     "pm2Fork-2": "pm2 start src/app.js --name='Server 2' --watch -- 8083",
     "pm2Cluster-1": "pm2 start src/app.js --name='Server 3' --watch -i max -- 8084",
     "pm2Cluster-2": "pm2 start src/app.js --name='Server 4' --watch -i max -- 8085",
-    "testArtillery": "artillery quick --count 50 -n 40 'http://localhost:3000/info' > forkSinConsoleLog.txt",
+    "testArtillery1": "artillery quick --count 50 -n 40 'http://localhost:8080/productos' > conCluster.txt",
+    "testArtillery2": "artillery quick --count 50 -n 40 'http://localhost:8080/productos' > sinCluster.txt",
     "startTest": "node benchmark.js",
     "test0x": "0x src/app.js"
   },

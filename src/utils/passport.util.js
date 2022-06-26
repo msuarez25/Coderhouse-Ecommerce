@@ -2,7 +2,7 @@ import { Strategy } from 'passport-local';
 import passport from 'passport';
 import bcrypt from 'bcrypt';
 import { UserModel } from '../database/modules/users.module.js';
-// import upload from '../middlewares/uploadFiles.js';
+import logger from '../utils/loggers.js';
 
 passport.use(
   'signup',
@@ -14,7 +14,6 @@ passport.use(
       try {
         const userExists = await UserModel.findOne({ userName });
         if (userExists) {
-          console.log('Usuario existe');
           return done(null, false);
         }
         const newUser = {
@@ -30,12 +29,10 @@ passport.use(
           foto: req.body.foto,
         };
 
-        console.log(newUser);
-
         const user = await UserModel.create(newUser);
         return done(null, user);
       } catch (error) {
-        console.log(error);
+        logger.log('error', error.message);
       }
     }
   )
@@ -47,7 +44,6 @@ passport.use(
     try {
       const user = await UserModel.findOne({ userName });
       if (!user) {
-        console.log('Usuario no encontrado!');
         done(null, false);
       }
       const isValid = bcrypt.compareSync(password, user.password);
@@ -57,7 +53,7 @@ passport.use(
         done(null, false);
       }
     } catch (error) {
-      console.log(error);
+      logger.log('error', error.message);
       done(error);
     }
   })

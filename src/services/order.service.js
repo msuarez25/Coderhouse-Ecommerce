@@ -28,7 +28,7 @@ export default class OrderService {
     );
     if (response) {
       await this.carService.deleteCarById(userCarId);
-      return response;
+      return car;
     }
     return false;
   }

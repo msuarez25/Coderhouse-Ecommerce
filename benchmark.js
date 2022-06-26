@@ -17,7 +17,6 @@ function run(url) {
     process.stdout.write(Buffer.concat(buf));
   });
 }
-
-console.log('Running all tests');
+logger.log('info', { test: 'running all tests' });
 
 run('http://localhost:3000/info');

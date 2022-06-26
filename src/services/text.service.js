@@ -1,5 +1,6 @@
 import twilio from 'twilio';
 import dotenv from 'dotenv';
+import logger from '../utils/loggers.js';
 
 dotenv.config();
 
@@ -13,9 +14,8 @@ const sms = async (body, userNumber) => {
       to: userNumber,
     };
     const response = await client.messages.create(message);
-    console.log(response);
   } catch (error) {
-    console.log(error);
+    logger.log('error', error.message);
   }
 };
 
