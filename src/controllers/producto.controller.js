@@ -46,7 +46,6 @@ export default class ProductoController {
   async addProducto(req, res) {
     const data = req.body;
     const file = req.file;
-    console.log('data:', data, file);
 
     const response = await this.productoService.addProducto(data, file);
     if (response) {
@@ -59,8 +58,10 @@ export default class ProductoController {
   async updateProducto(req, res) {
     const { id } = req.params;
     const { body } = req;
+
     try {
       const response = await this.productoService.updateProducto(id, body);
+
       res.status(200).json(response);
     } catch (error) {
       logger.log('error', error.message);

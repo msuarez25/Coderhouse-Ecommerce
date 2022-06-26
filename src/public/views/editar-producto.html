@@ -12,7 +12,7 @@
           <form
             id="edit-product"
             method="POST"
-            action="/api/productos"
+            action="/api/productos/"
             enctype="multipart/form-data"
           >
             <div class="mb-3">
@@ -57,7 +57,28 @@
     <script defer>
       const getLastItem = (thePath) =>
         thePath.substring(thePath.lastIndexOf('/') + 1);
-      fillForm(getLastItem(window.location.href), '#edit-product');
+      const prodUrlId = getLastItem(window.location.href);
+      fillForm(prodUrlId, '#edit-product');
+
+      const form = document.querySelector('#edit-product');
+      const action = form.getAttribute('action');
+      form.setAttribute('action', `${action}${prodUrlId}`);
+
+      const activeFotoField = () => {
+        document
+          .querySelector('.edit-foto')
+          .addEventListener('click', function (event) {
+            event.preventDefault();
+            const fotoField = `<div class="mb-3">
+    <label for="foto" class="form-label">Imagen</label>
+    <input class="form-control" type="file" id="foto" name="foto" />
+    </div>`;
+            this.insertAdjacentHTML('beforebegin', fotoField);
+            this.remove();
+            const action = form.getAttribute('action');
+            form.setAttribute('action', `${action}/withOutFoto`);
+          });
+      };
       activeFotoField();
     </script>
   </body>

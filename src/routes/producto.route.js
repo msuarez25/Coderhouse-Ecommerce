@@ -13,14 +13,21 @@ export default class ProductoRoute extends express.Router {
     this.post(
       '/',
       AuthMiddleware.checkAuthentication,
+      upload.single('foto'),
       this.productoController.addProducto
     );
     this.get('/', this.productoController.getProductos);
     this.get('/:id', this.productoController.getProducto);
-    this.put(
+    this.post(
       '/:id',
       AuthMiddleware.checkAuthentication,
       upload.single('foto'),
+      this.productoController.updateProducto
+    );
+    this.post(
+      '/:id/withOutFoto',
+      AuthMiddleware.checkAuthentication,
+      upload.none(),
       this.productoController.updateProducto
     );
     this.delete(

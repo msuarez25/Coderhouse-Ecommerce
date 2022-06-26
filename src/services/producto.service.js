@@ -39,8 +39,24 @@ export default class ProductoService {
 
   async updateProducto(id, data) {
     try {
-      const producto = this.getProducto(id);
+      const producto = await this.getProducto(id);
       if (producto.length === 0) throw new Error('No hay data');
+
+      let updatedProduct = {};
+      for (const property in producto) {
+        console.log(data[property]);
+        if (
+          data[property] === undefined &&
+          property !== '_id' &&
+          property !== '_v'
+        ) {
+          updatedProduct[property] = producto[property];
+        } else if (property !== '_id' && property !== '_v') {
+          updatedProduct[property] = data[property];
+        }
+      }
+
+      console.log(JSON.parse(JSON.stringify(updatedProduct)));
 
       return await ProductoModule.updateOne({ _id: id }, data);
     } catch (error) {

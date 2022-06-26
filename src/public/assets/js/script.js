@@ -258,33 +258,24 @@ const fillForm = async (prodId, formSelector) => {
   try {
     const response = await fetch(`/api/productos/${prodId}`);
     if (response.status === 200) {
-      const product = await response.json();
-      const productObj = product[0];
+      const products = await response.json();
 
-      for (const property in productObj) {
+      const productObj = products.filter((obj) => {
+        return obj._id === prodId;
+      });
+
+      console.log(productObj[0]);
+
+      for (const property in productObj[0]) {
         const field = form.querySelector(`#${property}`);
         if (field !== null && property !== 'foto') {
-          field.value = productObj[property];
+          field.value = productObj[0][property];
         }
       }
     }
   } catch (e) {
     console.error(e);
   }
-};
-
-const activeFotoField = () => {
-  document
-    .querySelector('.edit-foto')
-    .addEventListener('click', function (event) {
-      event.preventDefault();
-      const fotoField = `<div class="mb-3">
-    <label for="foto" class="form-label">Imagen</label>
-    <input class="form-control" type="file" id="foto" name="foto" />
-    </div>`;
-      this.insertAdjacentHTML('beforebegin', fotoField);
-      this.remove();
-    });
 };
 
 const deleteProdListener = (pContainer) => {
