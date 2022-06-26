@@ -1595,3 +1595,71 @@
 {"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:37:49.973Z"}
 {"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:37:52.838Z"}
 {"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:37:52.880Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:48:34.348Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:48:34.407Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:48:34.459Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:48:35.891Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:48:35.939Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:48:37.286Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:48:37.792Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:48:55.513Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:48:55.538Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:48:59.585Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:48:59.638Z"}
+{"level":"error","message":"Parameter \"filter\" to findOne() must be an object, got 62b7101cd1e417abc5d66ded","timestamp":"2022-06-26T01:49:01.889Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:49:57.134Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:49:57.190Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:49:59.088Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:49:59.119Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:50:02.079Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:50:02.121Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:50:02.183Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:50:03.613Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:50:03.646Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:50:04.770Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:50:05.224Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:50:06.256Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:50:06.298Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:50:06.350Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:50:10.194Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:50:10.235Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:50:11.590Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:50:12.096Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T01:50:14.649Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T01:50:15.105Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:50:16.313Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:50:16.353Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:50:37.493Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:50:37.525Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:50:54.806Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:50:54.831Z"}
+{"level":"error","message":"Parameter \"filter\" to findOne() must be an object, got 62b7101cd1e417abc5d66ded","timestamp":"2022-06-26T01:50:57.068Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:51:22.182Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:51:22.256Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:51:22.294Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:51:29.557Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:51:29.606Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:51:31.080Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:51:31.126Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:51:33.592Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:51:33.626Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:51:33.685Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:51:34.616Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:51:34.663Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:51:35.648Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:51:36.429Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:51:37.415Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:51:37.451Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:51:37.512Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:52:13.366Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:52:13.405Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:52:14.925Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:52:15.437Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T01:52:17.417Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T01:52:17.852Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:52:46.434Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:52:46.462Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:52:51.900Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:52:51.938Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:52:55.446Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:52:55.470Z"}

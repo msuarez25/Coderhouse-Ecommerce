@@ -1,6 +1,6 @@
 import path from 'path';
 import sendMailGmail from '../services/mailer.service.js';
-import { ObjectId } from 'mongodb';
+
 /* -------------------------------------------------------------------------- */
 /*                                   signup                                   */
 /* -------------------------------------------------------------------------- */

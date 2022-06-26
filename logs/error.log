@@ -92,3 +92,17 @@
 {"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:36:28.595Z"}
 {"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:36:35.637Z"}
 {"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:36:37.315Z"}
+{"level":"error","message":"Parameter \"filter\" to findOne() must be an object, got 62b7101cd1e417abc5d66ded","timestamp":"2022-06-26T01:49:01.889Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:50:02.183Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:50:04.770Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:50:05.224Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:50:06.350Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T01:50:14.649Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T01:50:15.105Z"}
+{"level":"error","message":"Parameter \"filter\" to findOne() must be an object, got 62b7101cd1e417abc5d66ded","timestamp":"2022-06-26T01:50:57.068Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:51:33.685Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:51:35.648Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:51:36.429Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:51:37.512Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T01:52:17.417Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T01:52:17.852Z"}
