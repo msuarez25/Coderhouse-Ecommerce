@@ -7,15 +7,29 @@ export default class CarRoute extends express.Router {
     super();
     this.carController = new CarController();
 
-    this.post('/', this.carController.addCar);
-    this.delete('/:id', this.carController.deleteCarById);
-    this.get('/:id/productos', this.carController.getProductsFromCar);
+    this.post(
+      '/',
+      AuthMiddleware.checkAuthentication,
+      this.carController.addCar
+    );
+    this.delete(
+      '/:id',
+      AuthMiddleware.checkAuthentication,
+      this.carController.deleteCarById
+    );
+    this.get(
+      '/:id/productos',
+      AuthMiddleware.checkAuthentication,
+      this.carController.getProductsFromCar
+    );
     this.post(
       '/:id/productos/:id_prod',
+      AuthMiddleware.checkAuthentication,
       this.carController.addProductToCarById
     );
     this.delete(
       '/:id/productos/:id_prod',
+      AuthMiddleware.checkAuthentication,
       this.carController.deleteProductFromCarById
     );
   }

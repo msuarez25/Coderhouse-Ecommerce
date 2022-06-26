@@ -2,7 +2,7 @@ import { Strategy } from 'passport-local';
 import passport from 'passport';
 import bcrypt from 'bcrypt';
 import { UserModel } from '../database/modules/users.module.js';
-import upload from '../middlewares/uploadFiles.js';
+// import upload from '../middlewares/uploadFiles.js';
 
 passport.use(
   'signup',
@@ -17,18 +17,6 @@ passport.use(
           console.log('Usuario existe');
           return done(null, false);
         }
-
-        let foto = '';
-
-        upload.single('foto')(req, {}, (err) => {
-          if (err) {
-            throw err;
-          }
-          foto = req.file.path;
-        });
-
-        console.log(foto);
-
         const newUser = {
           userName,
           password: bcrypt.hashSync(password, bcrypt.genSaltSync(10), null),
@@ -39,7 +27,7 @@ passport.use(
           phone: req.body.phone,
           address: req.body.address,
           age: req.body.age,
-          foto: foto,
+          foto: req.body.foto,
         };
 
         console.log(newUser);

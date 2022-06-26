@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 const { Schema } = mongoose;
 
-const carSchema = new Schema({
+const orderSchema = new Schema({
   timestamp: {
     type: Date,
     default: Date.now,
@@ -9,6 +9,7 @@ const carSchema = new Schema({
   },
   user: {
     type: String,
+    required: true,
   },
   productos: {
     type: Array,
@@ -16,4 +17,4 @@ const carSchema = new Schema({
   },
 });
 
-export const CarModule = new mongoose.model('Car', carSchema);
+export const OrderModule = new mongoose.model('Order', orderSchema);

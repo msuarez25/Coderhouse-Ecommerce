@@ -1,6 +1,10 @@
+import express from 'express';
 import CarService from '../services/car.service.js';
 import logger from '../utils/loggers.js';
+import cookieParser from 'cookie-parser';
 
+const app = express();
+app.use(cookieParser(process.env.SECRET));
 export default class CarController {
   constructor() {
     this.carService = new CarService();
@@ -14,8 +18,13 @@ export default class CarController {
 
   async addCar(req, res) {
     try {
-      const response = await this.carService.addCar();
-      res.status(200).json(response);
+      const { userId } = req.cookies;
+      const response = await this.carService.addCar(userId);
+      res
+        .status(200)
+        .clearCookie('userCarId')
+        .cookie('userCarId', response._id.toString(), { maxAge: 1800000 })
+        .json(response);
     } catch (error) {
       logger.log('error', error.message);
     }

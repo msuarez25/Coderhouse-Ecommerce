@@ -7,6 +7,17 @@
     <script src="../assets/js/nav.js"></script>
     <div class="container py-5">
       <h1 class="text-center">Bienvenidos a mi eCommerce</h1>
+      <div class="row justify-content-center mt-4">
+        <div class="col-md-6">
+          <p class="h4 text-center">
+            En la tiendas podrás ver todos los productos, si deseas agregarlos a
+            tu carrito por favor logueate primero con el botón de
+            <a class="btn btn-primary" href="/login">Login</a> o
+            <a class="btn btn-warning" href="/signup">registrate aquí</a>
+          </p>
+        </div>
+      </div>
+
       <div class="d-flex justify-content-center">
         <div class="col-12 col-md-6 text-center">
           <a href="/productos" class="btn btn-lg btn-success mt-5"
@@ -16,5 +27,10 @@
       </div>
     </div>
     <script src="../assets/js/footer.js"></script>
+    <script>
+      if (getCookie('logged')) {
+        window.location.href = '/productos';
+      }
+    </script>
   </body>
 </html>

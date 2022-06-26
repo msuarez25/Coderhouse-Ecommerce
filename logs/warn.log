@@ -648,3 +648,950 @@
 {"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-24T12:06:21.738Z"}
 {"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-24T12:06:32.169Z"}
 {"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-24T12:06:32.215Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-24T13:59:38.099Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-24T13:59:39.352Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-24T14:00:48.388Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-24T14:00:59.047Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-24T14:01:02.715Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-24T14:01:54.484Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-24T14:01:55.849Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-24T14:02:07.173Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T11:26:13.901Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T11:26:13.973Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T11:26:20.196Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T11:26:20.241Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T11:28:35.727Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T11:28:35.762Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T11:29:46.146Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T11:29:46.210Z"}
+{"level":"warn","metodo":"GET","ruta":"/localhostfalse","timestamp":"2022-06-25T11:57:18.508Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T11:57:18.526Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T11:57:18.721Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T11:57:46.933Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T11:57:47.416Z"}
+{"level":"warn","metodo":"GET","ruta":"/localhostfalse","timestamp":"2022-06-25T11:58:09.753Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T11:58:09.789Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T11:58:09.888Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T11:58:15.078Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T11:58:15.118Z"}
+{"level":"warn","metodo":"GET","ruta":"/localhostfalse","timestamp":"2022-06-25T11:58:17.217Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T11:58:17.234Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T11:58:17.364Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T11:59:02.736Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T11:59:02.758Z"}
+{"level":"warn","metodo":"GET","ruta":"/localhosts:/uploads/foto-1656079326700.png.FKKL7flPLQxq1iS3QWRmvQogg5nDoa4L3AGZ96Sigw8","timestamp":"2022-06-25T12:00:09.130Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T12:00:09.218Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T12:00:09.750Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T12:00:19.047Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T12:00:19.089Z"}
+{"level":"warn","metodo":"GET","ruta":"/localhosts:/uploads/foto-1656079326700.png.FKKL7flPLQxq1iS3QWRmvQogg5nDoa4L3AGZ96Sigw8","timestamp":"2022-06-25T12:00:20.537Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T12:00:20.561Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T12:00:20.679Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T12:02:51.564Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T12:02:51.602Z"}
+{"level":"warn","metodo":"GET","ruta":"/localhost/uploads/foto-1656079326700.png","timestamp":"2022-06-25T12:02:53.235Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T12:02:53.249Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T12:02:53.379Z"}
+{"level":"warn","metodo":"GET","ruta":"/localhost/uploads/foto-1656079326700.png","timestamp":"2022-06-25T12:03:47.745Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T12:03:47.833Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T12:03:48.352Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T12:04:15.385Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T12:04:15.417Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T12:05:33.202Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T12:05:33.239Z"}
+{"level":"warn","metodo":"GET","ruta":"/uploads/foto-1655984406407.png","timestamp":"2022-06-25T12:05:33.397Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T12:05:51.675Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T12:05:51.709Z"}
+{"level":"warn","metodo":"GET","ruta":"/uploads/foto-1655984406407.png","timestamp":"2022-06-25T12:05:52.032Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T12:07:01.804Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T12:07:01.853Z"}
+{"level":"warn","metodo":"GET","ruta":"/uploads/foto-1655984406407.png","timestamp":"2022-06-25T12:07:01.968Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T12:08:27.868Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T12:08:27.910Z"}
+{"level":"warn","metodo":"GET","ruta":"/uploads/foto-1655984406407.png","timestamp":"2022-06-25T12:08:28.013Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T12:10:21.448Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T12:10:21.484Z"}
+{"level":"warn","metodo":"GET","ruta":"/uploads/foto-1655984406407.png","timestamp":"2022-06-25T12:10:21.573Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T12:11:02.070Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T12:11:02.115Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T12:11:25.077Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T12:11:25.132Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T12:11:56.188Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T12:11:56.228Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T12:12:01.517Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T12:12:01.551Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T12:13:00.379Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T12:13:00.415Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T13:16:18.513Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T13:16:18.566Z"}
+{"level":"warn","metodo":"GET","ruta":"/uploads/foto-1655984406407.png","timestamp":"2022-06-25T13:16:18.613Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T13:16:38.726Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T13:16:38.781Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T13:16:40.236Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T13:16:40.275Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T13:16:49.376Z"}
+{"level":"warn","metodo":"GET","ruta":"/uploads/foto-1655984406407.png","timestamp":"2022-06-25T13:16:49.553Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T13:39:03.829Z"}
+{"level":"warn","metodo":"GET","ruta":"/uploads/foto-1655984406407.png","timestamp":"2022-06-25T13:39:03.929Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T13:39:06.354Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T13:39:08.279Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T13:39:40.760Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T13:39:48.756Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T14:03:54.507Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T14:04:30.722Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T14:04:32.341Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T14:04:36.171Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T14:09:43.341Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T14:11:37.239Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T14:11:41.317Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T14:11:42.444Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T14:11:44.810Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T14:11:46.504Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T14:11:49.218Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T14:12:01.888Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T14:12:55.781Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T14:13:01.521Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T14:13:40.259Z"}
+{"level":"warn","metodo":"POST","ruta":"/api/comprar","timestamp":"2022-06-25T14:13:43.374Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T14:13:43.446Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T14:13:45.972Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T14:50:03.100Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T14:50:06.867Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T14:50:08.377Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T14:50:12.835Z"}
+{"level":"warn","metodo":"POST","ruta":"/api/comprar","timestamp":"2022-06-25T14:50:15.405Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T14:50:15.535Z"}
+{"level":"warn","metodo":"POST","ruta":"/api/comprar","timestamp":"2022-06-25T15:03:26.682Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:03:26.967Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:03:29.985Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:03:31.592Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:03:33.747Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:03:35.130Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:03:38.147Z"}
+{"level":"warn","metodo":"POST","ruta":"/api/comprar","timestamp":"2022-06-25T15:03:40.342Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:03:40.486Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:03:48.639Z"}
+{"level":"warn","metodo":"POST","ruta":"/api/comprar","timestamp":"2022-06-25T15:04:13.541Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:04:13.687Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:04:53.704Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T15:04:56.419Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:05:27.707Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:05:30.140Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T15:06:03.491Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T15:07:03.568Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:07:03.623Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:07:06.780Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:11:14.979Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:11:17.327Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:12:06.286Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:12:09.410Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:12:12.007Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:15:13.563Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:15:16.140Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:15:18.095Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:15:20.728Z"}
+{"level":"error","message":"Comprar validation failed: productos: Path `productos` is required.","timestamp":"2022-06-25T15:15:23.035Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:17:49.604Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:17:51.899Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:17:53.257Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:17:54.869Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:17:57.572Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:17:59.983Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:19:18.614Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:19:19.926Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:19:22.071Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:19:24.071Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:19:27.060Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:19:29.430Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:20:18.735Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:20:21.376Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:20:23.962Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:20:25.640Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:20:29.284Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:20:31.414Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:20:38.214Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:20:50.770Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:20:52.618Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:20:54.286Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:20:57.063Z"}
+{"level":"error","message":"E11000 duplicate key error collection: ecommerce.comprars index: _id_ dup key: { _id: ObjectId('6280db5004548091d6ae05a2') }","timestamp":"2022-06-25T15:20:59.178Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:21:52.273Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:22:00.975Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:22:02.159Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:22:03.828Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:22:10.911Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:22:15.620Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:23:16.767Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:23:18.499Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:23:19.738Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:23:22.355Z"}
+{"level":"error","message":"ComprarModule.insertOne is not a function","timestamp":"2022-06-25T15:23:23.972Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:25:53.651Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:25:55.308Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:25:57.809Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:26:00.241Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:28:45.799Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:28:47.331Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:28:49.710Z"}
+{"level":"error","message":"id is not defined","timestamp":"2022-06-25T15:28:52.205Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:36:27.602Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:36:28.782Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:36:31.918Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:36:33.362Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:36:36.273Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T15:36:38.347Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:08:45.193Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:08:47.488Z"}
+{"level":"warn","metodo":"GET","ruta":"/uploads/foto-1655984406407.png","timestamp":"2022-06-25T16:08:47.616Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:10:06.954Z"}
+{"level":"warn","metodo":"GET","ruta":"/uploads/foto-1655984406407.png","timestamp":"2022-06-25T16:10:08.055Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:10:23.275Z"}
+{"level":"warn","metodo":"GET","ruta":"/uploads/foto-1655984406407.png","timestamp":"2022-06-25T16:10:24.300Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:10:29.721Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:10:31.500Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:10:36.993Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:10:38.892Z"}
+{"level":"warn","metodo":"GET","ruta":"/uploads/foto-1655984406407.png","timestamp":"2022-06-25T16:10:39.070Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:10:54.957Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:11:01.267Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:11:05.569Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:11:08.319Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:11:11.154Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:11:33.908Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:11:33.948Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:11:37.993Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:11:41.328Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:13:45.356Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:14:02.196Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:14:26.030Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:15:31.839Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:15:35.883Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:17:08.703Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:17:08.758Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:17:21.144Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:17:21.375Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:17:24.908Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:17:24.916Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:17:26.092Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:17:26.123Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:18:05.045Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:18:05.051Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:18:07.088Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:18:07.135Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:19:19.151Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:19:19.160Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:19:22.647Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:19:22.873Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:19:48.113Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:19:48.136Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:20:00.183Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:20:00.316Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:20:02.825Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:20:02.920Z"}
+{"level":"error","message":"Car validation failed: user: Path `user` is required.","timestamp":"2022-06-25T16:20:05.052Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:20:05.094Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:20:05.104Z"}
+{"level":"error","message":"Car validation failed: user: Path `user` is required.","timestamp":"2022-06-25T16:22:29.805Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:22:29.860Z"}
+{"level":"error","message":"Car validation failed: user: Path `user` is required.","timestamp":"2022-06-25T16:22:30.048Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:22:30.110Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:22:30.724Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:22:35.924Z"}
+{"level":"error","message":"Car validation failed: user: Path `user` is required.","timestamp":"2022-06-25T16:22:35.930Z"}
+{"level":"error","message":"Car validation failed: user: Path `user` is required.","timestamp":"2022-06-25T16:22:36.100Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:22:36.111Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:22:36.139Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:22:41.335Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:22:41.337Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:22:42.704Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:22:42.763Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:22:44.518Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:22:44.564Z"}
+{"level":"error","message":"Car validation failed: user: Path `user` is required.","timestamp":"2022-06-25T16:22:46.307Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:22:46.308Z"}
+{"level":"error","message":"Car validation failed: user: Path `user` is required.","timestamp":"2022-06-25T16:22:46.483Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:22:46.494Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:22:46.502Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:24:32.853Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:24:32.880Z"}
+{"level":"error","message":"Car validation failed: user: Path `user` is required.","timestamp":"2022-06-25T16:24:34.840Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:24:34.844Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:24:35.120Z"}
+{"level":"error","message":"Car validation failed: user: Path `user` is required.","timestamp":"2022-06-25T16:24:35.127Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:24:35.363Z"}
+{"level":"error","message":"Car validation failed: user: Path `user` is required.","timestamp":"2022-06-25T16:27:33.832Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:27:33.887Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:27:33.937Z"}
+{"level":"error","message":"Car validation failed: user: Path `user` is required.","timestamp":"2022-06-25T16:28:00.060Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:28:00.120Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:28:00.130Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:36:58.981Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:36:59.066Z"}
+{"level":"error","message":"Car validation failed: user: Path `user` is required.","timestamp":"2022-06-25T16:37:03.103Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading '0')","timestamp":"2022-06-25T16:37:03.103Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:37:03.165Z"}
+{"level":"error","message":"Car validation failed: user: Path `user` is required.","timestamp":"2022-06-25T16:37:03.399Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading '0')","timestamp":"2022-06-25T16:37:03.399Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:37:03.403Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:37:03.507Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:37:53.132Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:37:53.135Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:38:03.230Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:38:03.365Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:38:05.071Z"}
+{"level":"error","message":"Car validation failed: user: Path `user` is required.","timestamp":"2022-06-25T16:38:05.080Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading '_id')","timestamp":"2022-06-25T16:38:05.081Z"}
+{"level":"error","message":"Car validation failed: user: Path `user` is required.","timestamp":"2022-06-25T16:38:05.846Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading '_id')","timestamp":"2022-06-25T16:38:05.846Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:38:05.858Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:38:06.333Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:39:06.028Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:39:06.089Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:42:35.152Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:42:35.194Z"}
+{"level":"error","message":"Car validation failed: user: Path `user` is required.","timestamp":"2022-06-25T16:42:38.303Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading '_id')","timestamp":"2022-06-25T16:42:38.305Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:42:38.597Z"}
+{"level":"error","message":"Car validation failed: user: Path `user` is required.","timestamp":"2022-06-25T16:42:39.616Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading '_id')","timestamp":"2022-06-25T16:42:39.618Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:42:39.621Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:42:39.897Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:43:53.885Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:43:53.901Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:44:56.686Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:44:56.751Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:46:33.136Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:46:33.299Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:47:30.198Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:47:30.499Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:47:38.960Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:47:39.456Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:48:21.135Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:48:21.154Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:48:37.580Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:48:37.609Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:48:49.353Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:48:49.400Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:48:50.628Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:48:50.670Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:48:52.161Z"}
+{"level":"error","message":"response.json is not a function","timestamp":"2022-06-25T16:48:52.257Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:48:52.332Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:48:52.352Z"}
+{"level":"error","message":"response.json is not a function","timestamp":"2022-06-25T16:48:52.426Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:49:22.589Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:49:22.623Z"}
+{"level":"error","message":"response.json is not a function","timestamp":"2022-06-25T16:49:22.670Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:49:36.959Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:49:36.988Z"}
+{"level":"error","message":"response.json is not a function","timestamp":"2022-06-25T16:49:37.059Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:52:11.310Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:52:11.390Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:52:11.433Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:52:20.726Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:52:20.777Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:52:23.574Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:52:23.620Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:52:38.711Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:52:38.747Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:52:42.458Z"}
+{"level":"error","message":"response.json is not a function","timestamp":"2022-06-25T16:52:42.558Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:52:42.618Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:52:42.679Z"}
+{"level":"error","message":"response.json is not a function","timestamp":"2022-06-25T16:52:42.710Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:52:46.119Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:52:46.144Z"}
+{"level":"error","message":"response.json is not a function","timestamp":"2022-06-25T16:52:46.225Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:53:37.836Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:53:37.917Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:53:37.961Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:53:39.577Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:53:39.646Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:53:49.778Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:53:49.854Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:53:56.390Z"}
+{"level":"error","message":"response.json is not a function","timestamp":"2022-06-25T16:53:56.484Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:53:56.541Z"}
+{"level":"error","message":"response.json is not a function","timestamp":"2022-06-25T16:53:56.657Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:53:57.036Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:53:59.232Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:53:59.268Z"}
+{"level":"error","message":"response.json is not a function","timestamp":"2022-06-25T16:53:59.341Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:54:46.868Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:54:46.979Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:54:47.022Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:54:48.542Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:54:48.601Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:54:55.354Z"}
+{"level":"error","message":"response.json is not a function","timestamp":"2022-06-25T16:54:55.947Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:54:56.045Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:54:56.055Z"}
+{"level":"error","message":"response.json is not a function","timestamp":"2022-06-25T16:54:56.135Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T16:55:00.253Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T16:55:00.286Z"}
+{"level":"error","message":"response.json is not a function","timestamp":"2022-06-25T16:55:00.353Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T23:53:05.244Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T23:53:05.324Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T23:53:10.343Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T23:53:10.389Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T23:53:12.573Z"}
+{"level":"error","message":"response.json is not a function","timestamp":"2022-06-25T23:53:12.695Z"}
+{"level":"error","message":"response.json is not a function","timestamp":"2022-06-25T23:53:12.832Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T23:53:13.236Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T23:53:13.240Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T23:53:25.331Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T23:53:25.364Z"}
+{"level":"error","message":"response.json is not a function","timestamp":"2022-06-25T23:53:25.442Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T23:53:26.512Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T23:53:26.549Z"}
+{"level":"error","message":"response.json is not a function","timestamp":"2022-06-25T23:53:26.610Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T23:53:28.495Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T23:53:28.527Z"}
+{"level":"error","message":"response.json is not a function","timestamp":"2022-06-25T23:53:28.604Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T23:57:05.318Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T23:57:05.355Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T23:57:06.833Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T23:57:06.986Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T23:57:07.020Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-25T23:57:10.359Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T23:59:06.107Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T23:59:06.141Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T23:59:08.036Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T23:59:08.081Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T23:59:09.586Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-25T23:59:09.795Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-25T23:59:09.830Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-25T23:59:12.861Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:00:37.470Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:00:37.502Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:00:38.923Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:00:39.080Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:00:39.119Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T00:00:41.729Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:02:27.200Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:02:27.231Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:02:37.851Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:02:37.887Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:02:39.248Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:02:39.410Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:02:39.450Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T00:02:42.932Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:03:34.229Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:03:34.233Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:03:35.239Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:03:35.280Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:03:36.712Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:03:36.755Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:08:26.758Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:08:26.765Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:08:27.651Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:08:27.685Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:08:29.278Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:08:29.304Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T00:08:31.833Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T00:08:33.396Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:09:03.926Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:09:04.358Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:09:04.758Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:09:04.788Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:09:06.356Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:09:06.393Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T00:09:09.778Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:10:47.469Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:10:47.514Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:10:48.193Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:10:48.221Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:10:49.576Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:10:49.638Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T00:11:02.122Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:13:00.389Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:13:00.413Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:13:01.806Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:13:01.832Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T00:13:09.564Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:15:44.314Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:15:44.338Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:15:59.955Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:16:00.370Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:16:08.832Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:16:08.863Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:16:22.680Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:16:23.242Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:16:35.736Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:16:35.761Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:17:19.194Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:17:19.225Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:17:40.862Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:17:40.894Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:19:05.209Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:19:05.700Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:19:06.323Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:19:06.363Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:19:07.741Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:19:07.776Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:20:37.462Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:20:37.491Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:20:41.370Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:24:02.532Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:24:02.599Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:24:02.633Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:24:04.077Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:24:04.117Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:24:05.547Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:24:05.590Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:24:08.497Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:24:08.536Z"}
+{"level":"error","message":"id is not defined","timestamp":"2022-06-26T00:24:12.858Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:24:35.851Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:24:35.910Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:24:35.963Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:24:37.231Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:24:37.288Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:24:38.512Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:24:38.552Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:24:41.212Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:24:41.246Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:24:43.041Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:24:43.069Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:35:32.807Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:35:32.851Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:35:34.396Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:35:34.889Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:38:02.965Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:38:03.016Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:38:04.601Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:38:04.632Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:38:20.208Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:38:20.243Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:38:22.033Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:38:22.069Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T00:38:45.965Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:39:39.423Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:39:39.456Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:39:40.984Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:39:41.017Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T00:39:51.788Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T00:40:10.859Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:40:12.840Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:40:12.857Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T00:40:12.919Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:40:22.747Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:40:22.782Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:40:30.611Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:40:30.645Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:41:13.023Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:41:13.049Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:41:14.337Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:41:14.354Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:41:17.264Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:41:17.292Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:41:20.338Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:41:20.841Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T00:41:38.270Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T00:41:38.942Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T00:41:40.062Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:41:42.116Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:41:42.138Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:41:43.933Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:41:43.958Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'toString')","timestamp":"2022-06-26T00:41:44.008Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T00:41:47.147Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:41:47.192Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:41:47.198Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'toString')","timestamp":"2022-06-26T00:41:47.245Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:41:49.571Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:41:49.605Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:41:50.971Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:41:51.001Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'toString')","timestamp":"2022-06-26T00:41:51.057Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:43:51.803Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:43:51.810Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:43:52.614Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:43:52.647Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:43:54.094Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:43:54.113Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T00:43:57.720Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T00:43:58.354Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:44:01.061Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:44:01.070Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:44:04.638Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:44:04.653Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:44:26.083Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:44:26.115Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:44:28.183Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:44:28.212Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:44:31.294Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:44:31.303Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:44:37.266Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:44:37.312Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:44:38.854Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:44:38.876Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:44:41.628Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:44:41.631Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:46:08.900Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:46:08.915Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:46:14.691Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:46:14.701Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:46:16.252Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:46:16.284Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:46:17.643Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:46:18.162Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T00:46:20.443Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:46:22.827Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:46:22.830Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:46:26.974Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:46:26.991Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:46:30.407Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:46:30.410Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:46:43.716Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:46:43.727Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:46:47.210Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:46:47.234Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:46:49.248Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:46:49.275Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:46:50.645Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:46:50.667Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:46:53.242Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:46:53.247Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:47:48.279Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:47:48.283Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:47:52.737Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:47:52.748Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:47:55.347Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:47:55.367Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:48:16.594Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:48:16.606Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:49:55.262Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:49:55.317Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:49:57.337Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:49:57.865Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:50:01.331Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:50:01.354Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:50:04.270Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:50:04.301Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:52:33.967Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:52:34.004Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:52:35.762Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:52:35.790Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:52:36.502Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:52:36.533Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:52:36.719Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:52:36.759Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:54:48.872Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:54:48.916Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:54:50.455Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:54:50.999Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:55:34.329Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:55:34.349Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:55:36.890Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:55:36.915Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:55:40.135Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:55:40.156Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T00:56:10.638Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:56:10.955Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:56:10.978Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T00:58:24.124Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T00:58:24.129Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:01:05.384Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:01:05.388Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:01:07.238Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:01:07.246Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:01:11.602Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:01:11.611Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:01:14.117Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:01:14.453Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:01:14.460Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:02:14.752Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:02:14.785Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:02:16.034Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:02:16.510Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:02:20.542Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:02:20.552Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:02:22.854Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:02:23.162Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:02:23.184Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:04:48.543Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:04:48.547Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:04:50.084Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:04:50.090Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:04:53.158Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:04:53.165Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:04:53.748Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:04:53.753Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:04:55.189Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:04:55.359Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:04:56.382Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:04:56.402Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:04:56.510Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:04:57.181Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:04:57.345Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:04:59.205Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:04:59.208Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:05:01.342Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:05:01.641Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:05:01.646Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:06:02.431Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:06:02.443Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:06:19.163Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:06:19.182Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:06:20.858Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:06:20.864Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:06:33.222Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:06:33.231Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:06:35.287Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:06:35.303Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:06:44.109Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:06:44.136Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:06:49.643Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:06:49.645Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:06:53.443Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:06:53.452Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:09:30.262Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:09:30.302Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:09:32.982Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:09:33.040Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:09:34.711Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:09:35.320Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:09:37.522Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:09:37.533Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:09:39.473Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:09:39.878Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:09:39.903Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:09:43.696Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:09:43.702Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:09:45.358Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:09:45.363Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:10:19.734Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:10:19.758Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:10:21.538Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:10:22.012Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:10:24.324Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:10:24.355Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:10:26.606Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:10:26.615Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:10:32.236Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:10:32.242Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:10:36.507Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:10:36.901Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:10:36.913Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:11:00.437Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:11:00.444Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:11:02.263Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:11:02.265Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:15:34.978Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:15:35.012Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:15:54.859Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:15:54.860Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:15:56.644Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:15:57.149Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:15:59.527Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:15:59.549Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:16:02.022Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:16:02.431Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:16:02.455Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:16:07.458Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:16:07.462Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:16:10.567Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:16:10.573Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:18:13.175Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:18:13.188Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:18:14.966Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:18:15.436Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:18:17.587Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:18:17.613Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:18:20.183Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:18:20.201Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:18:22.492Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:18:22.494Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:18:22.667Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:18:24.873Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:18:24.878Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:18:26.030Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:18:26.050Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:18:26.086Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:20:19.254Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:20:19.274Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:20:20.710Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:20:20.726Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:20:22.225Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:20:22.681Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:20:24.801Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:20:24.830Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:20:55.346Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:20:55.422Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:20:57.773Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:20:57.775Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:20:59.115Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:20:59.604Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:21:02.156Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:21:02.178Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:21:44.537Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:21:44.544Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:21:45.812Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:21:46.307Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:21:49.441Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:21:49.474Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:22:20.485Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:22:20.506Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:22:20.798Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:22:20.801Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:22:22.187Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:22:22.222Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:22:23.939Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:22:24.412Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:22:28.435Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:22:28.467Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:23:02.107Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:23:02.149Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:23:03.228Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:23:03.271Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:23:04.399Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:23:04.913Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:23:09.829Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:23:09.857Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:23:13.415Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:23:13.456Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:23:15.505Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:23:15.547Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:23:15.603Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:25:07.015Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:25:07.257Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:25:08.206Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:25:08.756Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:25:11.113Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:25:11.129Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:25:51.989Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:25:52.013Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:25:53.159Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:25:53.665Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:25:55.667Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:25:55.686Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:26:45.235Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:26:45.266Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:27:01.552Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:27:01.594Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:27:02.992Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:27:03.515Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:27:05.524Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:27:05.542Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:27:26.432Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:27:26.456Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:27:48.791Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:27:48.828Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:27:50.101Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:27:50.134Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:27:57.768Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:27:57.783Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:29:17.700Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:29:17.755Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:29:21.309Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:29:21.363Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:30:21.694Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:30:21.714Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:30:34.553Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:30:34.612Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:30:38.919Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:30:38.949Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:31:16.930Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:31:16.955Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:31:22.765Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:31:22.814Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:31:25.312Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:31:25.801Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:31:28.090Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:31:28.107Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:32:03.993Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:32:04.052Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:32:05.839Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:32:05.861Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:33:11.629Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:33:11.673Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:33:20.359Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:33:20.398Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:33:28.788Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:33:28.839Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:33:31.320Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:33:31.356Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:33:34.212Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:33:34.244Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:33:34.302Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:33:38.349Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:33:38.385Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:33:38.446Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:34:03.918Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:34:03.949Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:34:04.015Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:34:31.826Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:34:31.872Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:34:34.398Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:34:34.429Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:34:34.489Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:35:08.836Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:35:08.866Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:35:08.929Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:35:11.320Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:35:11.349Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:35:12.531Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:35:13.656Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:35:13.702Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:35:13.763Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:35:45.659Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:35:45.687Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:35:47.566Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:35:48.114Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:35:48.793Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:35:55.221Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:35:55.265Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:35:56.869Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:35:57.601Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:35:59.885Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:35:59.895Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:36:02.016Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:36:02.067Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:36:05.991Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:36:06.002Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:36:10.051Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:36:10.077Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:36:10.871Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:36:10.903Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:36:13.222Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:36:13.255Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:36:18.422Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:36:18.457Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:36:20.260Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:36:20.296Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:36:22.409Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:36:22.442Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:36:22.508Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:36:25.155Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:36:25.186Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:36:27.001Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:36:28.497Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:36:28.538Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:36:28.595Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:36:32.915Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:36:32.960Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:36:35.637Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:36:37.233Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:36:37.256Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:36:37.315Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:36:44.756Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:36:44.794Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:37:33.841Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:37:33.877Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:37:35.041Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:37:35.548Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:37:37.780Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:37:37.822Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:37:41.021Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:37:41.058Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:37:44.277Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:37:44.304Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:37:46.539Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:37:46.579Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:37:48.177Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:37:48.203Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:37:49.935Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:37:49.973Z"}
+{"level":"warn","metodo":"GET","ruta":"/assets/js/bootstrap.bundle.min.js.map","timestamp":"2022-06-26T01:37:52.838Z"}
+{"level":"warn","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-26T01:37:52.880Z"}

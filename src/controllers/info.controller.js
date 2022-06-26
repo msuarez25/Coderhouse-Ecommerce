@@ -21,7 +21,7 @@ export default class InfoController {
 
       const info = await this.infoService.getInfo();
 
-      console.log(info);
+      // console.log(info);
 
       res.status(200).render('info', { info: info });
     } catch (error) {

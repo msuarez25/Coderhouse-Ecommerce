@@ -1,6 +1,94 @@
-{"level":"error","message":"Cannot read properties of undefined (reading 'status')","timestamp":"2022-06-20T10:38:20.755Z"}
-{"level":"error","message":"Cannot read properties of undefined (reading 'status')","timestamp":"2022-06-20T10:40:18.131Z"}
-{"level":"error","message":"Cannot read properties of undefined (reading 'status')","timestamp":"2022-06-20T10:40:42.099Z"}
-{"level":"error","message":"Cannot read properties of undefined (reading 'status')","timestamp":"2022-06-20T10:40:42.482Z"}
-{"level":"error","message":"CarModule.insertOne is not a function","timestamp":"2022-06-22T10:45:15.451Z"}
-{"level":"error","message":"CarModule.insertOne is not a function","timestamp":"2022-06-22T10:48:58.689Z"}
+{"level":"error","message":"Comprar validation failed: productos: Path `productos` is required.","timestamp":"2022-06-25T15:15:23.035Z"}
+{"level":"error","message":"E11000 duplicate key error collection: ecommerce.comprars index: _id_ dup key: { _id: ObjectId('6280db5004548091d6ae05a2') }","timestamp":"2022-06-25T15:20:59.178Z"}
+{"level":"error","message":"ComprarModule.insertOne is not a function","timestamp":"2022-06-25T15:23:23.972Z"}
+{"level":"error","message":"id is not defined","timestamp":"2022-06-25T15:28:52.205Z"}
+{"level":"error","message":"Car validation failed: user: Path `user` is required.","timestamp":"2022-06-25T16:20:05.052Z"}
+{"level":"error","message":"Car validation failed: user: Path `user` is required.","timestamp":"2022-06-25T16:22:29.805Z"}
+{"level":"error","message":"Car validation failed: user: Path `user` is required.","timestamp":"2022-06-25T16:22:30.048Z"}
+{"level":"error","message":"Car validation failed: user: Path `user` is required.","timestamp":"2022-06-25T16:22:35.930Z"}
+{"level":"error","message":"Car validation failed: user: Path `user` is required.","timestamp":"2022-06-25T16:22:36.100Z"}
+{"level":"error","message":"Car validation failed: user: Path `user` is required.","timestamp":"2022-06-25T16:22:46.307Z"}
+{"level":"error","message":"Car validation failed: user: Path `user` is required.","timestamp":"2022-06-25T16:22:46.483Z"}
+{"level":"error","message":"Car validation failed: user: Path `user` is required.","timestamp":"2022-06-25T16:24:34.840Z"}
+{"level":"error","message":"Car validation failed: user: Path `user` is required.","timestamp":"2022-06-25T16:24:35.127Z"}
+{"level":"error","message":"Car validation failed: user: Path `user` is required.","timestamp":"2022-06-25T16:27:33.832Z"}
+{"level":"error","message":"Car validation failed: user: Path `user` is required.","timestamp":"2022-06-25T16:28:00.060Z"}
+{"level":"error","message":"Car validation failed: user: Path `user` is required.","timestamp":"2022-06-25T16:37:03.103Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading '0')","timestamp":"2022-06-25T16:37:03.103Z"}
+{"level":"error","message":"Car validation failed: user: Path `user` is required.","timestamp":"2022-06-25T16:37:03.399Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading '0')","timestamp":"2022-06-25T16:37:03.399Z"}
+{"level":"error","message":"Car validation failed: user: Path `user` is required.","timestamp":"2022-06-25T16:38:05.080Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading '_id')","timestamp":"2022-06-25T16:38:05.081Z"}
+{"level":"error","message":"Car validation failed: user: Path `user` is required.","timestamp":"2022-06-25T16:38:05.846Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading '_id')","timestamp":"2022-06-25T16:38:05.846Z"}
+{"level":"error","message":"Car validation failed: user: Path `user` is required.","timestamp":"2022-06-25T16:42:38.303Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading '_id')","timestamp":"2022-06-25T16:42:38.305Z"}
+{"level":"error","message":"Car validation failed: user: Path `user` is required.","timestamp":"2022-06-25T16:42:39.616Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading '_id')","timestamp":"2022-06-25T16:42:39.618Z"}
+{"level":"error","message":"response.json is not a function","timestamp":"2022-06-25T16:48:52.257Z"}
+{"level":"error","message":"response.json is not a function","timestamp":"2022-06-25T16:48:52.426Z"}
+{"level":"error","message":"response.json is not a function","timestamp":"2022-06-25T16:49:22.670Z"}
+{"level":"error","message":"response.json is not a function","timestamp":"2022-06-25T16:49:37.059Z"}
+{"level":"error","message":"response.json is not a function","timestamp":"2022-06-25T16:52:42.558Z"}
+{"level":"error","message":"response.json is not a function","timestamp":"2022-06-25T16:52:42.710Z"}
+{"level":"error","message":"response.json is not a function","timestamp":"2022-06-25T16:52:46.225Z"}
+{"level":"error","message":"response.json is not a function","timestamp":"2022-06-25T16:53:56.484Z"}
+{"level":"error","message":"response.json is not a function","timestamp":"2022-06-25T16:53:56.657Z"}
+{"level":"error","message":"response.json is not a function","timestamp":"2022-06-25T16:53:59.341Z"}
+{"level":"error","message":"response.json is not a function","timestamp":"2022-06-25T16:54:55.947Z"}
+{"level":"error","message":"response.json is not a function","timestamp":"2022-06-25T16:54:56.135Z"}
+{"level":"error","message":"response.json is not a function","timestamp":"2022-06-25T16:55:00.353Z"}
+{"level":"error","message":"response.json is not a function","timestamp":"2022-06-25T23:53:12.695Z"}
+{"level":"error","message":"response.json is not a function","timestamp":"2022-06-25T23:53:12.832Z"}
+{"level":"error","message":"response.json is not a function","timestamp":"2022-06-25T23:53:25.442Z"}
+{"level":"error","message":"response.json is not a function","timestamp":"2022-06-25T23:53:26.610Z"}
+{"level":"error","message":"response.json is not a function","timestamp":"2022-06-25T23:53:28.604Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-25T23:57:10.359Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-25T23:59:12.861Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T00:00:41.729Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T00:02:42.932Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T00:08:31.833Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T00:08:33.396Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T00:09:09.778Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T00:11:02.122Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T00:13:09.564Z"}
+{"level":"error","message":"id is not defined","timestamp":"2022-06-26T00:24:12.858Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T00:38:45.965Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T00:39:51.788Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T00:40:10.859Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T00:40:12.919Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T00:41:38.270Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T00:41:38.942Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T00:41:40.062Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'toString')","timestamp":"2022-06-26T00:41:44.008Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T00:41:47.147Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'toString')","timestamp":"2022-06-26T00:41:47.245Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'toString')","timestamp":"2022-06-26T00:41:51.057Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T00:43:57.720Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T00:43:58.354Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-06-26T00:46:20.443Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T00:56:10.638Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:01:14.117Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:02:22.854Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:05:01.342Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:09:39.473Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:10:36.507Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:16:02.022Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:18:22.667Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:18:26.086Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:23:15.603Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:33:34.302Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:33:38.446Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:34:04.015Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:34:34.489Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:35:08.929Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:35:12.531Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:35:13.763Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:35:47.566Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:35:48.114Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:35:48.793Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:36:22.508Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:36:27.001Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:36:28.595Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:36:35.637Z"}
+{"level":"error","message":"Cannot read properties of null (reading 'productos')","timestamp":"2022-06-26T01:36:37.315Z"}

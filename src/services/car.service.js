@@ -8,9 +8,16 @@ export default class CarService {
     this.productoService = new ProductoService();
   }
 
-  async addCar() {
+  async addCar(userId) {
     try {
-      return await CarModule.create([[]]);
+      const car = await CarModule.findOne({ user: userId });
+      if (car) {
+        return car;
+      }
+      return await CarModule.create({
+        user: userId,
+        productos: [],
+      });
     } catch (error) {
       logger.log('error', error.message);
     }
@@ -27,7 +34,7 @@ export default class CarService {
   async getProductsFromCar(id) {
     try {
       const car = await CarModule.findOne({ _id: id });
-      console.log(car.productos);
+      // console.log(car.productos);
       return car.productos;
     } catch (error) {
       logger.log('error', error.message);

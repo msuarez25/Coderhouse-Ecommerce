@@ -10,11 +10,11 @@ import { fileURLToPath } from 'url';
 import session from 'express-session';
 import logger from './utils/loggers.js';
 import cookieParser from 'cookie-parser';
-// import upload from './middlewares/uploadFiles.js';
+import upload from './middlewares/uploadFiles.js';
 
 import passport from './utils/passport.util.js';
 import * as AuthController from './controllers/auth.controller.js';
-// import * as AuthMiddleware from './middlewares/auth.middleware.js';
+import * as AuthMiddleware from './middlewares/auth.middleware.js';
 
 // import ProductoController from './controllers/producto.controller.js';
 
@@ -66,14 +66,20 @@ app.get('/', (req, res) => {
 app.get('/productos', (req, res) => {
   res.sendFile(__dirname + '/public/views/productos.html');
 });
-app.get('/carrito', (req, res) => {
+app.get('/carrito', AuthMiddleware.checkAuthentication, (req, res) => {
   res.sendFile(__dirname + '/public/views/carrito.html');
 });
-app.get('/editar/:id', (req, res) => {
+app.get('/editar/:id', AuthMiddleware.checkAuthentication, (req, res) => {
   res.sendFile(__dirname + '/public/views/editar-producto.html');
 });
-app.get('/agregar', (req, res) => {
+app.get('/agregar', AuthMiddleware.checkAuthentication, (req, res) => {
   res.sendFile(__dirname + '/public/views/agregar-producto.html');
+});
+
+app.get('/gracias', AuthMiddleware.checkAuthentication, (req, res) => {
+  res.status(200).render('gracias', {
+    query: req.query,
+  });
 });
 
 /* -------------------------------------------------------------------------- */
@@ -83,7 +89,15 @@ app.get('/agregar', (req, res) => {
 app.get('/signup', AuthController.getSignup);
 app.post(
   '/signup',
-  // upload.single('foto'),
+  (req, res, next) => {
+    upload.single('foto')(req, {}, (err) => {
+      if (err) {
+        throw err;
+      }
+      req.body.foto = req.file.path.replace('src/public', '');
+      next();
+    });
+  },
   passport.authenticate('signup', { failureRedirect: '/failSignup' }),
   AuthController.postSignup
 );

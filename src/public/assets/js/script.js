@@ -19,15 +19,16 @@ function getCookie(cname) {
 }
 const isLoggedIn = getCookie('logged');
 
-//revisar si el usuario tiene un carrito asignado, sino lo crea y lo guarda en el localStorage
+//revisar si el usuario tiene un carrito asignado, sino lo crea y lo guarda en como cookie
 var formatter = new Intl.NumberFormat('en-US', {
   style: 'currency',
   currency: 'USD',
   maximumFractionDigits: 2,
 });
 const checkCarId = async () => {
-  const userCarId = localStorage.getItem('userCarId');
-  if (userCarId == null || userCarId == undefined) {
+  const userCarId = getCookie('userCarId');
+  console.log(userCarId);
+  if (!userCarId) {
     const settings = {
       method: 'POST',
       headers: {
@@ -38,8 +39,7 @@ const checkCarId = async () => {
     };
     try {
       const response = await fetch('/api/carrito', settings);
-      const data = await response.json();
-      localStorage.setItem('userCarId', data[0]._id);
+      console.log(response);
     } catch (e) {
       console.error(e);
     }
@@ -65,15 +65,15 @@ const displayProducts = async (container) => {
             <img src="${product.foto}" class="card-img-top" alt="foto de ${product.nombre}">
             <div class="card-body">
               <h5 class="card-title">${product.nombre}</h5>
-              <p class="card-text">Código del producto: ${product.code}</p>
-              <button data-prod-id="${product._id}" class="btn btn-primary add-to-cart mb-3" >Agregar al carrito</button>`;
+              <p class="card-text">Código del producto: ${product.code}</p>`;
           if (isLoggedIn) {
-            card += `<a href="/editar/${product._id}" class="btn btn-warning edit-product mb-3">Editar producto</a>
+            card += `<button data-prod-id="${product._id}" class="btn btn-primary add-to-cart mb-3" >Agregar al carrito</button>
+            <a href="/editar/${product._id}" class="btn btn-warning edit-product mb-3">Editar producto</a>
             <button data-prod-id="${product._id}" class="btn btn-danger delete-product mb-3" >Eliminar producto</button>`;
           }
           card += `</div>
             <div class="card-footer text-muted">
-                Precio: ${product.precio}
+                Precio: $${product.precio}
             </div>
             </div></div>`;
           pContainer.insertAdjacentHTML('beforeend', card);
@@ -88,7 +88,7 @@ const displayProducts = async (container) => {
 };
 
 const postCarData = async (url = false, method = 'POST') => {
-  const userCarId = localStorage.getItem('userCarId');
+  const userCarId = getCookie('userCarId');
   if (userCarId !== null) {
     if (url) {
       const settings = {
@@ -111,7 +111,7 @@ const postCarData = async (url = false, method = 'POST') => {
   return false;
 };
 const getCarData = async (url = false) => {
-  const userCarId = localStorage.getItem('userCarId');
+  const userCarId = getCookie('userCarId');
   if (userCarId !== null) {
     if (url) {
       const settings = {
@@ -140,7 +140,7 @@ const addToCar = async (url, prodId) => {
 
 const addToCarListeners = () => {
   const buttons = document.querySelectorAll('.add-to-cart');
-  const userCarId = localStorage.getItem('userCarId');
+  const userCarId = getCookie('userCarId');
 
   if (buttons !== null && userCarId !== null) {
     buttons.forEach((button) => {
@@ -159,24 +159,24 @@ const addToCarListeners = () => {
 
 const displayCarrito = async (container) => {
   const pContainer = document.querySelector(container);
-  const userCarId = localStorage.getItem('userCarId');
+  const userCarId = getCookie('userCarId');
   if (pContainer !== null && userCarId !== null) {
     try {
       const response = await fetch(`/api/carrito/${userCarId}/productos`);
+      const carProducts = await response.json();
+      console.log('CAR: ', carProducts.length > 0);
       if (response.status === 200) {
-        const carProducts = await response.json();
-        // console.log(carProducts);
         const products = carProducts;
         if (products.length > 0) {
           displayCarritoHTML(products, pContainer);
         } else {
-          pContainer.innerHTML = `<div class="alert alert-warning" role="alert">
+          pContainer.innerHTML = `<div class="mt-5 alert alert-warning" role="alert">
           Tu carrito esta vacio. Ve a <a href="/productos">La tienda</a> para agregar productos a tu carrito.
         </div>`;
         }
       }
     } catch (e) {
-      console.error(e);
+      console.error('ERROR: ', e);
     }
   }
 };
@@ -208,18 +208,26 @@ const displayCarritoHTML = (products, pContainer) => {
               </div>`;
     pContainer.insertAdjacentHTML('beforeend', card);
   });
-  pContainer.insertAdjacentHTML(
-    'beforeend',
-    `<div class="row justify-content-end"><div class="col-md-12 d-flex justify-content-end py-5 h5">TOTAL: ${formatter.format(
-      total
-    )}</div></div>`
-  );
+
+  const htmlTotal = `<div class="row justify-content-end"><div class="col-md-12 d-flex justify-content-end py-5 h5">TOTAL: ${formatter.format(
+    total
+  )}</div></div>
+  `;
+  let orderBtn = '';
+  if (isLoggedIn) {
+    orderBtn = `<div class="row justify-content-center"><div class="col-md-12 d-flex justify-content-center py-5">
+    <form method="post" action="/api/order/" class="w-100">
+      <button class="btn btn-primary btn-lg w-100" type="submit">Comprar Ahora</buttom> 
+    </form>
+  </div></div>`;
+  }
+  pContainer.insertAdjacentHTML('beforeend', `${htmlTotal}${orderBtn}`);
   removeFromCarListeners(pContainer);
 };
 
 const removeFromCarListeners = (pContainer) => {
   const buttons = document.querySelectorAll('.remove-from-cart');
-  const userCarId = localStorage.getItem('userCarId');
+  const userCarId = getCookie('userCarId');
 
   if (buttons !== null && userCarId !== null) {
     buttons.forEach((button) => {

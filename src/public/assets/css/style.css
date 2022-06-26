@@ -1,1 +1,28 @@
 @import './bootstrap.min.css';
+
+.navbar-nav{
+    flex-basis: 100%;
+}
+.userInfo{
+    order: 3;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+.userInfo img{
+    background-color: #0096FF;
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 50%;
+}
+.userInfoWrap{
+    color:gray;
+    margin-left: 10px;
+    line-height: 1.2;
+}
+.userInfoWrap span{
+    display: block;
+    font-weight: bold;
+}
