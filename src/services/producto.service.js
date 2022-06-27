@@ -19,8 +19,11 @@ export default class ProductoService {
     return await ProductoModule.find();
   }
 
-  async getProducto(id) {
+  async getProducto(id, options = false) {
     if (id) {
+      if (options) {
+        return await ProductoModule.findOne({ _id: id }, options);
+      }
       return await ProductoModule.findOne({ _id: id });
     } else {
       return await ProductoModule.find();
@@ -37,28 +40,40 @@ export default class ProductoService {
     return false;
   }
 
-  async updateProducto(id, data) {
+  async updateProducto(id, data, file) {
     try {
-      const producto = await this.getProducto(id);
+      const producto = await this.getProducto(id, {
+        _id: 0,
+        timestamp: 0,
+        __v: 0,
+      });
       if (producto.length === 0) throw new Error('No hay data');
 
-      let updatedProduct = {};
-      for (const property in producto) {
-        console.log(data[property]);
-        if (
-          data[property] === undefined &&
-          property !== '_id' &&
-          property !== '_v'
-        ) {
-          updatedProduct[property] = producto[property];
-        } else if (property !== '_id' && property !== '_v') {
-          updatedProduct[property] = data[property];
-        }
+      const dataObj = JSON.parse(JSON.stringify(data));
+
+      let newFoto = producto.foto;
+
+      if (file !== false) {
+        newFoto = file.path.replace('src/public', '');
       }
 
-      console.log(JSON.parse(JSON.stringify(updatedProduct)));
+      const updatedProduct = {
+        nombre: dataObj.nombre,
+        code: producto.code,
+        precio: parseInt(dataObj.precio),
+        foto: newFoto,
+        timestamp: Date.now(),
+        stock: parseInt(dataObj.stock),
+      };
 
-      return await ProductoModule.updateOne({ _id: id }, data);
+      console.log('Updated: ', updatedProduct);
+      // console.log(JSON.parse(JSON.stringify(updatedProduct)));
+      const response = await ProductoModule.updateOne(
+        { _id: id },
+        updatedProduct
+      );
+
+      return response;
     } catch (error) {
       logger.log('error', error.message);
     }

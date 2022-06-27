@@ -70,13 +70,13 @@
           .addEventListener('click', function (event) {
             event.preventDefault();
             const fotoField = `<div class="mb-3">
-    <label for="foto" class="form-label">Imagen</label>
-    <input class="form-control" type="file" id="foto" name="foto" />
-    </div>`;
+            <label for="foto" class="form-label">Imagen</label>
+            <input class="form-control" type="file" id="foto" name="foto" />
+            </div>`;
             this.insertAdjacentHTML('beforebegin', fotoField);
             this.remove();
             const action = form.getAttribute('action');
-            form.setAttribute('action', `${action}/withOutFoto`);
+            form.setAttribute('action', `${action}/true`);
           });
       };
       activeFotoField();

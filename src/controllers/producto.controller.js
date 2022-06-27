@@ -56,13 +56,25 @@ export default class ProductoController {
   }
 
   async updateProducto(req, res) {
-    const { id } = req.params;
-    const { body } = req;
+    const { id, flag } = req.params;
+    const body = req.body;
+    let fileObj = false;
+    if (flag == 'true') {
+      fileObj = req.file;
+    }
 
     try {
-      const response = await this.productoService.updateProducto(id, body);
+      const response = await this.productoService.updateProducto(
+        id,
+        body,
+        fileObj
+      );
 
-      res.status(200).json(response);
+      if (response) {
+        res.redirect(`/productos`);
+      } else {
+        res.json({ error: 'Producto no pudo ser actualizado' });
+      }
     } catch (error) {
       logger.log('error', error.message);
     }
