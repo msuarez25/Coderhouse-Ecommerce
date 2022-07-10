@@ -2,28 +2,37 @@
   {
     "nombre": "Calculadora",
     "code": "prod-123456789",
-    "precio": 234.56,
-    "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/calculator-math-tool-school-256.png",
-    "id": 2,
-    "timestamp": 1648912093437,
+    "precio": 234,
+    "foto": "/uploads/foto-1657371085861.webp",
+    "_id": "2",
+    "timestamp": 1657371085865,
     "stock": 2
   },
   {
     "nombre": "Globo Terráqueo",
     "code": "prod-1234567890",
-    "precio": 345.67,
+    "precio": "345.67",
     "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png",
-    "id": 3,
+    "_id": "3",
     "timestamp": 1648912093437,
-    "stock": 10
+    "stock": "10"
   },
   {
     "nombre": "Escuadra",
     "precio": "3450",
     "stock": "19",
-    "id": 5,
+    "_id": "5",
     "timestamp": 1649245397917,
     "code": "prod-3a63646b-76b3-45bc-a3be-e1a1b3b26671",
     "foto": "/uploads/ruler-triangle-stationary-school-256 (1).webp"
+  },
+  {
+    "nombre": "Jarron",
+    "precio": 250,
+    "stock": 12,
+    "timestamp": 1657414937105,
+    "_id": "709d689f-589a-4cae-a26d-0cf424b4b615",
+    "code": "50280a9d-8d78-4547-822f-86b3b0122726",
+    "foto": "/uploads/foto-1657106693533.png"
   }
 ]

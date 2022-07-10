@@ -1,5 +1,6 @@
 import express from 'express';
-import CarService from '../services/car.service.js';
+// import CarService from '../services/car.service.js';
+import CarDaoFactory from '../services/factory/cars.factory.js';
 import logger from '../utils/loggers.js';
 import cookieParser from 'cookie-parser';
 
@@ -7,7 +8,7 @@ const app = express();
 app.use(cookieParser(process.env.SECRET));
 export default class CarController {
   constructor() {
-    this.carService = new CarService();
+    this.carService = CarDaoFactory.getDao();
 
     this.addCar = this.addCar.bind(this);
     this.deleteCarById = this.deleteCarById.bind(this);

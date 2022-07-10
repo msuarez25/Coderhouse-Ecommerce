@@ -1,0 +1,257 @@
+[
+  {
+    "timestamp": 1657392826238,
+    "_id": "e5814a9a-75f3-49f4-9783-2f9aa1102dd8",
+    "user": "62b7101cd1e417abc5d66ded",
+    "productos": []
+  },
+  {
+    "timestamp": 1657392910926,
+    "_id": "4eefe34d-da13-4c46-b3cd-218d87ddb15a",
+    "user": "62b7101cd1e417abc5d66ded",
+    "productos": []
+  },
+  {
+    "timestamp": 1657392965896,
+    "_id": "263c7da0-4b78-4013-9311-645e93f8553f",
+    "user": "62b7101cd1e417abc5d66ded",
+    "productos": [
+      {
+        "_id": "2",
+        "nombre": "Calculadora",
+        "code": "prod-123456789",
+        "precio": 234,
+        "foto": "/uploads/foto-1657371085861.webp",
+        "timestamp": 1657371085865,
+        "stock": 2,
+        "amount": 1
+      },
+      {
+        "_id": "3",
+        "nombre": "Globo Terráqueo",
+        "code": "prod-1234567890",
+        "precio": "345.67",
+        "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png",
+        "timestamp": 1648912093437,
+        "stock": "10",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "timestamp": 1657393122696,
+    "_id": "2cc3feb1-3b0a-486c-9357-7f9997035cf9",
+    "user": "62b7101cd1e417abc5d66ded",
+    "productos": [
+      {
+        "_id": "5",
+        "nombre": "Escuadra",
+        "code": "prod-3a63646b-76b3-45bc-a3be-e1a1b3b26671",
+        "precio": "3450",
+        "foto": "/uploads/ruler-triangle-stationary-school-256 (1).webp",
+        "timestamp": 1649245397917,
+        "stock": "19",
+        "amount": 1
+      },
+      {
+        "_id": "709d689f-589a-4cae-a26d-0cf424b4b615",
+        "nombre": "Jarron",
+        "code": "50280a9d-8d78-4547-822f-86b3b0122726",
+        "precio": 250,
+        "foto": "/uploads/foto-1657106693533.png",
+        "timestamp": 1657106693538,
+        "stock": 11,
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "timestamp": 1657393437048,
+    "_id": "52ddf298-e167-4d1f-8333-9e45b5a43d1f",
+    "user": "62b7101cd1e417abc5d66ded",
+    "productos": [
+      {
+        "_id": "2",
+        "nombre": "Calculadora",
+        "code": "prod-123456789",
+        "precio": 234,
+        "foto": "/uploads/foto-1657371085861.webp",
+        "timestamp": 1657371085865,
+        "stock": 2,
+        "amount": 1
+      },
+      {
+        "_id": "3",
+        "nombre": "Globo Terráqueo",
+        "code": "prod-1234567890",
+        "precio": "345.67",
+        "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png",
+        "timestamp": 1648912093437,
+        "stock": "10",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "timestamp": 1657394962496,
+    "_id": "aff2e609-8fac-4b76-a77c-6cc125cc62fe",
+    "user": "62b7101cd1e417abc5d66ded",
+    "productos": [
+      {
+        "_id": "2",
+        "nombre": "Calculadora",
+        "code": "prod-123456789",
+        "precio": 234,
+        "foto": "/uploads/foto-1657371085861.webp",
+        "timestamp": 1657371085865,
+        "stock": 2,
+        "amount": 1
+      },
+      {
+        "_id": "3",
+        "nombre": "Globo Terráqueo",
+        "code": "prod-1234567890",
+        "precio": "345.67",
+        "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png",
+        "timestamp": 1648912093437,
+        "stock": "10",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "timestamp": 1657395230177,
+    "_id": "6eafe536-818b-44ec-93c2-a54fbea722c6",
+    "user": "62b7101cd1e417abc5d66ded",
+    "productos": [
+      {
+        "_id": "2",
+        "nombre": "Calculadora",
+        "code": "prod-123456789",
+        "precio": 234,
+        "foto": "/uploads/foto-1657371085861.webp",
+        "timestamp": 1657371085865,
+        "stock": 2,
+        "amount": 1
+      },
+      {
+        "_id": "3",
+        "nombre": "Globo Terráqueo",
+        "code": "prod-1234567890",
+        "precio": "345.67",
+        "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png",
+        "timestamp": 1648912093437,
+        "stock": "10",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "timestamp": 1657395308649,
+    "_id": "929b633a-bb14-43e8-91db-fe974cbd086a",
+    "user": "62b7101cd1e417abc5d66ded",
+    "productos": [
+      {
+        "_id": "2",
+        "nombre": "Calculadora",
+        "code": "prod-123456789",
+        "precio": 234,
+        "foto": "/uploads/foto-1657371085861.webp",
+        "timestamp": 1657371085865,
+        "stock": 2,
+        "amount": 1
+      },
+      {
+        "_id": "709d689f-589a-4cae-a26d-0cf424b4b615",
+        "nombre": "Jarron",
+        "code": "50280a9d-8d78-4547-822f-86b3b0122726",
+        "precio": 250,
+        "foto": "/uploads/foto-1657106693533.png",
+        "timestamp": 1657106693538,
+        "stock": 11,
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "timestamp": 1657413475389,
+    "_id": "19443d28-887c-4424-a4f5-121401147bba",
+    "user": "62b7101cd1e417abc5d66ded",
+    "productos": [
+      {
+        "_id": "2",
+        "nombre": "Calculadora",
+        "code": "prod-123456789",
+        "precio": 234,
+        "foto": "/uploads/foto-1657371085861.webp",
+        "timestamp": 1657371085865,
+        "stock": 2,
+        "amount": 1
+      },
+      {
+        "_id": "3",
+        "nombre": "Globo Terráqueo",
+        "code": "prod-1234567890",
+        "precio": "345.67",
+        "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png",
+        "timestamp": 1648912093437,
+        "stock": "10",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "timestamp": 1657413570865,
+    "_id": "f33e86f6-cd9f-4656-a619-52cceff62cfc",
+    "user": "62b7101cd1e417abc5d66ded",
+    "productos": [
+      {
+        "_id": "2",
+        "nombre": "Calculadora",
+        "code": "prod-123456789",
+        "precio": 234,
+        "foto": "/uploads/foto-1657371085861.webp",
+        "timestamp": 1657371085865,
+        "stock": 2,
+        "amount": 1
+      },
+      {
+        "_id": "3",
+        "nombre": "Globo Terráqueo",
+        "code": "prod-1234567890",
+        "precio": "345.67",
+        "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png",
+        "timestamp": 1648912093437,
+        "stock": "10",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "timestamp": 1657414949378,
+    "_id": "9bc60f0b-3c20-4c40-8166-6cd8221d55f3",
+    "user": "62b7101cd1e417abc5d66ded",
+    "productos": [
+      {
+        "_id": "2",
+        "nombre": "Calculadora",
+        "code": "prod-123456789",
+        "precio": 234,
+        "foto": "/uploads/foto-1657371085861.webp",
+        "timestamp": 1657371085865,
+        "stock": 2,
+        "amount": 1
+      },
+      {
+        "_id": "3",
+        "nombre": "Globo Terráqueo",
+        "code": "prod-1234567890",
+        "precio": "345.67",
+        "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png",
+        "timestamp": 1648912093437,
+        "stock": "10",
+        "amount": 1
+      }
+    ]
+  }
+]

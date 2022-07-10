@@ -2350,3 +2350,276 @@
 {"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-27T12:17:31.152Z"}
 {"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-27T12:17:36.157Z"}
 {"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-06-27T12:17:47.735Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T16:59:56.796Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T16:59:58.329Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:00:00.660Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:00:02.959Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:00:03.027Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:00:13.088Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:00:25.714Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:00:44.775Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:05:22.092Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:06:04.817Z"}
+{"level":"error","message":"this.productoService.getProductos is not a function","timestamp":"2022-07-02T17:06:08.337Z"}
+{"level":"error","message":"this.productoService.getProductos is not a function","timestamp":"2022-07-02T17:06:08.820Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:06:08.823Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:06:08.829Z"}
+{"level":"error","message":"this.productoService.getProductos is not a function","timestamp":"2022-07-02T17:06:49.286Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:06:49.316Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:10:27.168Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:10:29.014Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:10:29.487Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:10:40.831Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:10:42.308Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:10:53.407Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:10:55.582Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:10:57.463Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:10:57.869Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:11:00.340Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:11:18.272Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:11:29.593Z"}
+{"level":"error","message":"INTERNAL_ERROR: dao no conectado!","timestamp":"2022-07-02T17:13:45.727Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:13:45.759Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:14:23.040Z"}
+{"level":"error","message":"INTERNAL_ERROR: dao no conectado!","timestamp":"2022-07-02T17:14:25.126Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:14:25.157Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:14:28.034Z"}
+{"level":"error","message":"ENOENT: no such file or directory, open '../database/files/productos.txt'","timestamp":"2022-07-02T17:15:41.588Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:15:41.631Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:15:43.014Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:15:45.013Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:15:45.483Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:15:48.387Z"}
+{"level":"error","message":"ENOENT: no such file or directory, open '../database/files/productos.txt'","timestamp":"2022-07-02T17:16:43.585Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:16:43.621Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:16:45.903Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:16:51.541Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:16:52.011Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:16:54.606Z"}
+{"level":"error","message":"ENOENT: no such file or directory, open '../database/files/productos.txt'","timestamp":"2022-07-02T17:20:38.051Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:20:38.100Z"}
+{"level":"error","message":"Unexpected end of JSON input","timestamp":"2022-07-02T17:21:30.368Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:21:30.398Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:21:37.208Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:21:39.213Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:21:42.703Z"}
+{"level":"error","message":"Unexpected end of JSON input","timestamp":"2022-07-02T17:25:23.591Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:25:23.628Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:25:24.746Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:25:26.402Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:25:26.788Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:25:29.829Z"}
+{"level":"error","message":"Unexpected end of JSON input","timestamp":"2022-07-02T17:29:00.355Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:29:00.392Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:29:03.291Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:29:04.643Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:29:07.193Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:30:50.902Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:30:52.932Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:30:55.705Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:31:04.903Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-02T17:32:45.924Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:32:45.969Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:33:09.343Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:36:00.345Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:36:56.892Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-02T17:37:00.123Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:37:00.154Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:40:05.709Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:40:07.688Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-02T17:40:12.422Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:40:12.459Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-02T17:40:59.723Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:40:59.747Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:42:30.943Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:42:32.292Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:42:32.713Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-02T17:42:36.795Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:42:36.823Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:43:23.063Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:43:24.445Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:43:24.893Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-02T17:43:26.675Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:43:26.711Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:50:25.319Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:50:26.960Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:50:27.389Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:50:29.693Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:50:31.515Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-02T17:50:32.637Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:50:32.666Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:52:20.081Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:52:21.608Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:52:22.031Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:52:24.132Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:52:26.139Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-02T17:52:27.561Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:52:27.594Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/favicon.ico","timestamp":"2022-07-02T17:58:22.794Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-02T18:00:13.061Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-02T18:03:08.861Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-05T10:59:33.888Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-05T11:03:52.072Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-05T11:05:55.225Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-05T11:13:44.486Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-05T11:14:02.085Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-05T11:15:39.124Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-05T11:21:05.682Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-05T11:22:33.520Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-05T11:25:33.644Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-05T11:26:28.603Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-05T11:26:40.620Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-05T11:27:53.709Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-05T11:29:24.572Z"}
+{"level":"error","message":"index is not defined","timestamp":"2022-07-05T11:33:01.383Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-05T11:34:12.632Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-05T11:39:00.716Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-05T11:39:44.056Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-05T11:40:31.503Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-06T10:07:46.177Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-06T10:08:17.164Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-06T10:09:24.799Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-06T10:10:01.849Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-06T10:11:48.648Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-06T10:12:13.106Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-06T10:13:15.797Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-06T10:14:05.251Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-06T10:20:21.413Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-06T10:23:09.545Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-06T10:23:17.909Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-06T10:23:37.764Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-06T10:24:01.491Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-06T10:27:11.581Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-06T10:27:43.847Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-06T10:27:51.157Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-06T10:27:59.775Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-06T10:36:42.643Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-06T10:37:22.610Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-06T10:40:21.104Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-06T10:41:16.017Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-06T10:42:41.177Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-06T10:43:04.063Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-06T10:44:59.281Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-06T10:48:29.819Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-06T10:48:58.222Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-06T10:50:19.146Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-06T11:00:45.780Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-06T11:02:41.190Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-06T11:02:47.942Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-06T11:03:25.584Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-06T11:03:51.234Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-06T11:04:53.409Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-06T11:05:20.560Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"2\" (type string) at path \"_id\" for model \"Producto\"","timestamp":"2022-07-09T12:38:31.780Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"3\" (type string) at path \"_id\" for model \"Producto\"","timestamp":"2022-07-09T12:38:32.491Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"5\" (type string) at path \"_id\" for model \"Producto\"","timestamp":"2022-07-09T12:38:33.245Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"2\" (type string) at path \"_id\" for model \"Producto\"","timestamp":"2022-07-09T12:40:26.691Z"}
+{"level":"error","message":"this.carService.addCar is not a function","timestamp":"2022-07-09T12:57:31.334Z"}
+{"level":"error","message":"this.carService.addCar is not a function","timestamp":"2022-07-09T12:57:31.557Z"}
+{"level":"error","message":"this.carService.addProductToCarById is not a function","timestamp":"2022-07-09T12:57:35.394Z"}
+{"level":"error","message":"this.carService.addProductToCarById is not a function","timestamp":"2022-07-09T12:57:36.042Z"}
+{"level":"error","message":"logger is not defined","timestamp":"2022-07-09T13:02:46.449Z"}
+{"level":"error","message":"logger is not defined","timestamp":"2022-07-09T13:02:46.590Z"}
+{"level":"error","message":"logger is not defined","timestamp":"2022-07-09T13:02:50.147Z"}
+{"level":"error","message":"logger is not defined","timestamp":"2022-07-09T13:02:56.767Z"}
+{"level":"error","message":"logger is not defined","timestamp":"2022-07-09T13:02:56.769Z"}
+{"level":"error","message":"logger is not defined","timestamp":"2022-07-09T13:02:58.790Z"}
+{"level":"error","message":"Unexpected end of JSON input","timestamp":"2022-07-09T13:04:16.100Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading '_id')","timestamp":"2022-07-09T13:04:16.105Z"}
+{"level":"error","message":"Unexpected end of JSON input","timestamp":"2022-07-09T13:04:16.264Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading '_id')","timestamp":"2022-07-09T13:04:16.265Z"}
+{"level":"error","message":"Unexpected end of JSON input","timestamp":"2022-07-09T13:04:19.010Z"}
+{"level":"error","message":"Unexpected end of JSON input","timestamp":"2022-07-09T13:04:22.562Z"}
+{"level":"error","message":"Unexpected end of JSON input","timestamp":"2022-07-09T13:04:23.946Z"}
+{"level":"error","message":"Unexpected end of JSON input","timestamp":"2022-07-09T13:04:23.949Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading '_id')","timestamp":"2022-07-09T13:04:23.950Z"}
+{"level":"error","message":"Unexpected end of JSON input","timestamp":"2022-07-09T13:04:25.359Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading '_id')","timestamp":"2022-07-09T13:04:25.359Z"}
+{"level":"error","message":"Unexpected end of JSON input","timestamp":"2022-07-09T13:04:49.443Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading '_id')","timestamp":"2022-07-09T13:04:49.446Z"}
+{"level":"error","message":"Unexpected end of JSON input","timestamp":"2022-07-09T13:04:49.584Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading '_id')","timestamp":"2022-07-09T13:04:49.585Z"}
+{"level":"error","message":"data is not defined","timestamp":"2022-07-09T14:10:39.908Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading '_id')","timestamp":"2022-07-09T14:10:39.913Z"}
+{"level":"error","message":"data is not defined","timestamp":"2022-07-09T14:10:40.042Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading '_id')","timestamp":"2022-07-09T14:10:40.044Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'productos')","timestamp":"2022-07-09T14:10:44.035Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'productos')","timestamp":"2022-07-09T14:12:15.654Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'productos')","timestamp":"2022-07-09T14:36:08.672Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'productos')","timestamp":"2022-07-09T14:37:06.449Z"}
+{"level":"error","message":"The \"path\" argument must be of type string or an instance of Buffer or URL. Received undefined","timestamp":"2022-07-09T14:58:57.259Z"}
+{"level":"error","message":"The \"path\" argument must be of type string or an instance of Buffer or URL. Received undefined","timestamp":"2022-07-09T15:01:18.102Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-09T15:03:51.038Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-09T15:04:00.936Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-09T15:05:11.367Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-09T15:09:35.609Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-09T15:24:26.879Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-09T15:33:54.516Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-09T15:33:56.113Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-09T15:34:40.742Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-09T15:47:06.031Z"}
+{"level":"error","message":"Cannot destructure property '_id' of 'undefined' as it is undefined.","timestamp":"2022-07-09T15:47:07.060Z"}
+{"level":"error","message":"Unexpected token } in JSON at position 198","timestamp":"2022-07-09T15:52:52.509Z"}
+{"level":"error","message":"Unexpected token } in JSON at position 198","timestamp":"2022-07-09T15:52:56.546Z"}
+{"level":"error","message":"Unexpected end of JSON input","timestamp":"2022-07-09T16:09:26.037Z"}
+{"level":"error","message":"Unexpected end of JSON input","timestamp":"2022-07-09T16:14:41.288Z"}
+{"level":"error","message":"Unexpected end of JSON input","timestamp":"2022-07-09T16:17:00.360Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/undefined","timestamp":"2022-07-09T16:36:08.304Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/undefined","timestamp":"2022-07-09T16:36:10.822Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/undefined","timestamp":"2022-07-09T16:44:27.911Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/undefined","timestamp":"2022-07-09T16:45:27.939Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/undefined","timestamp":"2022-07-09T16:46:46.366Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'productos')","timestamp":"2022-07-09T16:47:24.202Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'productos')","timestamp":"2022-07-09T16:47:24.887Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/undefined","timestamp":"2022-07-09T16:48:04.422Z"}
+{"error":"404","level":"error","metodo":"DELETE","ruta":"/login","timestamp":"2022-07-09T17:05:40.151Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'productos')","timestamp":"2022-07-09T17:08:45.967Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'productos')","timestamp":"2022-07-09T17:25:39.143Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'productos')","timestamp":"2022-07-09T17:25:39.654Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'productos')","timestamp":"2022-07-09T17:25:40.717Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'productos')","timestamp":"2022-07-09T17:25:45.498Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'productos')","timestamp":"2022-07-09T17:53:38.724Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'productos')","timestamp":"2022-07-09T17:53:40.187Z"}
+{"level":"error","message":"length is not defined","timestamp":"2022-07-09T17:55:29.689Z"}
+{"level":"error","message":"length is not defined","timestamp":"2022-07-09T17:55:38.823Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'productos')","timestamp":"2022-07-09T17:58:14.689Z"}
+{"level":"error","message":"actualizada is not a function","timestamp":"2022-07-09T17:59:40.472Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'productos')","timestamp":"2022-07-09T18:10:20.299Z"}
+{"level":"error","message":"actualizada is not defined","timestamp":"2022-07-09T18:16:15.264Z"}
+{"level":"error","message":"actualizada is not defined","timestamp":"2022-07-09T18:16:19.193Z"}
+{"level":"error","message":"actualizada is not defined","timestamp":"2022-07-09T18:16:29.136Z"}
+{"level":"error","message":"data is not defined","timestamp":"2022-07-09T18:16:53.524Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading '_id')","timestamp":"2022-07-09T18:16:53.525Z"}
+{"level":"error","message":"data is not defined","timestamp":"2022-07-09T18:20:43.798Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading '_id')","timestamp":"2022-07-09T18:20:43.802Z"}
+{"level":"error","message":"The 'To' number +11234567890 is not a valid phone number.","timestamp":"2022-07-09T18:23:20.700Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading '0')","timestamp":"2022-07-09T18:51:34.100Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading '1')","timestamp":"2022-07-09T18:52:32.787Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading '0')","timestamp":"2022-07-09T18:53:46.247Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading '1')","timestamp":"2022-07-09T18:55:10.936Z"}
+{"level":"error","message":"The 'To' number +11234567890 is not a valid phone number.","timestamp":"2022-07-09T18:56:08.264Z"}
+{"level":"error","message":"The 'To' number +11234567890 is not a valid phone number.","timestamp":"2022-07-09T18:58:44.878Z"}
+{"level":"error","message":"The 'To' number +11234567890 is not a valid phone number.","timestamp":"2022-07-09T19:03:59.150Z"}
+{"level":"error","message":"The 'To' number +11234567890 is not a valid phone number.","timestamp":"2022-07-09T19:29:25.145Z"}
+{"level":"error","message":"The 'To' number +11234567890 is not a valid phone number.","timestamp":"2022-07-09T19:33:52.353Z"}
+{"level":"error","message":"The 'To' number +11234567890 is not a valid phone number.","timestamp":"2022-07-09T19:35:10.650Z"}
+{"level":"error","message":"products.forEach is not a function","timestamp":"2022-07-10T00:37:55.489Z"}
+{"level":"error","message":"The 'To' number +11234567890 is not a valid phone number.","timestamp":"2022-07-10T00:39:33.360Z"}
+{"level":"error","message":"The 'To' number +11234567890 is not a valid phone number.","timestamp":"2022-07-10T01:02:31.638Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"9cfa83c4-103c-4cce-9cc9-18eb9b215c98\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-07-10T01:03:14.216Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"9cfa83c4-103c-4cce-9cc9-18eb9b215c98\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-07-10T01:03:14.889Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"9cfa83c4-103c-4cce-9cc9-18eb9b215c98\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-07-10T01:03:16.215Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"9cfa83c4-103c-4cce-9cc9-18eb9b215c98\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-07-10T01:03:19.864Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"9cfa83c4-103c-4cce-9cc9-18eb9b215c98\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-07-10T01:03:20.372Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"9cfa83c4-103c-4cce-9cc9-18eb9b215c98\" (type string) at path \"_id\" for model \"Car\"","timestamp":"2022-07-10T01:03:22.316Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/undefined","timestamp":"2022-07-10T01:06:03.085Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/undefined","timestamp":"2022-07-10T01:08:18.623Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/undefined","timestamp":"2022-07-10T01:08:20.649Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/undefined","timestamp":"2022-07-10T01:08:28.772Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/undefined","timestamp":"2022-07-10T01:11:13.520Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/undefined","timestamp":"2022-07-10T01:11:19.634Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/undefined","timestamp":"2022-07-10T01:12:18.854Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/undefined","timestamp":"2022-07-10T01:13:13.631Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/undefined","timestamp":"2022-07-10T01:14:37.051Z"}
+{"level":"error","message":"The 'To' number +11234567890 is not a valid phone number.","timestamp":"2022-07-10T01:22:59.140Z"}
+{"level":"error","message":"The 'To' number +11234567890 is not a valid phone number.","timestamp":"2022-07-10T01:27:20.994Z"}

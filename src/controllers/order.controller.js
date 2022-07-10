@@ -1,13 +1,13 @@
-import '../database/config/db.js';
+// import OrderService from '../services/order.service.js';
+import OrderDaoFactory from '../services/factory/orders.factory.js';
 import { UserModel } from '../database/modules/users.module.js';
-import OrderService from '../services/order.service.js';
 import logger from '../utils/loggers.js';
 import sendMailGmail from '../services/mailer.service.js';
 import sendWA from '../services/whatsapp.service.js';
 import sms from '../services/text.service.js';
 export default class OrderController {
   constructor() {
-    this.orderService = new OrderService();
+    this.orderService = OrderDaoFactory.getDao();
 
     this.createOrder = this.createOrder.bind(this);
   }

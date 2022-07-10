@@ -1,9 +1,10 @@
-import ProductoService from '../services/producto.service.js';
+// import ProductoService from '../services/producto.service.js';
+import ProductosDaoFactory from '../services/factory/productos.factory.js';
 import logger from '../utils/loggers.js';
 
 export default class ProductoController {
   constructor() {
-    this.productoService = new ProductoService();
+    this.productoService = ProductosDaoFactory.getDao();
 
     this.createProducto = this.createProducto.bind(this);
     this.getProductos = this.getProductos.bind(this);
@@ -34,7 +35,8 @@ export default class ProductoController {
 
   async getProducto(req, res) {
     let id = null;
-    if (req.query.id) id = req.query.id;
+    // if (req.query.id) id = req.query.id;
+    if (req.params.id) id = req.params.id;
     try {
       const response = await this.productoService.getProducto(id);
       res.status(200).json(response);
@@ -57,6 +59,7 @@ export default class ProductoController {
 
   async updateProducto(req, res) {
     const { id, flag } = req.params;
+    console.log('ID: ', id);
     const body = req.body;
     let fileObj = false;
     if (flag == 'true') {

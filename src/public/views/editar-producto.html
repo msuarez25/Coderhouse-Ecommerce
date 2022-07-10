@@ -58,6 +58,7 @@
       const getLastItem = (thePath) =>
         thePath.substring(thePath.lastIndexOf('/') + 1);
       const prodUrlId = getLastItem(window.location.href);
+
       fillForm(prodUrlId, '#edit-product');
 
       const form = document.querySelector('#edit-product');

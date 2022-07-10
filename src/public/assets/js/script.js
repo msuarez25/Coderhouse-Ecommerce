@@ -257,19 +257,14 @@ const fillForm = async (prodId, formSelector) => {
   const form = document.querySelector(formSelector);
   try {
     const response = await fetch(`/api/productos/${prodId}`);
+
     if (response.status === 200) {
       const products = await response.json();
 
-      const productObj = products.filter((obj) => {
-        return obj._id === prodId;
-      });
-
-      console.log(productObj[0]);
-
-      for (const property in productObj[0]) {
+      for (const property in products) {
         const field = form.querySelector(`#${property}`);
-        if (field !== null && property !== 'foto') {
-          field.value = productObj[0][property];
+        if (field !== null && property !== 'foto' && property !== '_id') {
+          field.value = products[property];
         }
       }
     }

@@ -11,9 +11,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "node ./node_modules/nodemon/bin/nodemon.js -e js --exec \" npm run start || exit 1\"",
+    "watchFile": "node ./node_modules/nodemon/bin/nodemon.js -e js --exec \" npm run startFile || exit 1\"",
     "fork": "node ./node_modules/nodemon/bin/nodemon.js -e js --exec \" npm run startFork || exit 1\"",
     "cluster": "node ./node_modules/nodemon/bin/nodemon.js -e js --exec \" npm run startCluster || exit 1\"",
     "start": "node src/app.js",
+    "startFile": "node src/app.js file",
     "prof": "node --prof src/app.js",
     "prof-process1": "node --prof-process isolate-0x7fe10d400000-28178-v8.log > prof-process1.txt",
     "prof-process2": "node --prof-process isolate-0x7ff9bf800000-28175-v8.log > prof-process2.txt",

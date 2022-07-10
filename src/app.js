@@ -108,6 +108,10 @@ if (cluster.isPrimary && args.MODE === 'CLUSTER') {
     });
   });
 
+  app.get('/favicon.ico', (req, res) => {
+    res.sendFile(__dirname + '/public/assets/images/ecommerce-favicon.ico');
+  });
+
   /* -------------------------------------------------------------------------- */
   /*                                   signup                                   */
   /* -------------------------------------------------------------------------- */

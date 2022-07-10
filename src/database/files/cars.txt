@@ -1,0 +1,232 @@
+[
+  {
+    "timestamp": 1657390563032,
+    "_id": "b852ea8d-cb13-4a47-b160-c548cc15f174",
+    "user": "62b7101cd1e417abc5d66ded",
+    "productos": [
+      {
+        "_id": "709d689f-589a-4cae-a26d-0cf424b4b615",
+        "nombre": "Jarron",
+        "code": "50280a9d-8d78-4547-822f-86b3b0122726",
+        "precio": 250,
+        "foto": "/uploads/foto-1657106693533.png",
+        "timestamp": 1657106693538,
+        "stock": 11,
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "timestamp": 1657390838699,
+    "_id": "ad462fb6-1bdd-4336-8b0f-07351bdecd43",
+    "user": "62b7101cd1e417abc5d66ded",
+    "productos": []
+  },
+  {
+    "timestamp": 1657390838846,
+    "_id": "e8f4addf-aa01-418b-ac3d-d28a298c8872",
+    "user": "62b7101cd1e417abc5d66ded",
+    "productos": [
+      {
+        "_id": "3",
+        "nombre": "Globo Terráqueo",
+        "code": "prod-1234567890",
+        "precio": "345.67",
+        "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png",
+        "timestamp": 1648912093437,
+        "stock": "10",
+        "amount": 1
+      },
+      {
+        "_id": "5",
+        "nombre": "Escuadra",
+        "code": "prod-3a63646b-76b3-45bc-a3be-e1a1b3b26671",
+        "precio": "3450",
+        "foto": "/uploads/ruler-triangle-stationary-school-256 (1).webp",
+        "timestamp": 1649245397917,
+        "stock": "19",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "timestamp": 1657390889059,
+    "_id": "2381273f-ce22-4504-b6bd-32d8ac804448",
+    "user": "62b7101cd1e417abc5d66ded",
+    "productos": [
+      {
+        "_id": "3",
+        "nombre": "Globo Terráqueo",
+        "code": "prod-1234567890",
+        "precio": "345.67",
+        "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png",
+        "timestamp": 1648912093437,
+        "stock": "10",
+        "amount": 1
+      },
+      {
+        "_id": "5",
+        "nombre": "Escuadra",
+        "code": "prod-3a63646b-76b3-45bc-a3be-e1a1b3b26671",
+        "precio": "3450",
+        "foto": "/uploads/ruler-triangle-stationary-school-256 (1).webp",
+        "timestamp": 1649245397917,
+        "stock": "19",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "timestamp": 1657390981508,
+    "_id": "d2302bf6-b261-4282-a791-feeda4775cf2",
+    "user": "62b7101cd1e417abc5d66ded",
+    "productos": []
+  },
+  {
+    "timestamp": 1657391000981,
+    "_id": "a1c739f9-9007-45b5-a6ee-b294b3679bed",
+    "user": "62b7101cd1e417abc5d66ded",
+    "productos": []
+  },
+  {
+    "timestamp": 1657392687774,
+    "_id": "494455d0-7844-48f5-82db-f33c2237410c",
+    "user": "62b7101cd1e417abc5d66ded",
+    "productos": [
+      {
+        "_id": "2",
+        "nombre": "Calculadora",
+        "code": "prod-123456789",
+        "precio": 234,
+        "foto": "/uploads/foto-1657371085861.webp",
+        "timestamp": 1657371085865,
+        "stock": 2,
+        "amount": 1
+      },
+      {
+        "_id": "3",
+        "nombre": "Globo Terráqueo",
+        "code": "prod-1234567890",
+        "precio": "345.67",
+        "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png",
+        "timestamp": 1648912093437,
+        "stock": "10",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "timestamp": 1657392818718,
+    "_id": "678f5046-a8df-43d7-9bd2-59b76c75babb",
+    "user": "62b7101cd1e417abc5d66ded",
+    "productos": [
+      {
+        "_id": "2",
+        "nombre": "Calculadora",
+        "code": "prod-123456789",
+        "precio": 234,
+        "foto": "/uploads/foto-1657371085861.webp",
+        "timestamp": 1657371085865,
+        "stock": 2,
+        "amount": 1
+      },
+      {
+        "_id": "3",
+        "nombre": "Globo Terráqueo",
+        "code": "prod-1234567890",
+        "precio": "345.67",
+        "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png",
+        "timestamp": 1648912093437,
+        "stock": "10",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "timestamp": 1657392903419,
+    "_id": "8cfbacbc-1e2d-46ea-a7ef-47c5f264c911",
+    "user": "62b7101cd1e417abc5d66ded",
+    "productos": []
+  },
+  {
+    "timestamp": 1657392903551,
+    "_id": "b151875c-d3da-4844-bffa-6d6e8c1e45eb",
+    "user": "62b7101cd1e417abc5d66ded",
+    "productos": [
+      {
+        "_id": "5",
+        "nombre": "Escuadra",
+        "code": "prod-3a63646b-76b3-45bc-a3be-e1a1b3b26671",
+        "precio": "3450",
+        "foto": "/uploads/ruler-triangle-stationary-school-256 (1).webp",
+        "timestamp": 1649245397917,
+        "stock": "19",
+        "amount": 1
+      },
+      {
+        "_id": "709d689f-589a-4cae-a26d-0cf424b4b615",
+        "nombre": "Jarron",
+        "code": "50280a9d-8d78-4547-822f-86b3b0122726",
+        "precio": 250,
+        "foto": "/uploads/foto-1657106693533.png",
+        "timestamp": 1657106693538,
+        "stock": 11,
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "timestamp": 1657392968528,
+    "_id": "4e018cee-e32e-4a38-93fa-0b6cd8edc1d8",
+    "user": "62b7101cd1e417abc5d66ded",
+    "productos": []
+  },
+  {
+    "timestamp": 1657393125143,
+    "_id": "9010b8fd-8970-48e9-8f82-c52ae9c88109",
+    "user": "62b7101cd1e417abc5d66ded",
+    "productos": []
+  },
+  {
+    "timestamp": 1657393439450,
+    "_id": "92624bef-4bac-40c1-a3c8-8675df89dc3f",
+    "user": "62b7101cd1e417abc5d66ded",
+    "productos": []
+  },
+  {
+    "timestamp": 1657394965422,
+    "_id": "e856aa51-99b6-4538-a566-aa3a348f5a7d",
+    "user": "62b7101cd1e417abc5d66ded",
+    "productos": []
+  },
+  {
+    "timestamp": 1657395218886,
+    "_id": "dee67e22-587b-4837-9d08-8e93c72bf658",
+    "user": "62b7101cd1e417abc5d66ded",
+    "productos": []
+  },
+  {
+    "timestamp": 1657395310918,
+    "_id": "bcf5f72a-4e5a-45cd-bec5-6ec7ff2c6fcc",
+    "user": "62b7101cd1e417abc5d66ded",
+    "productos": []
+  },
+  {
+    "timestamp": 1657413573643,
+    "_id": "41df3fdf-a358-4927-a855-965d05faa635",
+    "user": "62b7101cd1e417abc5d66ded",
+    "productos": []
+  },
+  {
+    "timestamp": 1657414929187,
+    "_id": "390d465d-9053-46b5-a8e5-765bf8dba034",
+    "user": "62b7101cd1e417abc5d66ded",
+    "productos": []
+  },
+  {
+    "timestamp": 1657414951904,
+    "_id": "9cfa83c4-103c-4cce-9cc9-18eb9b215c98",
+    "user": "62b7101cd1e417abc5d66ded",
+    "productos": []
+  }
+]
