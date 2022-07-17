@@ -131,7 +131,7 @@ if (cluster.isPrimary && args.MODE === 'CLUSTER') {
   /*                                   signup                                   */
   /* -------------------------------------------------------------------------- */
 
-  app.get('/signup', AuthController.getSignup);
+  // app.get('/signup', AuthController.getSignup);
   app.post(
     '/signup',
     (req, res, next) => {
@@ -143,10 +143,10 @@ if (cluster.isPrimary && args.MODE === 'CLUSTER') {
         next();
       });
     },
-    passport.authenticate('signup', { failureRedirect: '/failSignup' }),
+    passport.authenticate('signup'),
     AuthController.postSignup
   );
-  app.get('/failSignup', AuthController.failSignup);
+  // app.get('/failSignup', AuthController.failSignup);
 
   /* -------------------------------------------------------------------------- */
   /*                                    login                                   */

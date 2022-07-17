@@ -21,11 +21,7 @@ export default class CarController {
     try {
       const { userId } = req.cookies;
       const response = await this.carService.addCar(userId);
-      res
-        .status(200)
-        .clearCookie('userCarId')
-        .cookie('userCarId', response._id.toString(), { maxAge: 1800000 })
-        .json(response);
+      res.status(200).json(response);
     } catch (error) {
       logger.log('error', error.message);
     }

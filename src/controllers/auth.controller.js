@@ -27,7 +27,15 @@ export function postSignup(req, res) {
     </ul>
   `;
   sendMailGmail('Nuevo Registro', htmlBody);
-  res.sendFile(path.resolve() + '/src/public/views/login.html');
+
+  res.json({
+    isLoggedIn: true,
+    user: {
+      userName: user.firstName,
+      userImg: user.foto,
+      userId: userId,
+    },
+  });
 }
 
 export function failSignup(req, res) {
@@ -90,12 +98,6 @@ export function logout(req, res) {
     if (err) {
       return next(err);
     }
-    res
-      .clearCookie('logged')
-      .clearCookie('userId')
-      .clearCookie('userName')
-      .clearCookie('userImg')
-      .clearCookie('userCarId')
-      .sendFile(path.resolve() + '/src/public/views/login.html');
+    res.json({ logout: true });
   });
 }

@@ -14,6 +14,7 @@ const storage = multer.diskStorage({
     cb(null, './src/public/uploads');
   },
   filename: (req, file, cb) => {
+    console.log(file);
     const filename =
       file.fieldname + '-' + Date.now() + path.extname(file.originalname);
     const extension = FILE_TYPE_MAP[file.mimetype];
