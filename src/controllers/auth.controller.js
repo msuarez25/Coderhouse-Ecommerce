@@ -46,30 +46,29 @@ export function failSignup(req, res) {
 export function getLogin(req, res) {
   if (req.isAuthenticated()) {
     const user = req.user;
-    res.render('login-ok', {
+    res.json({
+      isLoggedIn: true,
       usuario: user.userName,
       nombre: user.firstName,
       apellido: user.lastName,
       email: user.email,
     });
   } else {
-    res.sendFile(path.resolve() + '/src/public/views/login.html');
+    res.json({ isLoggedIn: false });
   }
 }
 export function postLogin(req, res) {
   const user = req.user;
   const userId = user._id.toString();
 
-  res
-    .clearCookie('logged')
-    .cookie('logged', true, { maxAge: 1800000, signed: true })
-    .clearCookie('userId')
-    .cookie('userId', userId, { maxAge: 1800000 })
-    .clearCookie('userName')
-    .cookie('userName', user.firstName, { maxAge: 1800000 })
-    .clearCookie('userImg')
-    .cookie('userImg', user.foto, { maxAge: 1800000 })
-    .sendFile(path.resolve() + '/src/public/views/index.html');
+  res.json({
+    isLoggedIn: true,
+    user: {
+      userName: user.firstName,
+      userImg: user.foto,
+      userId: userId,
+    },
+  });
 }
 
 export function failLogin(req, res) {
@@ -79,7 +78,7 @@ export function failLogin(req, res) {
     error: 'Error en el login',
   });
 
-  res.render('login-error', {});
+  res.json({ error: 'login-error' });
 }
 
 /* -------------------------------------------------------------------------- */

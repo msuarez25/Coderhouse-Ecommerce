@@ -2,6 +2,7 @@ import express from 'express';
 import compression from 'compression';
 import { engine } from 'express-handlebars';
 import bodyParser from 'body-parser';
+import cors from 'cors';
 const app = express();
 import apiRouter from './routes/index.route.js';
 import InfoRoute from './routes/info.route.js';
@@ -19,6 +20,8 @@ import minimist from 'minimist';
 import cluster from 'cluster';
 import { cpus } from 'os';
 const numCPUs = cpus().length;
+
+const FRONTEND_URL = process.env.FRONTEND_URL;
 
 // Set Default port and alias for PORT
 const options = {
@@ -46,9 +49,21 @@ if (cluster.isPrimary && args.MODE === 'CLUSTER') {
 } else {
   const __dirname = dirname(fileURLToPath(import.meta.url));
 
+  const whitelist = [FRONTEND_URL];
+  const corsOptionsDelegate = function (req, callback) {
+    let corsOptions;
+    if (whitelist.indexOf(req.header('Origin')) !== -1) {
+      corsOptions = { origin: true }; // reflect (enable) the requested origin in the CORS response
+    } else {
+      corsOptions = { origin: false }; // disable CORS for this request
+    }
+    callback(null, corsOptions); // callback expects two parameters: error and options
+  };
+
   app.use(bodyParser.json());
   app.use(bodyParser.urlencoded({ extended: true }));
-
+  app.use(cors(corsOptionsDelegate));
+  // app.options('*', cors(corsOptionsDelegate));
   //for parsing multipart/form-data
   app.use(express.static(__dirname + '/public'));
 
@@ -137,13 +152,9 @@ if (cluster.isPrimary && args.MODE === 'CLUSTER') {
   /*                                    login                                   */
   /* -------------------------------------------------------------------------- */
 
-  app.get('/login', AuthController.getLogin);
-  app.post(
-    '/login',
-    passport.authenticate('login', { failureRedirect: '/failLogin' }),
-    AuthController.postLogin
-  );
-  app.get('/failLogin', AuthController.failLogin);
+  // app.get('/login', AuthController.getLogin);
+  app.post('/login', passport.authenticate('login'), AuthController.postLogin);
+  // app.get('/failLogin', AuthController.failLogin);
 
   /* -------------------------------------------------------------------------- */
   /*                                   logout                                   */
