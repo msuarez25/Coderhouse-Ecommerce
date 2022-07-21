@@ -9,7 +9,7 @@
     "node": "16.13.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npx mocha ./src/test/index.test.js",
     "watch": "node ./node_modules/nodemon/bin/nodemon.js -e js --exec \" npm run start || exit 1\"",
     "watchFile": "node ./node_modules/nodemon/bin/nodemon.js -e js --exec \" npm run startFile || exit 1\"",
     "fork": "node ./node_modules/nodemon/bin/nodemon.js -e js --exec \" npm run startFork || exit 1\"",
@@ -50,8 +50,10 @@
   },
   "homepage": "https://github.com/msuarez25/coderhouse/tree/main#readme",
   "devDependencies": {
+    "chai": "^4.3.6",
     "eslint": "^8.14.0",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.4"
   },
   "dependencies": {
     "@faker-js/faker": "^6.2.0",

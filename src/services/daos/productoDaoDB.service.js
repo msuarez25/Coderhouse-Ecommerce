@@ -26,10 +26,13 @@ export default class ProductoService {
   }
 
   async addProducto(data, file) {
+    console.log(data);
     if (data !== '') {
       data.timestamp = Date.now();
       data.code = v4();
-      data.foto = file.path.replace('src/public', '');
+      if (file) {
+        data.foto = file.path.replace('src/public', '');
+      }
       return asProductosDto(await ProductoModule.create(data));
     }
     return false;
@@ -61,14 +64,13 @@ export default class ProductoService {
         stock: parseInt(dataObj.stock),
       };
 
-      console.log('Updated: ', updatedProduct);
-      // console.log(JSON.parse(JSON.stringify(updatedProduct)));
       const response = await ProductoModule.updateOne(
         { _id: id },
         updatedProduct
       );
+      console.log('Updated response: ', response);
 
-      return asProductosDto(response);
+      return response;
     } catch (error) {
       logger.log('error', error.message);
     }

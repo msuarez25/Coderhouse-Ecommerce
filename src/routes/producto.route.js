@@ -1,6 +1,5 @@
 import express from 'express';
 import ProductoController from '../controllers/producto.controller.js';
-// import * as AuthController from '../controllers/auth.controller.js';
 import * as AuthMiddleware from '../middlewares/auth.middleware.js';
 import upload from '../middlewares/uploadFiles.js';
 

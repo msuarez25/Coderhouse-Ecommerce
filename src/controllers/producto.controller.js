@@ -47,19 +47,22 @@ export default class ProductoController {
 
   async addProducto(req, res) {
     const data = req.body;
-    const file = req.file;
+    const { flag } = req.params;
+    let fileObj = false;
+    if (flag == 'false') {
+      fileObj = req.file;
+    }
 
-    const response = await this.productoService.addProducto(data, file);
+    const response = await this.productoService.addProducto(data, fileObj);
     if (response) {
-      res.redirect(`/productos/?prodId=${response}`);
+      res.status(200).json(response);
     } else {
-      res.json({ error: 'Producto no pudo ser agregado' });
+      res.status(400).json({ error: 'Producto no pudo ser agregado' });
     }
   }
 
   async updateProducto(req, res) {
     const { id, flag } = req.params;
-    console.log('ID: ', id);
     const body = req.body;
     let fileObj = false;
     if (flag == 'true') {
@@ -74,9 +77,9 @@ export default class ProductoController {
       );
 
       if (response) {
-        res.redirect(`/productos`);
+        res.status(200).json(response);
       } else {
-        res.json({ error: 'Producto no pudo ser actualizado' });
+        res.status(400).json({ error: 'Producto no pudo ser actualizado' });
       }
     } catch (error) {
       logger.log('error', error.message);

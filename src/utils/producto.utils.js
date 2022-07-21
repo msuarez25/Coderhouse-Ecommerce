@@ -1,13 +1,16 @@
 import { faker } from '@faker-js/faker';
 faker.locale = 'es';
 
-export default function generateUser() {
+const date = new Date();
+
+export default function generateProducto() {
   return {
     nombre: faker.name.findName(),
     code: faker.random.alphaNumeric(12),
-    precio: faker.commerce.price(100, 5000),
+    precio: Math.floor(Math.random() * (500 - 100 + 1) + 100),
     foto: faker.image.imageUrl(),
-    timestamp: faker.time.recent('unix'),
-    stock: faker.random.number({ max: 100 }),
+    timestamp: date.toISOString(),
+    stock: faker.datatype.number(),
+    amount: Math.floor(Math.random() * (100 - 1 + 1) + 1),
   };
 }

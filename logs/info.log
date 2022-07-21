@@ -135,3 +135,25 @@
 {"error":"404","level":"error","metodo":"GET","ruta":"/login","timestamp":"2022-07-17T04:44:57.987Z"}
 {"error":"404","level":"error","metodo":"GET","ruta":"/login","timestamp":"2022-07-17T04:46:32.759Z"}
 {"error":"404","level":"error","metodo":"GET","ruta":"/login","timestamp":"2022-07-17T04:46:32.762Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/productos/popular","timestamp":"2022-07-18T11:32:10.407Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/login","timestamp":"2022-07-18T11:32:35.163Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/productos/popular","timestamp":"2022-07-18T11:32:43.229Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/productos/popular","timestamp":"2022-07-18T11:33:17.266Z"}
+{"error":"404","level":"error","metodo":"POST","ruta":"/productos/popular","timestamp":"2022-07-18T11:42:11.539Z"}
+{"error":"404","level":"error","metodo":"POST","ruta":"/productos/popular","timestamp":"2022-07-18T11:48:34.922Z"}
+{"error":"404","level":"error","metodo":"POST","ruta":"/productos","timestamp":"2022-07-18T11:56:45.590Z"}
+{"error":"404","level":"error","metodo":"POST","ruta":"/productos","timestamp":"2022-07-18T12:04:37.786Z"}
+{"error":"404","level":"error","metodo":"POST","ruta":"/productos","timestamp":"2022-07-18T12:05:50.903Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/login","timestamp":"2022-07-19T10:55:11.672Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/login","timestamp":"2022-07-19T11:00:46.122Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/login","timestamp":"2022-07-19T11:00:46.143Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"test\" (type string) at path \"_id\" for model \"Producto\"","timestamp":"2022-07-19T11:12:17.536Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"test\" (type string) at path \"_id\" for model \"Producto\"","timestamp":"2022-07-19T11:12:19.536Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"test\" (type string) at path \"_id\" for model \"Producto\"","timestamp":"2022-07-19T11:14:21.434Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"test\" (type string) at path \"_id\" for model \"Producto\"","timestamp":"2022-07-19T11:15:27.511Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"false\" (type string) at path \"_id\" for model \"Producto\"","timestamp":"2022-07-19T11:20:52.279Z"}
+{"error":"404","level":"error","metodo":"POST","ruta":"/productos/?prodId=[object%20Object]","timestamp":"2022-07-20T12:24:05.929Z"}
+{"error":"404","level":"error","metodo":"POST","ruta":"/productos/?prodId=[object%20Object]","timestamp":"2022-07-20T12:24:18.367Z"}
+{"error":"404","level":"error","metodo":"POST","ruta":"/productos/?prodId=[object%20Object]","timestamp":"2022-07-20T12:24:19.909Z"}
+{"error":"404","level":"error","metodo":"POST","ruta":"/productos/?prodId=[object%20Object]","timestamp":"2022-07-20T12:24:31.060Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'path')","timestamp":"2022-07-21T12:08:12.776Z"}
