@@ -20,7 +20,7 @@ export function postSignup(req, res) {
     <li>Nombre: ${user.firstName}</li>
     <li>Apellido: ${user.lastName}</li>
     <li>Email: ${user.email}</li>
-    <li>Telefóno: ${user['country-code']} ${user.phone}</li>
+    <li>Telefóno: ${user[countryCode]} ${user.phone}</li>
     <li>Dirección: ${user.address}</li>
     <li>Edad: ${user.age}</li>
     <li>Fecha de Registro: ${new Date(user.createdAt)}</li>

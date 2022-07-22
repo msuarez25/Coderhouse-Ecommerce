@@ -157,3 +157,6 @@
 {"error":"404","level":"error","metodo":"POST","ruta":"/productos/?prodId=[object%20Object]","timestamp":"2022-07-20T12:24:19.909Z"}
 {"error":"404","level":"error","metodo":"POST","ruta":"/productos/?prodId=[object%20Object]","timestamp":"2022-07-20T12:24:31.060Z"}
 {"level":"error","message":"Cannot read properties of undefined (reading 'path')","timestamp":"2022-07-21T12:08:12.776Z"}
+{"level":"error","message":"Cast to ObjectId failed for value \"62da90a558b0ba7113cec\" (type string) at path \"_id\" for model \"Producto\"","timestamp":"2022-07-22T12:07:38.325Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'path')","timestamp":"2022-07-22T12:12:14.287Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'path')","timestamp":"2022-07-22T12:28:51.497Z"}

@@ -4,6 +4,7 @@ import ProductoTestRoute from './producto.test.route.js';
 import CarRoute from './car.route.js';
 import RandomRoute from './random.route.js';
 import OrderRoute from './order.route.js';
+import GraphqlRoute from './graphql.route.js';
 const router = express.Router();
 
 //usa el archivo products.route.js para manejar todo
@@ -24,5 +25,7 @@ router.use('/order', new OrderRoute());
 //usa el archivo random.route.js para manejar todo
 //lo que este en el endpoint /api/random
 router.use('/random', new RandomRoute());
+
+router.use('/graphql', GraphqlRoute);
 
 export default router;

@@ -24,7 +24,7 @@ export default class OrderController {
 
         let htmlBody = `<h1>Nuevo Pedido</h1>
           <p>Tu cliente ${user.firstName} ${user.lastName} ha generado una orden de tus productos.</p>
-          <p>Su email de contacto es ${user.email} y su teléfono ${user['country-code']} ${user.phone} </p>
+          <p>Su email de contacto es ${user.email} y su teléfono ${user[countryCode]} ${user.phone} </p>
           <p>Los productos solicitados son:</p>
           <ul>
         `;
@@ -41,7 +41,7 @@ export default class OrderController {
         await sendWA(asunto);
         await sms(
           `Su orden número **${orderID}** ha sido recibida y se encuentra en proceso.`,
-          `${user['country-code']}${user.phone}`
+          `${user[countryCode]}${user.phone}`
         );
         res
           .status(200)

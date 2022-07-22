@@ -68,8 +68,12 @@ export default class ProductoService {
         { _id: id },
         updatedProduct
       );
-      console.log('Updated response: ', response);
 
+      // console.log(productoUpdated);
+      if (response.acknowledged) {
+        const productoUpdated = await this.getProducto(id);
+        return productoUpdated;
+      }
       return response;
     } catch (error) {
       logger.log('error', error.message);
@@ -78,7 +82,11 @@ export default class ProductoService {
 
   async deleteProducto(id) {
     try {
-      return asProductosDto(await ProductoModule.deleteOne({ _id: id }));
+      const response = await ProductoModule.deleteOne({ _id: id });
+      if (response.acknowledged && response.deletedCount) {
+        return `El producto con ID ${id} fue eliminado exitosamente!`;
+      }
+      return response;
     } catch (error) {
       logger.log('error', error.message);
     }

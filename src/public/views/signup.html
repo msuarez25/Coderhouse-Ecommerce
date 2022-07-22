@@ -71,11 +71,7 @@
           <div class="form-group mb-3">
             <div class="row">
               <div class="col-3">
-                <select
-                  class="form-select"
-                  name="country-code"
-                  id="country-code"
-                >
+                <select class="form-select" name="countryCode" id="countryCode">
                   <option value="">+ Codgio país</option>
                 </select>
               </div>
@@ -146,7 +142,7 @@
                 ${country.idd.root}${suffixes}</option>`;
             });
             document
-              .querySelector('#country-code')
+              .querySelector('#countryCode')
               .insertAdjacentHTML('beforeend', list);
           }
         } catch (error) {
