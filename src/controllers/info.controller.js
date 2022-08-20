@@ -1,8 +1,6 @@
 import InfoService from '../services/info.service.js';
 import logger from '../utils/loggers.js';
-import cluster from 'cluster';
 import os from 'os';
-import morgan from 'morgan';
 
 const nCpus = os.cpus().length;
 export default class InfoController {

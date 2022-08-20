@@ -26,3 +26,45 @@
     display: block;
     font-weight: bold;
 }
+
+.table img {
+    max-width: 100px;
+  }
+  
+  header .nav-item {
+    list-style-type: none;
+  }
+  
+  header .nav-link {
+    color: #fff;
+  }
+  
+  .email {
+    font-weight: bold;
+    color: blue;
+  }
+  time {
+    color: brown;
+  }
+  .mensaje {
+    font-style: italic;
+    color: green;
+  }
+  
+  .mensajes span,
+  .mensajes time{
+    display: block;
+  }
+
+  .mensajes time{
+    font-size: 0.8em;
+    }
+
+  .mensajes{
+    max-height: 400px;
+    overflow-y: scroll;
+  }
+
+  .mensajes li{
+    width: 100%;
+  }

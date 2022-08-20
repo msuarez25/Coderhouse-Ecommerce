@@ -69,6 +69,8 @@ export function postLogin(req, res) {
     .cookie('userName', user.firstName, { maxAge: 1800000 })
     .clearCookie('userImg')
     .cookie('userImg', user.foto, { maxAge: 1800000 })
+    .clearCookie('userEmail')
+    .cookie('userEmail', user.email, { maxAge: 1800000 })
     .sendFile(path.resolve() + '/src/public/views/index.html');
 }
 

@@ -1,26 +1,30 @@
 import express from 'express';
+import fetch from 'node-fetch';
 import compression from 'compression';
 import { engine } from 'express-handlebars';
 import bodyParser from 'body-parser';
-const app = express();
 import apiRouter from './routes/index.route.js';
-import InfoRoute from './routes/info.route.js';
+import vistasRouter from './routes/vistas.route.js';
 import { dirname } from 'path';
 import { fileURLToPath } from 'url';
 import session from 'express-session';
 import logger from './utils/loggers.js';
 import cookieParser from 'cookie-parser';
-import upload from './middlewares/uploadFiles.js';
 import passport from './utils/passport.util.js';
-import * as AuthController from './controllers/auth.controller.js';
-import * as AuthMiddleware from './middlewares/auth.middleware.js';
-
 import minimist from 'minimist';
 import cluster from 'cluster';
 import { cpus } from 'os';
+import http from 'http';
+import { Server } from 'socket.io';
+
+const app = express();
+const server = http.createServer(app);
+const io = new Server(server);
+
+// Numero de CPUs disponibles
 const numCPUs = cpus().length;
 
-// Set Default port and alias for PORT
+// Define el modo por defecto del servidor y le asigna un alias
 const options = {
   default: {
     MODE: 'FORK',
@@ -30,8 +34,10 @@ const options = {
   },
 };
 
-// check args
+// Revisa argumentos con minimist
 const args = minimist(process.argv.slice(2), options);
+
+// Revisa el modo en que se inicia el servidor con los argumentos enviados. CLUSTER || FORK
 
 if (cluster.isPrimary && args.MODE === 'CLUSTER') {
   logger.log('info', { mode: 'cluster' });
@@ -44,17 +50,22 @@ if (cluster.isPrimary && args.MODE === 'CLUSTER') {
     cluster.fork();
   });
 } else {
+  // Resuleve la url del sitio para obtener el path
   const __dirname = dirname(fileURLToPath(import.meta.url));
 
+  // Analizar objetos anidados
   app.use(bodyParser.json());
   app.use(bodyParser.urlencoded({ extended: true }));
 
-  //for parsing multipart/form-data
+  // comprime todas las respuestas
+  app.use(compression());
+
+  // Asigna la ruta del directorio publico
   app.use(express.static(__dirname + '/public'));
 
+  // Establece vistas con Handlebars
   app.set('views', __dirname + '/public/views');
   app.set('view engine', 'hbs');
-
   app.engine(
     'hbs',
     engine({
@@ -65,6 +76,7 @@ if (cluster.isPrimary && args.MODE === 'CLUSTER') {
     })
   );
 
+  // Genera Sesiones
   app.use(
     session({
       secret: process.env.SECRET,
@@ -76,95 +88,59 @@ if (cluster.isPrimary && args.MODE === 'CLUSTER') {
       saveUninitialized: false,
     })
   );
+  // Habilita cookie parser
   app.use(cookieParser(process.env.SECRET));
 
+  // Inicia passport
   app.use(passport.initialize());
   app.use(passport.session());
 
-  //usa el archivo index.js para manejar todo
-  //lo que este en el endpoint /api
+  // usa el archivo index.route.js para manejar todo
+  // lo que este en el endpoint /api
   app.use('/api', apiRouter);
 
-  // Public URLs
-  app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/public/views/index.html');
-  });
-  app.get('/productos', (req, res) => {
-    res.sendFile(__dirname + '/public/views/productos.html');
-  });
-  app.get('/carrito', AuthMiddleware.checkAuthentication, (req, res) => {
-    res.sendFile(__dirname + '/public/views/carrito.html');
-  });
-  app.get('/editar/:id', AuthMiddleware.checkAuthentication, (req, res) => {
-    res.sendFile(__dirname + '/public/views/editar-producto.html');
-  });
-  app.get('/agregar', AuthMiddleware.checkAuthentication, (req, res) => {
-    res.sendFile(__dirname + '/public/views/agregar-producto.html');
-  });
-
-  app.get('/gracias', AuthMiddleware.checkAuthentication, (req, res) => {
-    res.status(200).render('gracias', {
-      query: req.query,
-    });
-  });
-
-  app.get('/favicon.ico', (req, res) => {
-    res.sendFile(__dirname + '/public/assets/images/ecommerce-favicon.ico');
-  });
-
-  /* -------------------------------------------------------------------------- */
-  /*                                   signup                                   */
-  /* -------------------------------------------------------------------------- */
-
-  app.get('/signup', AuthController.getSignup);
-  app.post(
-    '/signup',
-    (req, res, next) => {
-      upload.single('foto')(req, {}, (err) => {
-        if (err) {
-          throw err;
-        }
-        req.body.foto = req.file.path.replace('src/public', '');
-        next();
-      });
-    },
-    passport.authenticate('signup', { failureRedirect: '/failSignup' }),
-    AuthController.postSignup
-  );
-  app.get('/failSignup', AuthController.failSignup);
-
-  /* -------------------------------------------------------------------------- */
-  /*                                    login                                   */
-  /* -------------------------------------------------------------------------- */
-
-  app.get('/login', AuthController.getLogin);
-  app.post(
-    '/login',
-    passport.authenticate('login', { failureRedirect: '/failLogin' }),
-    AuthController.postLogin
-  );
-  app.get('/failLogin', AuthController.failLogin);
-
-  /* -------------------------------------------------------------------------- */
-  /*                                   logout                                   */
-  /* -------------------------------------------------------------------------- */
-
-  app.get('/logout', AuthController.logout);
-
-  // info
-  app.use('/info', new InfoRoute());
-  app.use('/info-gzip', compression(), new InfoRoute());
-
-  // 404
-  app.use((req, res) => {
-    res.status(400).json({ error: 'Pagina no encontrada' });
-    logger.log('error', { ruta: req.url, metodo: req.method, error: '404' });
-  });
+  // usa el archivo vistas.route.js para manejar todo
+  // lo que este en el endpoint /
+  app.use('/', vistasRouter);
 
   // set port
   const PORT = process.env.PORT || 8080;
 
-  app.listen(PORT, (err) => {
+  io.on('connection', (socket) => {
+    // Mensaje de bienvenida cuando se conecta un cliente nuevo
+    console.log('💻 Nuevo usuario conectado!');
+
+    socket.on('disconnect', () => {
+      console.log('❌ Usuario desconectado');
+    });
+
+    //Recibimos los mensajes desde el frontend
+    socket.on('mensajeEnviado', (data) => {
+      // console.log(data);
+      (async function () {
+        if (data.formData) {
+          try {
+            const response = await fetch(`http://localhost:${PORT}/mensajes`, {
+              method: 'POST',
+              body: JSON.stringify(data.formData),
+              headers: { 'Content-Type': 'application/json' },
+            });
+            const json = await response.json();
+            console.log(json);
+            io.sockets.emit('mensajeAgragado', json);
+          } catch (error) {
+            console.log('error:', error);
+          }
+        } else {
+          io.sockets.emit('mensajeError', {
+            error: 'El mensaje no pudo ser agregado',
+          });
+        }
+      })();
+    });
+  });
+
+  server.listen(PORT, (err) => {
     if (err) {
       return console.log('ERROR', err);
     }

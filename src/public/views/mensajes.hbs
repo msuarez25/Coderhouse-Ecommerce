@@ -1,0 +1,27 @@
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="p-5 bg-light">
+            <h2 class="mb-5">Centro de Mensajes</h2>
+            <form id="chat">
+                <hr>
+                <ul class="mensajes">
+                    {{#each mensajes}}
+                    <li>
+                        <span class="email">{{this.email}} ({{this.tipo}})</span> 
+                        <time>[{{this.timestamp}}]</time> 
+                        <span class="mensaje">{{this.mensaje}}</span>
+                    </li>
+                    {{/each}}
+                </ul>
+                <div class="row g-3 align-items-center">
+                    <div class="col-12">
+                        <textarea class="form-control" type="text" id="mensaje" name="mensaje" placeholder="Ingresa un mensaje..."></textarea>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Enviar!</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

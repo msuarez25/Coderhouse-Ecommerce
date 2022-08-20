@@ -19,11 +19,13 @@ let btnLog = `<a class="nav-link btn btn-primary btn-login text-white" href="/lo
 let addProductosBtn = '';
 let loggedPanel = '';
 let carritoBtn = '';
+let chatBtn = '';
 
 if (userIsLogin) {
   btnLog = `<a class="nav-link btn btn-danger btn-logout" href="/logout">Logout</a>`;
   addProductosBtn = `<li><a class="dropdown-item" href="/agregar">Agregar Productos</a></li>`;
   carritoBtn = ` <li class="nav-item"><a class="nav-link" href="/carrito">Carrito</a></li>`;
+  chatBtn = ` <li class="nav-item"><a class="nav-link" href="/mensajes">Chat</a></li>`;
   const userName = getCookie1('userName');
   let userImg = getCookie1('userImg');
   userImg = decodeURI(userImg);
@@ -75,6 +77,7 @@ document.write(`
               </ul>
             </li>
            ${carritoBtn}
+           ${chatBtn}
             <li class="nav-item ms-auto">
                 ${btnLog}
             </li>

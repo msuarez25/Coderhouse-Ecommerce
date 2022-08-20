@@ -2623,3 +2623,22 @@
 {"error":"404","level":"error","metodo":"GET","ruta":"/undefined","timestamp":"2022-07-10T01:14:37.051Z"}
 {"level":"error","message":"The 'To' number +11234567890 is not a valid phone number.","timestamp":"2022-07-10T01:22:59.140Z"}
 {"level":"error","message":"The 'To' number +11234567890 is not a valid phone number.","timestamp":"2022-07-10T01:27:20.994Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/socket.io/socket.io.js","timestamp":"2022-08-19T22:24:17.756Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/socket.io/socket.io.js","timestamp":"2022-08-19T22:24:19.418Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/socket.io/socket.io.js","timestamp":"2022-08-19T22:25:46.421Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/mns","timestamp":"2022-08-19T22:26:00.140Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/socket.io/socket.io.js","timestamp":"2022-08-19T22:26:04.940Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/socket.io/socket.io.js","timestamp":"2022-08-19T22:26:09.850Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/socket.io/socket.io.js","timestamp":"2022-08-19T22:27:10.746Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/socket.io/socket.io.js","timestamp":"2022-08-19T22:27:14.508Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/socket.io/socket.io.js","timestamp":"2022-08-19T22:31:41.647Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/socket.io/socket.io.js","timestamp":"2022-08-19T22:32:08.006Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/socket.io/socket.io.js","timestamp":"2022-08-19T22:32:16.968Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/socket.io/socket.io.js","timestamp":"2022-08-19T22:33:08.317Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/socket.io/socket.io.js","timestamp":"2022-08-19T22:34:02.608Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/socket.io/socket.io.js","timestamp":"2022-08-19T22:34:31.074Z"}
+{"error":"404","level":"error","metodo":"GET","ruta":"/socket.io/socket.io.js","timestamp":"2022-08-19T22:36:16.285Z"}
+{"error":"404","level":"error","metodo":"POST","ruta":"/failLogin","timestamp":"2022-08-20T01:30:55.857Z"}
+{"level":"error","message":"Authenticate","timestamp":"2022-08-20T02:40:48.012Z"}
+{"level":"error","message":"Authenticate","timestamp":"2022-08-20T02:40:48.207Z"}
+{"error":"Error en el registro","level":"error","metodo":"GET","ruta":"/failSignup","timestamp":"2022-08-20T02:46:12.273Z"}

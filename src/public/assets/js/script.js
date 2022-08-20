@@ -40,7 +40,7 @@ const checkCarId = async () => {
     try {
       const response = await fetch('/api/carrito', settings);
       if (isLoggedIn) {
-        window.location.reload();
+        // window.location.reload();
       }
     } catch (e) {
       console.error(e);
